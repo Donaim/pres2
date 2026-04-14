@@ -1,426 +1,258 @@
 ---
 title: Browser-Delivered Scientific Instruments
 theme: seriph
-background: ./assets/future.webp
 info: |
   ## Browser-Delivered Scientific Instruments
-  Why WebAssembly matters for laboratory software distribution
-class: text-center
+  The browser as a credible deployment target for some lab tools
+class: text-left
 drawings:
   persist: true
 mdc: true
-zoom: 1.1
+zoom: 1.0
 hideInToc: true
 ---
 
-<div class="pt-18">
-  <h1 style="font-size: 2.8em; line-height: 1.05; color: white; text-shadow: 0 0 24px rgba(0,0,0,0.45);">
+<div class="pt-16">
+  <div class="uppercase tracking-widest text-sm opacity-60">Lab software deployment</div>
+  <h1 style="font-size: 2.7em; line-height: 1.05; margin-top: 0.4rem;">
     Browser-Delivered<br>Scientific Instruments
   </h1>
-  <p style="font-size: 1.15em; color: rgba(255,255,255,0.9); margin-top: 1.2rem;">
-    Why WebAssembly matters for laboratory software distribution
+  <p style="font-size: 1.15em; max-width: 32rem; margin-top: 1.25rem; line-height: 1.35;">
+    The browser has become a credible deployment target for some scientific tools, and WebAssembly is what makes that practical.
   </p>
 </div>
 
-<div class="absolute bottom-6 left-6 text-left" style="color: rgba(255,255,255,0.88); text-shadow: 0 0 18px rgba(0,0,0,0.45);">
-  <div><b>14 Apr 2026</b></div>
-  <div>Lab software, CFEIntact, and the browser as a runtime</div>
+<div class="absolute bottom-8 left-0 right-0 grid grid-cols-3 gap-4 text-center text-sm opacity-75">
+  <div>Zero-install delivery</div>
+  <div>Local-file workflows</div>
+  <div>Reusable compute cores</div>
 </div>
-
-<!--
-This talk is not mainly about Wasm performance.
-
-The claim I want to make is broader: the browser is becoming a serious delivery target for scientific software, and WebAssembly is one of the reasons that is now credible.
-
-CFEIntact is the concrete example, but the bigger point is architectural.
--->
 
 ---
 
-## Thesis
+## A familiar lab failure
 
-<div class="grid grid-cols-2 gap-10 pt-6">
+<div class="grid grid-cols-2 gap-8 pt-6">
 <div>
 
-### The old story
+- Tool works on one machine
+- Workshop starts with setup delays
+- Demo day becomes support triage
+- Useful code stays underused
 
-- Deployment bad
-- Wasm fast
-- Demo works in browser
+</div>
+<div class="rounded-2xl px-6 py-6" style="background: rgba(153, 27, 27, 0.08); border: 1px solid rgba(153, 27, 27, 0.18);">
+<div class="text-sm uppercase tracking-widest opacity-65 mb-3">The actual problem</div>
+<div class="text-2xl leading-tight">
+Packaging cost can exceed analysis value.
+</div>
+</div>
+</div>
 
+---
+
+## Three places software can run
+
+<div class="grid grid-cols-3 gap-5 pt-8 text-center">
+<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
+<div class="text-xl font-bold mb-3">Native install</div>
+<div class="text-sm uppercase tracking-widest opacity-60 mb-4">Best case</div>
+<div class="text-lg">Full local access</div>
+<div class="mt-5 text-sm uppercase tracking-widest opacity-60 mb-2">Main cost</div>
+<div class="text-lg">Setup drift everywhere</div>
+</div>
+<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
+<div class="text-xl font-bold mb-3">Central server</div>
+<div class="text-sm uppercase tracking-widest opacity-60 mb-4">Best case</div>
+<div class="text-lg">Controlled environment</div>
+<div class="mt-5 text-sm uppercase tracking-widest opacity-60 mb-2">Main cost</div>
+<div class="text-lg">Shared bottlenecks</div>
+</div>
+<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(8,145,178,0.07);">
+<div class="text-xl font-bold mb-3">Browser client</div>
+<div class="text-sm uppercase tracking-widest opacity-60 mb-4">Best case</div>
+<div class="text-lg">Reach by URL</div>
+<div class="mt-5 text-sm uppercase tracking-widest opacity-60 mb-2">Main cost</div>
+<div class="text-lg">Host constraints</div>
+</div>
+</div>
+
+<div class="pt-8 text-xl">
+The question for this talk is simple: where should this software run?
+</div>
+
+---
+
+## CFEIntact in the browser
+
+<div class="grid grid-cols-2 gap-8 pt-4 items-start">
+<div>
+<img src="./assets/cfeintactdocs.png" style="border-radius: 18px; border: 1px solid rgba(15,23,42,0.14); box-shadow: 0 12px 28px rgba(0,0,0,0.14);">
 </div>
 <div>
-
-### The stronger story
-
-- The browser is becoming a universal application host
-- WebAssembly turns it into a serious distribution target
-- CFEIntact is evidence that lab tools can move there
-
+<div class="grid grid-cols-4 gap-2 text-center text-sm font-bold">
+  <div class="rounded-xl px-3 py-4" style="background: rgba(15,23,42,0.05); border: 1px solid rgba(15,23,42,0.12);">Local files</div>
+  <div class="flex items-center justify-center text-2xl opacity-50">→</div>
+  <div class="rounded-xl px-3 py-4" style="background: rgba(8,145,178,0.08); border: 1px solid rgba(8,145,178,0.18);">Browser UI</div>
+  <div class="flex items-center justify-center text-2xl opacity-50">→</div>
 </div>
-</div>
-
-<div class="mt-10 rounded-2xl px-6 py-5" style="background: rgba(15, 23, 42, 0.08); border: 1px solid rgba(15, 23, 42, 0.16);">
-<b>Core claim:</b> WebAssembly is not mainly about speed. It is about making zero-install delivery plausible for real scientific software.
+<div class="grid grid-cols-3 gap-2 text-center text-sm font-bold mt-2">
+  <div class="rounded-xl px-3 py-4" style="background: rgba(8,145,178,0.10); border: 1px solid rgba(8,145,178,0.20);">Wasm engine</div>
+  <div class="flex items-center justify-center text-2xl opacity-50">→</div>
+  <div class="rounded-xl px-3 py-4" style="background: rgba(21,128,61,0.08); border: 1px solid rgba(21,128,61,0.18);">Results</div>
 </div>
 
-<!--
-If this were just a speed talk, it would be forgettable.
-
-The more interesting question is whether the browser is now good enough to act as a default delivery vehicle for some classes of scientific tools.
--->
+<div class="grid grid-cols-3 gap-3 mt-8 text-center">
+  <div class="rounded-xl px-3 py-4" style="border: 1px solid rgba(15,23,42,0.12);">Zero-install delivery</div>
+  <div class="rounded-xl px-3 py-4" style="border: 1px solid rgba(15,23,42,0.12);">Local core execution</div>
+  <div class="rounded-xl px-3 py-4" style="border: 1px solid rgba(15,23,42,0.12);">Interface-engine separation</div>
+</div>
+</div>
+</div>
 
 ---
 
-## The real problem is distribution
+## What this demo proves
 
-Laboratory software often fails before any algorithm runs.
+<div class="grid grid-cols-2 gap-8 pt-6">
+<div class="rounded-2xl px-6 py-6" style="background: rgba(21,128,61,0.07); border: 1px solid rgba(21,128,61,0.18);">
+<div class="text-sm uppercase tracking-widest opacity-65 mb-3">Proves</div>
 
-- Installation docs drift
-- Native dependencies break differently on Windows, macOS, and Linux
-- IT approval and local admin rights slow everything down
-- Workshops and demos become support events
-- Small tools never get adopted because setup cost dominates use value
+- Install friction can disappear
+- Local files can stay local
+- Useful compute can stay client-side
 
-<div class="mt-8 rounded-2xl px-6 py-5" style="background: linear-gradient(90deg, rgba(153,27,27,0.10), rgba(146,64,14,0.10)); border: 1px solid rgba(153,27,27,0.18);">
-For many lab tools, <b>deployment friction</b> is a bigger practical problem than algorithmic complexity.
 </div>
+<div class="rounded-2xl px-6 py-6" style="background: rgba(153,27,27,0.07); border: 1px solid rgba(153,27,27,0.18);">
+<div class="text-sm uppercase tracking-widest opacity-65 mb-3">Does not prove</div>
 
-<!--
-Many useful tools are not blocked by math. They are blocked by packaging, install burden, and environment drift.
+- Every workload fits browsers
+- Servers stop mattering
+- Resource limits disappear
 
-That is why distribution deserves to be the center of the talk.
--->
+</div>
+</div>
 
 ---
 
-## Where should scientific software run?
+## Why the browser is newly serious
 
-| Model | Strength | Cost |
-| --- | --- | --- |
-| Native install | Full local power | Setup pain, dependency drift, platform variance |
-| Central server | Controlled environment | Queueing, ops burden, chokepoints, data movement |
-| Browser client | Zero-install reach | Sandboxed host, feature limits, download budget |
-
-<div class="mt-8">
-
-What changed recently is not that browsers became magical.
-
-What changed is that the third column became technically serious.
-
+<div class="grid grid-cols-4 gap-4 pt-8 text-center">
+<div class="rounded-2xl px-4 py-6" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
+<div class="text-sm uppercase tracking-widest opacity-60 mb-3">Input</div>
+<div class="text-lg font-bold">User-mediated file access</div>
+</div>
+<div class="rounded-2xl px-4 py-6" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
+<div class="text-sm uppercase tracking-widest opacity-60 mb-3">Compute</div>
+<div class="text-lg font-bold">Workers off the main thread</div>
+</div>
+<div class="rounded-2xl px-4 py-6" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
+<div class="text-sm uppercase tracking-widest opacity-60 mb-3">Delivery</div>
+<div class="text-lg font-bold">Caching and offline behavior</div>
+</div>
+<div class="rounded-2xl px-4 py-6" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
+<div class="text-sm uppercase tracking-widest opacity-60 mb-3">Working data</div>
+<div class="text-lg font-bold">OPFS origin-private storage</div>
+</div>
 </div>
 
-<!--
-This slide reframes the question.
+<div class="pt-8 text-xl">
+That is a real application host, not just a page renderer.
+</div>
 
-We are not comparing Wasm against nothing.
-We are comparing three places where scientific software can live, and each one has a distinct operational cost structure.
--->
+<div class="absolute bottom-4 right-6 text-xs opacity-60">MDN: workers, service workers, file access, OPFS</div>
 
 ---
 
-## Browsers are now application hosts
+## Why Wasm specifically
 
-<div class="grid grid-cols-2 gap-10 pt-4">
-<div>
-
-### Already available
-
-- Web Workers for background computation
-- Service workers for caching and offline behavior
-- User-mediated local file access
-- OPFS for origin-private storage with file-oriented access
-
-</div>
-<div>
-
-<img src="./assets/windowsxp.png" style="border-radius: 18px; border: 1px solid rgba(0,0,0,0.14); box-shadow: 0 12px 28px rgba(0,0,0,0.18);">
-
-</div>
+<div class="grid grid-cols-2 gap-4 pt-8 text-center">
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">JavaScript already handles most interface work</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Wasm complements JavaScript, not replaces it</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Reuse serious compute cores</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Capabilities come through imports and Web APIs</div>
 </div>
 
-<div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(8, 145, 178, 0.08); border: 1px solid rgba(8, 145, 178, 0.18);">
-The browser is no longer just a UI surface. It is a constrained but genuinely capable runtime.
+<div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
+Wasm does not bring arbitrary syscalls. It lets you ship a real engine through the browser without rewriting that engine as front-end code.
 </div>
 
-<div class="absolute bottom-5 right-8 text-sm opacity-70">
-MDN: Web Workers, Service Workers, File System API
-</div>
-
-<!--
-This is the enabling background.
-
-The browser still has limits, but it now has enough runtime features that we can discuss it as a host for real applications, not just forms and dashboards.
--->
+<div class="absolute bottom-4 right-6 text-xs opacity-60">MDN WebAssembly; webassembly.org portability</div>
 
 ---
 
-## Why not just JavaScript?
+## Where the compute lives
 
-Modern JavaScript is already fast and highly optimized.
+<div class="grid grid-cols-2 gap-8 pt-6">
+<div class="rounded-2xl px-6 py-6" style="background: rgba(153,27,27,0.07); border: 1px solid rgba(153,27,27,0.18);">
+<div class="text-sm uppercase tracking-widest opacity-65 mb-3">Central server</div>
 
-That is not the real objection.
+- Everyone hits one runtime
+- Traffic spikes hit one queue
+- Failures spread across users
+- Operations burden grows centrally
 
-### WebAssembly helps because it gives us:
+</div>
+<div class="rounded-2xl px-6 py-6" style="background: rgba(21,128,61,0.07); border: 1px solid rgba(21,128,61,0.18);">
+<div class="text-sm uppercase tracking-widest opacity-65 mb-3">Browser client</div>
 
-- A compilation target for existing native-language code
-- Cleaner separation: JS for UI, Wasm for computational engine
-- Less handwritten porting of core logic into front-end code
-- A better migration path for old scientific codebases
+- Clients contribute CPU and RAM
+- Load spreads across users
+- Fewer shared failure domains
+- Central services become optional
 
-<div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(30, 41, 59, 0.08); border: 1px solid rgba(30, 41, 59, 0.16);">
-Wasm complements JavaScript. The value is not only execution speed. The value is packaging, portability, and reuse.
+</div>
 </div>
 
-<div class="absolute bottom-5 right-8 text-sm opacity-70">
-MDN: WebAssembly is a complement to JavaScript
+<div class="pt-8 text-xl">
+Concentrated compute creates concentrated availability risk.
 </div>
 
-<!--
-I do not want to oversell a false JS-versus-Wasm conflict.
-
-The better framing is that Wasm is what lets us keep a serious compute core while using the web stack for delivery and interface.
--->
+<div class="absolute bottom-4 right-6 text-xs opacity-60">OWASP denial of service; distributed client load</div>
 
 ---
 
-## The politics of compute
+## Which tools fit this model?
 
-<div class="grid grid-cols-2 gap-10 pt-4">
-<div class="rounded-2xl px-6 py-5" style="background: rgba(153, 27, 27, 0.08); border: 1px solid rgba(153, 27, 27, 0.18);">
-
-### Server-centric model
-
-- Institution owns the compute
-- Central infrastructure becomes the bottleneck
-- Workshops, demos, and traffic spikes hit one chokepoint
-- Operations burden grows with popularity
-
-</div>
-<div class="rounded-2xl px-6 py-5" style="background: rgba(21, 128, 61, 0.08); border: 1px solid rgba(21, 128, 61, 0.18);">
-
-### Browser-side model
-
-- Users contribute their own CPU and RAM
-- Load is spread across clients
-- No single analysis queue for every interaction
-- Central services become optional, not mandatory
-
-</div>
+<div class="grid grid-cols-2 gap-4 pt-6 text-center">
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Existing compute core?</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Installation painful today?</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Local files important?</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Moderate memory footprint?</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Fast iteration useful?</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(153,27,27,0.10);">Needs unrestricted POSIX?</div>
 </div>
 
-<div class="mt-8 text-xl">
-Client-side compute is not just a performance trick. It is an architectural redistribution of responsibility.
+<div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
+Mostly yes, and especially no on the last question, means the browser is a serious candidate.
 </div>
-
-<!--
-This is where the DoS point expands into something broader.
-
-Centralized compute is not only vulnerable to malicious load. It is also vulnerable to success.
--->
 
 ---
 
-## Reproducibility and data locality
+## Real constraints
 
-<div class="grid grid-cols-2 gap-10 pt-4">
-<div>
-
-### Better deployment reproducibility
-
-- One versioned artifact
-- Stable runtime surface inside the browser
-- Fewer host-specific surprises
-- Less "your Python or libfoo is different"
-
-</div>
-<div>
-
-### Better privacy posture for some workflows
-
-- Open local files directly
-- Compute locally
-- Avoid unnecessary uploads
-- Keep working data in browser-managed storage
-
-</div>
+<div class="grid grid-cols-2 gap-4 pt-6 text-center">
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Sandboxed host capabilities only</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">File access needs user permission</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Storage quotas and memory ceilings</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Some APIs need secure contexts</div>
+<div class="rounded-2xl px-4 py-5 col-span-2" style="border: 1px solid rgba(153,27,27,0.18); background: rgba(153,27,27,0.07);">Threaded shared-memory demos need cross-origin isolation</div>
 </div>
 
-<div class="mt-8 rounded-2xl px-6 py-5" style="background: linear-gradient(90deg, rgba(8,145,178,0.08), rgba(21,128,61,0.08)); border: 1px solid rgba(8,145,178,0.18);">
-Containers helped standardize deployment for servers. Browser-delivered Wasm can help standardize deployment for end users.
-</div>
-
-<!--
-This is not perfect scientific reproducibility.
-It is specifically deployment reproducibility.
-
-That distinction matters, but even that narrower improvement is valuable in practice.
--->
+<div class="absolute bottom-4 right-6 text-xs opacity-60">webassembly.org portability; MDN SharedArrayBuffer constraints</div>
 
 ---
 
-## New packaging target for old code
+## Closing claim
 
-The pitch to labs does not have to be "rewrite everything for the web."
-
-It can be:
-
-- Keep an existing computational core
-- Compile that core to WebAssembly
-- Put a zero-install interface around it
-- Deliver by URL instead of platform-specific installer
-
-<div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(99, 102, 241, 0.08); border: 1px solid rgba(99, 102, 241, 0.18);">
-Wasm is a migration path for legacy scientific code, not just a bet on greenfield software.
+<div class="pt-12 text-4xl leading-tight" style="max-width: 48rem;">
+For the right classes of scientific tools, the browser is now a credible default candidate.
 </div>
 
-<div class="absolute bottom-5 right-8 text-sm opacity-70">
-webassembly.org: high-level goals and use cases emphasize portability and tooling
+<div class="pt-10 text-2xl leading-snug" style="max-width: 44rem;">
+WebAssembly makes that practical by letting us deliver a real compute engine through a zero-install interface.
 </div>
 
-<!--
-This is where the talk becomes practical.
-
-If the audience hears "new paradigm," they may tune out.
-If they hear "new packaging target for code you already have," that is much easier to act on.
--->
-
----
-layout: image-right
-image: ./assets/cfeintactdocs.png
----
-
-## CFEIntact as proof
-
-This is the point where the talk becomes concrete.
-
-### CFEIntact in the browser is not just a demo
-
-- It shows a real lab tool can be delivered without local installation
-- It preserves a separation between interface and computational engine
-- It suggests a category, not a one-off stunt
-
-### Better interpretation
-
-**CFEIntact in the browser is evidence that some lab software can move from installed application or backend service to portable client-side instrument.**
-
-<!--
-I do not want the audience to see CFEIntact and conclude only that one program was ported.
-
-The stronger conclusion is that this is evidence for a broader architectural option.
--->
-
----
-
-## Browser-delivered scientific instrument
-
-<div class="grid grid-cols-3 gap-6 pt-6 text-center">
-<div class="rounded-2xl px-5 py-6" style="background: rgba(30, 41, 59, 0.06); border: 1px solid rgba(30, 41, 59, 0.14);">
-<div class="text-xl font-bold mb-2">Interface</div>
-<div>Rich browser UI</div>
+<div class="pt-10 text-lg opacity-75">
+CFEIntact is one example of that shift, not the limit of it.
 </div>
-<div class="rounded-2xl px-5 py-6" style="background: rgba(8, 145, 178, 0.08); border: 1px solid rgba(8, 145, 178, 0.18);">
-<div class="text-xl font-bold mb-2">Engine</div>
-<div>Wasm-compiled compute core</div>
-</div>
-<div class="rounded-2xl px-5 py-6" style="background: rgba(21, 128, 61, 0.08); border: 1px solid rgba(21, 128, 61, 0.18);">
-<div class="text-xl font-bold mb-2">Data</div>
-<div>Local files, OPFS, optional network services</div>
-</div>
-</div>
-
-<div class="mt-10 text-2xl text-center">
-Zero-install. Immediate by URL. Local compute. Local files. Network only when useful.
-</div>
-
-<!--
-"Web app" is too weak a phrase.
-
-"Interactive instrument" is better because it emphasizes readiness, direct manipulation, and practical utility.
--->
-
----
-
-## What kinds of tools move next?
-
-Good candidates usually have most of these properties:
-
-- Compute-heavy core but moderate memory footprint
-- High pain from local installation or training setup
-- Strong value from local-file workflows
-- Need for responsive visualization or iteration
-- Existing C, C++, or Rust-friendly core logic
-
-Examples:
-
-- Sequence QC and filtering viewers
-- Resistance or defect interpretation tools
-- Alignment and annotation assistants
-- Cohort exploration dashboards with local computation
-
-<!--
-This is where the talk opens outward again.
-
-CFEIntact matters because it helps us recognize a broader class of software that might benefit from the same distribution model.
--->
-
----
-
-## What Wasm does not solve
-
-To keep this credible, we need the limits slide.
-
-- Browser Wasm is still inside a browser sandbox
-- There is no arbitrary POSIX access in the browser
-- Local file access is permission-mediated
-- Browser storage is quota-constrained
-- Some features depend on secure contexts
-- Download size and startup time still matter
-- Heavy workloads can still hit browser memory and performance ceilings
-
-<div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(153, 27, 27, 0.08); border: 1px solid rgba(153, 27, 27, 0.18);">
-Wasm is not "native binaries, but magically in a tab." It only has the capabilities the host exposes.
-</div>
-
-<div class="absolute bottom-5 right-8 text-sm opacity-70">
-webassembly.org: portability and host capability model
-</div>
-
-<!--
-This slide improves trust.
-
-The goal is not to sound evangelical. The goal is to define the real design space.
--->
-
----
-
-## Closing question
-
-<div class="text-3xl leading-tight pt-12">
-The interesting question is not whether WebAssembly is fast.
-</div>
-
-<div class="text-4xl leading-tight pt-8 font-bold" style="color: #0f766e;">
-It is whether the browser is now good enough to become the default delivery vehicle for some scientific tools.
-</div>
-
-<div class="pt-12 text-xl">
-CFEIntact suggests the answer may already be "yes" for more software than we used to think.
-</div>
-
-<!--
-The ending should land on the architectural question, not on the implementation detail.
--->
-
----
-
-## Sources
-
-- MDN Web Workers API: https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API
-- MDN File System API: https://developer.mozilla.org/en-US/docs/Web/API/File_System_API
-- MDN WebAssembly concepts: https://developer.mozilla.org/en-US/docs/WebAssembly/Guides/Concepts
-- WebAssembly high-level goals: https://webassembly.org/docs/high-level-goals/
-- WebAssembly use cases: https://webassembly.org/docs/use-cases/
-- WebAssembly portability: https://webassembly.org/docs/portability/
-
-Thank you.
