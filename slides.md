@@ -13,23 +13,23 @@ hideInToc: true
 ---
 
 <div class="pt-14">
-  <div class="uppercase tracking-widest text-sm opacity-60">A history of containers for methods</div>
+  <div class="uppercase tracking-widest text-sm opacity-60">Before software</div>
   <h1 style="font-size: 3em; line-height: 1.02; margin-top: 0.45rem; max-width: 42rem;">
     How Methods Travel
   </h1>
   <p style="font-size: 1.3em; max-width: 41rem; margin-top: 1.3rem; line-height: 1.35;">
-    A method is only useful if it can survive distance, time, and absence.
+    People keep inventing containers that let methods travel farther than the inventor.
   </p>
 </div>
 
 <div class="mt-12 rounded-2xl px-6 py-6" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); max-width: 48rem;">
-People keep inventing new containers that let methods travel farther than the inventor.
+Long before code, people still had procedures, workflows, and deployment problems.
 </div>
 
 <div class="absolute bottom-8 left-0 right-0 grid grid-cols-4 gap-4 text-center text-sm opacity-75">
   <div>People</div>
-  <div>Cards</div>
-  <div>Media</div>
+  <div>Verse</div>
+  <div>Living systems</div>
   <div>URLs</div>
 </div>
 
@@ -39,133 +39,176 @@ People keep inventing new containers that let methods travel farther than the in
 
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
 <div>
-  <div class="text-3xl leading-tight" style="max-width: 32rem;">
-    Before machine computers were dependable enough, the method traveled inside trained humans.
-  </div>
-
-  <div class="pt-8 text-lg leading-snug" style="max-width: 33rem;">
-    JPL's human computers computed launch windows, trajectories, and telemetry checks by hand. The container for the method was not a device. It was a room full of people who knew the procedure.
-  </div>
+  <img src="https://d2pn8kiwq2w21t.cloudfront.net/original_images/human_computers_1.jpg" style="border-radius: 22px; border: 1px solid rgba(15,23,42,0.14); box-shadow: 0 18px 40px rgba(15,23,42,0.16);">
 </div>
-<div class="grid grid-cols-1 gap-4">
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-    <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Carrier</div>
-    <div class="text-2xl">A trained team</div>
-  </div>
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(153,27,27,0.06);">
-    <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Constraint</div>
-    <div class="text-lg">Room-sized machines were still weak for fast trajectory work.</div>
-  </div>
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(21,128,61,0.06);">
-    <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Workaround</div>
-    <div class="text-lg">Package labor and procedure together, then cross-check constantly.</div>
+<div>
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Human runtime</div>
+  <ul class="text-lg leading-snug" style="max-width: 33rem; padding-left: 1.2rem;">
+    <li style="margin-bottom: 0.8rem;">Before machine computers were dependable enough, the procedure lived inside trained humans.</li>
+    <li style="margin-bottom: 0.8rem;">The runtime was a room full of people.</li>
+    <li>The deployment problem was training, coordination, and checking.</li>
+  </ul>
+
+  <div class="mt-8 rounded-2xl px-5 py-5" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">
+    <div class="text-2xl leading-tight">The humans were the hardware and runtime, and the learned procedure was the software.</div>
   </div>
 </div>
 </div>
 
-<div class="absolute bottom-4 right-6 text-xs opacity-60">NASA/JPL: human computers performed crucial calculations and later became early programmers</div>
+<div class="absolute bottom-4 right-6 text-xs opacity-60">NASA/JPL: human computers handled launch windows, trajectories, telemetry checks, and later became early programmers</div>
 
 ---
 
-## A program as a chain of holes
+## Sometimes the package was a verse
+
+<div class="pt-14">
+  <div class="rounded-3xl px-8 py-8" style="background: #111827; color: #f8fafc; border: 1px solid rgba(255,255,255,0.08); max-width: 52rem;">
+    <div class="text-4xl leading-tight" style="max-width: 45rem;">
+      Long before cheap, universal manuals, procedures often had to fit inside memory.
+    </div>
+
+    <div class="pt-8 text-2xl leading-snug" style="max-width: 42rem; color: rgba(248,250,252,0.88);">
+      Rhythm, rhyme, and repeated performance made them portable.
+    </div>
+  </div>
+
+  <div class="pt-8 text-xl leading-snug" style="max-width: 42rem;">
+    Verse is not only decorative. Often it is compression.
+  </div>
+</div>
+
+<div class="absolute bottom-4 right-6 text-xs opacity-60">OUP: instructional verse and medical verse were long used for memorability and portability</div>
+
+---
+
+## A rule you can sing / A workflow song
+
+<div class="grid grid-cols-2 gap-6 pt-6 items-start">
+<div class="rounded-2xl px-6 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04); min-height: 28rem;">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">A rule you can sing</div>
+  <div class="text-2xl leading-tight" style="max-width: 24rem;">
+    When the cuckoo comes to the bare thorn,<br>
+    Sell your cow and buy your corn;<br>
+    But when she comes to the full bit,<br>
+    Sell your corn and buy your sheep.
+  </div>
+
+  <div class="mt-8 rounded-xl px-4 py-4 text-lg" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); display: inline-block;">
+    Condition -&gt; decision rule
+  </div>
+</div>
+
+<div class="rounded-2xl px-6 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04); min-height: 28rem;">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">A workflow song</div>
+  <div style="font-size: 0.76em; line-height: 1.32; max-width: 28rem;">
+    <div style="font-size: 1.1em; line-height: 1.55;">
+      七月流火、八月萑苇。<br>
+      蚕月条桑、取彼斧斨、以伐远扬、猗彼女桑。<br>
+      七月鸣鵙、八月载绩。<br>
+      载玄载黄、我朱孔阳、为公子裳。
+    </div>
+
+    <div class="mt-4 italic opacity-80">
+      In the seventh month, the Fire Star passes the meridian;<br>
+      In the eighth month are the sedges and reeds.<br>
+      In the silkworm month they strip the mulberry branches of their leaves,<br>
+      And take their axes and hatchets,<br>
+      To lop off those that are distant and high;<br>
+      Only stripping the young trees of their leaves.<br>
+      In the seventh month, the shrike is heard;<br>
+      In the eighth month, they begin their spinning;<br>
+      They make dark fabrics and yellow.<br>
+      Our red manufacture is very brilliant,<br>
+      It is for the lower robes of our young princes.
+    </div>
+  </div>
+
+  <div class="mt-4 rounded-xl px-4 py-4 text-lg" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); display: inline-block;">
+    A seasonal labor sequence in verse
+  </div>
+</div>
+
+</div>
+
+<div class="absolute bottom-4 right-6 text-xs opacity-60">Presscom: the cuckoo rhyme is preserved as an agricultural proverb; Berkshire: Qi Yue is treated as a farming-calendar poem listing seasonal work</div>
+
+---
+
+## Smuggling the runtime
 
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
 <div>
-  <div class="text-3xl leading-tight" style="max-width: 33rem;">
-    The Jacquard loom stored a weaving pattern in a chain of punched cards.
-  </div>
+  <div class="rounded-3xl px-6 py-6" style="background: rgba(15,23,42,0.05); border: 1px solid rgba(15,23,42,0.12);">
+    <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Silk to Byzantium</div>
+    <div class="text-xl leading-snug" style="max-width: 29rem;">
+      Silk was not just a recipe. To deploy sericulture elsewhere, the Empire needed:
+    </div>
 
-  <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
-    That is a wonderfully strange moment in history: the program is physical, readable by a machine, and detachable from the inventor.
-  </div>
-</div>
-<div>
-  <div class="grid grid-cols-4 gap-2 text-center text-sm font-bold">
-    <div class="rounded-xl px-2 py-5" style="border: 1px solid rgba(15,23,42,0.12);">card</div>
-    <div class="rounded-xl px-2 py-5" style="border: 1px solid rgba(15,23,42,0.12);">card</div>
-    <div class="rounded-xl px-2 py-5" style="border: 1px solid rgba(15,23,42,0.12);">card</div>
-    <div class="rounded-xl px-2 py-5" style="border: 1px solid rgba(15,23,42,0.12);">card</div>
-  </div>
-  <div class="mt-4 rounded-2xl px-5 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
-    Hollerith later used punched cards to process the 1890 U.S. Census. The weird textile trick became a data-processing industry.
-  </div>
-</div>
-</div>
-
-<div class="absolute bottom-4 right-6 text-xs opacity-60">Computer History Museum: Jacquard cards controlled weaving; Hollerith cards later powered census tabulation</div>
-
----
-
-## A bug could be a dropped deck
-
-<div class="grid grid-cols-5 gap-8 pt-8 items-start">
-<div class="col-span-3">
-  <div class="text-3xl leading-tight" style="max-width: 34rem;">
-    For a long time, software was not a file.
-    It was a stack.
-  </div>
-
-  <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
-    Programs and data moved around as punched-card decks. Order mattered. Drop the deck and you did not just make a mess. You broke the program.
-  </div>
-</div>
-<div class="col-span-2 grid grid-cols-1 gap-4">
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12);">Carrier: a physical deck</div>
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12);">Limitation: order is fragile</div>
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12);">Workaround: sort, label, protect, pray</div>
-</div>
-</div>
-
-<div class="mt-10 rounded-2xl px-6 py-5" style="background: rgba(153,27,27,0.07); border: 1px solid rgba(153,27,27,0.18); max-width: 48rem;">
-That is an early deployment lesson that never went away: once the method lives in a container, the container creates its own new failure modes.
-</div>
-
----
-
-## Magazines were once app stores
-
-<div class="grid grid-cols-2 gap-10 pt-8 items-start">
-<div>
-  <div class="text-3xl leading-tight" style="max-width: 32rem;">
-    Home-computer users got software by reading it off paper and typing it in.
-  </div>
-
-  <div class="pt-8 text-lg leading-snug" style="max-width: 33rem;">
-    A magazine listing could be the distribution channel. The workaround was human re-entry: line by line, keyword by keyword, then save to cassette and hope the save worked.
-  </div>
-</div>
-<div class="grid grid-cols-1 gap-4 text-center">
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Artifact: the printed listing</div>
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Hack: helper tools to speed BASIC keyword entry</div>
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(153,27,27,0.06);">Failure mode: cassette save errors as minor tragedy</div>
-</div>
-</div>
-
----
-
-## Cloud, but by airplane
-
-<div class="grid grid-cols-2 gap-10 pt-8 items-start">
-<div>
-  <div class="text-3xl leading-tight" style="max-width: 33rem;">
-    The network never fully won.
-  </div>
-
-  <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
-    When the data is large enough, the old trick returns: put the bits onto a box and ship the box. Google still sells a Transfer Appliance for exactly this. AWS still ships Snowball devices.
-  </div>
-</div>
-<div>
-  <div class="rounded-2xl px-6 py-6" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
-    <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Concrete number</div>
-    <div class="text-2xl leading-tight">
-      Google says 300 TB over a typical 100 Mbps connection can take about 9 months, while Transfer Appliance can capture it in under 25 days.
+    <div class="mt-6 grid grid-cols-1 gap-3">
+      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">the living eggs</div>
+      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">the mulberry-based feeding context</div>
+      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">the know-how to keep the system alive</div>
     </div>
   </div>
 </div>
+<div>
+  <div class="text-4xl leading-tight" style="max-width: 28rem;">
+    The instructions were not enough.
+  </div>
+
+  <div class="pt-6 text-4xl leading-tight" style="max-width: 28rem; color: rgb(8,145,178);">
+    The runtime had to be smuggled.
+  </div>
+
+  <div class="pt-8 text-lg leading-snug" style="max-width: 32rem;">
+    The Justinian story only works because the important thing was not a manual. It was eggs, warmth, mulberry leaves, and know-how moving together.
+  </div>
+</div>
 </div>
 
-<div class="absolute bottom-4 right-6 text-xs opacity-60">Google Transfer Appliance; AWS Snowball: ship the storage, then upload at the destination</div>
+---
+
+## Shipping a live process
+
+<div class="grid grid-cols-2 gap-10 pt-8 items-start">
+<div>
+  <div class="rounded-3xl px-6 py-6" style="background: rgba(15,23,42,0.05); border: 1px solid rgba(15,23,42,0.12);">
+    <div class="text-sm uppercase tracking-widest opacity-60 mb-3">1803</div>
+
+    <div class="grid grid-cols-7 gap-2 text-center text-sm items-center">
+      <div class="rounded-xl px-2 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">child A</div>
+      <div class="opacity-50">-&gt;</div>
+      <div class="rounded-xl px-2 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">child B</div>
+      <div class="opacity-50">-&gt;</div>
+      <div class="rounded-xl px-2 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">child C</div>
+      <div class="opacity-50">-&gt;</div>
+      <div class="rounded-xl px-2 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">child D</div>
+    </div>
+
+    <div class="mt-6 grid grid-cols-2 gap-3 text-center text-sm">
+      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">22 children</div>
+      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">arm-to-arm transfer</div>
+      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">live vaccine</div>
+      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">book + local institutions</div>
+    </div>
+  </div>
+</div>
+<div>
+  <div class="text-4xl leading-tight" style="max-width: 28rem;">
+    The procedure was known.
+  </div>
+
+  <div class="pt-6 text-4xl leading-tight" style="max-width: 30rem; color: rgb(153,27,27);">
+    The hard part was transporting a viable instance of it.
+  </div>
+
+  <div class="pt-8 text-lg leading-snug" style="max-width: 33rem;">
+    The Balmis expedition carried the vaccine as a running biological chain. Documentation and local setup traveled alongside the live material.
+  </div>
+</div>
+</div>
+
+<div class="absolute bottom-4 right-6 text-xs opacity-60">Balmis expedition accounts describe arm-to-arm transport across the ocean; PMC describes inoculation from fresh lesion material and the later pustule stage</div>
 
 ---
 
@@ -174,11 +217,12 @@ That is an early deployment lesson that never went away: once the method lives i
 <div class="grid grid-cols-5 gap-8 pt-8 items-start">
 <div class="col-span-3">
   <div class="text-3xl leading-tight" style="max-width: 34rem;">
-    Mosaic was the turning point where the browser started to feel like a medium, not a terminal.
+    Much later, the browser becomes another strange container.
+    Mosaic is the turning point where it starts to feel like a medium, not a terminal.
   </div>
 
   <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
-    NCSA's big move was simple and enormous: pictures appeared automatically alongside text. That changed who the web was for.
+    NCSA's big move was simple and enormous: pictures appeared automatically alongside text. From there, more and more method could start to travel by URL.
   </div>
 </div>
 <div class="col-span-2 rounded-2xl px-6 py-6" style="background: rgba(15,23,42,0.05); border: 1px solid rgba(15,23,42,0.12);">
