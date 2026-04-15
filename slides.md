@@ -12,30 +12,50 @@ zoom: 1.0
 hideInToc: true
 ---
 
-# How Methods Travel
+<div class="pt-14">
+  <div class="uppercase tracking-widest text-sm opacity-60">Before software</div>
+  <h1 style="font-size: 3em; line-height: 1.02; margin-top: 0.45rem; max-width: 42rem;">
+    How Methods Travel
+  </h1>
+  <p style="font-size: 1.3em; max-width: 41rem; margin-top: 1.3rem; line-height: 1.35;">
+    People keep inventing containers that let methods travel farther than the inventor.
+  </p>
+</div>
 
-### People keep inventing containers that let methods travel farther than the inventor.
-
+<div class="mt-12 rounded-2xl px-6 py-6" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); max-width: 48rem;">
 Long before code, people still had procedures, workflows, and deployment problems.
+</div>
 
-People -> Verse -> Living systems -> Cards -> Media -> URLs
+<div class="absolute bottom-8 left-0 right-0 grid grid-cols-6 gap-4 text-center text-sm opacity-75">
+  <div>People</div>
+  <div>Verse</div>
+  <div>Living systems</div>
+  <div>Cards</div>
+  <div>Media</div>
+  <div>URLs</div>
+</div>
 
----
-
-layout: two-cols
 ---
 
 ## When a computer was a person
 
-![w-full rounded-xl](https://d2pn8kiwq2w21t.cloudfront.net/original_images/human_computers_1.jpg)
+<div class="grid grid-cols-2 gap-10 pt-8 items-start">
+<div>
+  <img src="https://d2pn8kiwq2w21t.cloudfront.net/original_images/human_computers_1.jpg" style="border-radius: 22px; border: 1px solid rgba(15,23,42,0.14); box-shadow: 0 18px 40px rgba(15,23,42,0.16);">
+</div>
+<div>
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Human runtime</div>
+  <ul class="text-lg leading-snug" style="max-width: 33rem; padding-left: 1.2rem;">
+    <li style="margin-bottom: 0.8rem;">Before machine computers were dependable enough, the procedure lived inside trained humans.</li>
+    <li style="margin-bottom: 0.8rem;">The runtime was a room full of people.</li>
+    <li>The deployment problem was training, coordination, and checking.</li>
+  </ul>
 
-::right::
-
-- Before machine computers were dependable enough, the procedure lived inside trained humans.
-- The runtime was a room full of people.
-- The deployment problem was training, coordination, and checking.
-
-The humans were the hardware and runtime, and the learned procedure was the software.
+  <div class="mt-8 rounded-2xl px-5 py-5" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">
+    <div class="text-2xl leading-tight">The humans were the hardware and runtime, and the learned procedure was the software.</div>
+  </div>
+</div>
+</div>
 
 <div class="absolute bottom-4 right-6 text-xs opacity-60">NASA/JPL: human computers handled launch windows, trajectories, telemetry checks, and later became early programmers</div>
 
@@ -43,100 +63,152 @@ The humans were the hardware and runtime, and the learned procedure was the soft
 
 ## Sometimes the package was a verse
 
-> Long before cheap, universal manuals, procedures often had to fit inside memory.
+<div class="pt-14">
+  <div class="rounded-3xl px-8 py-8" style="background: #111827; color: #f8fafc; border: 1px solid rgba(255,255,255,0.08); max-width: 52rem;">
+    <div class="text-4xl leading-tight" style="max-width: 45rem;">
+      Long before cheap, universal manuals, procedures often had to fit inside memory.
+    </div>
 
-Rhythm, rhyme, and repeated performance made them portable.
+    <div class="pt-8 text-2xl leading-snug" style="max-width: 42rem; color: rgba(248,250,252,0.88);">
+      Rhythm, rhyme, and repeated performance made them portable.
+    </div>
+  </div>
 
-Verse is not only decorative. Often it is compression.
+  <div class="pt-8 text-xl leading-snug" style="max-width: 42rem;">
+    Verse is not only decorative. Often it is compression.
+  </div>
+</div>
 
 <div class="absolute bottom-4 right-6 text-xs opacity-60">OUP: instructional verse and medical verse were long used for memorability and portability</div>
 
 ---
 
-layout: two-cols
----
-
 ## A rule you can sing / A workflow song
 
-**A rule you can sing**
+<div class="grid grid-cols-2 gap-6 pt-6 items-start">
+<div class="rounded-2xl px-6 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04); min-height: 28rem;">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">A rule you can sing</div>
+  <div class="text-2xl leading-tight" style="max-width: 24rem;">
+    When the cuckoo comes to the bare thorn,<br>
+    Sell your cow and buy your corn;<br>
+    But when she comes to the full bit,<br>
+    Sell your corn and buy your sheep.
+  </div>
 
-> When the cuckoo comes to the bare thorn,  
-> Sell your cow and buy your corn;  
-> But when she comes to the full bit,  
-> Sell your corn and buy your sheep.
+  <div class="mt-8 rounded-xl px-4 py-4 text-lg" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); display: inline-block;">
+    Condition -&gt; decision rule
+  </div>
+</div>
 
-Condition -> decision rule
+<div class="rounded-2xl px-6 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04); min-height: 28rem;">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">A workflow song</div>
+  <div style="font-size: 0.76em; line-height: 1.32; max-width: 28rem;">
+    <div style="font-size: 1.1em; line-height: 1.55;">
+      七月流火、八月萑苇。<br>
+      蚕月条桑、取彼斧斨、以伐远扬、猗彼女桑。<br>
+      七月鸣鵙、八月载绩。<br>
+      载玄载黄、我朱孔阳、为公子裳。
+    </div>
 
-::right::
+    <div class="mt-4 italic opacity-80">
+      In the seventh month, the Fire Star passes the meridian;<br>
+      In the eighth month are the sedges and reeds.<br>
+      In the silkworm month they strip the mulberry branches of their leaves,<br>
+      And take their axes and hatchets,<br>
+      To lop off those that are distant and high;<br>
+      Only stripping the young trees of their leaves.<br>
+      In the seventh month, the shrike is heard;<br>
+      In the eighth month, they begin their spinning;<br>
+      They make dark fabrics and yellow.<br>
+      Our red manufacture is very brilliant,<br>
+      It is for the lower robes of our young princes.
+    </div>
+  </div>
 
-**A workflow song**
+  <div class="mt-4 rounded-xl px-4 py-4 text-lg" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); display: inline-block;">
+    A seasonal labor sequence in verse
+  </div>
+</div>
 
-> 七月流火、八月萑苇。  
-> 蚕月条桑、取彼斧斨、以伐远扬、猗彼女桑。  
-> 七月鸣鵙、八月载绩。  
-> 载玄载黄、我朱孔阳、为公子裳。
-
-> *In the seventh month, the Fire Star passes the meridian;*  
-> *In the eighth month are the sedges and reeds.*  
-> *In the silkworm month they strip the mulberry branches of their leaves,*  
-> *And take their axes and hatchets,*  
-> *To lop off those that are distant and high;*  
-> *Only stripping the young trees of their leaves.*  
-> *In the seventh month, the shrike is heard;*  
-> *In the eighth month, they begin their spinning;*  
-> *They make dark fabrics and yellow.*  
-> *Our red manufacture is very brilliant,*  
-> *It is for the lower robes of our young princes.*
-
-A seasonal labor sequence in verse
+</div>
 
 <div class="absolute bottom-4 right-6 text-xs opacity-60">Presscom: the cuckoo rhyme is preserved as an agricultural proverb; Berkshire: Qi Yue is treated as a farming-calendar poem listing seasonal work</div>
 
 ---
 
-layout: two-cols
----
-
 ## Smuggling the runtime
 
-**Silk to Byzantium**
+<div class="grid grid-cols-2 gap-10 pt-8 items-start">
+<div>
+  <div class="rounded-3xl px-6 py-6" style="background: rgba(15,23,42,0.05); border: 1px solid rgba(15,23,42,0.12);">
+    <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Silk to Byzantium</div>
+    <div class="text-xl leading-snug" style="max-width: 29rem;">
+      Silk was not just a recipe. To deploy sericulture elsewhere, the Empire needed:
+    </div>
 
-Silk was not just a recipe. To deploy sericulture elsewhere, the Empire needed:
+    <div class="mt-6 grid grid-cols-1 gap-3">
+      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">the living eggs</div>
+      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">the mulberry-based feeding context</div>
+      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">the know-how to keep the system alive</div>
+    </div>
+  </div>
+</div>
+<div>
+  <div class="text-4xl leading-tight" style="max-width: 28rem;">
+    The instructions were not enough.
+  </div>
 
-- the living eggs
-- the mulberry-based feeding context
-- the know-how to keep the system alive
+  <div class="pt-6 text-4xl leading-tight" style="max-width: 28rem; color: rgb(8,145,178);">
+    The runtime had to be smuggled.
+  </div>
 
-::right::
+  <div class="pt-8 text-lg leading-snug" style="max-width: 32rem;">
+    The Justinian story only works because the important thing was not a manual. It was eggs, warmth, mulberry leaves, and know-how moving together.
+  </div>
+</div>
+</div>
 
-The instructions were not enough.
-
-## The runtime had to be smuggled.
-
-The Justinian story only works because the important thing was not a manual. It was eggs, warmth, mulberry leaves, and know-how moving together.
-
----
-
-layout: two-cols
 ---
 
 ## Shipping a live process
 
-**1803**
+<div class="grid grid-cols-2 gap-10 pt-8 items-start">
+<div>
+  <div class="rounded-3xl px-6 py-6" style="background: rgba(15,23,42,0.05); border: 1px solid rgba(15,23,42,0.12);">
+    <div class="text-sm uppercase tracking-widest opacity-60 mb-3">1803</div>
 
-- 22 children
-- arm-to-arm transfer
-- vaccine plus book plus local institutions
+    <div class="grid grid-cols-7 gap-2 text-center text-sm items-center">
+      <div class="rounded-xl px-2 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">child A</div>
+      <div class="opacity-50">-&gt;</div>
+      <div class="rounded-xl px-2 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">child B</div>
+      <div class="opacity-50">-&gt;</div>
+      <div class="rounded-xl px-2 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">child C</div>
+      <div class="opacity-50">-&gt;</div>
+      <div class="rounded-xl px-2 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">child D</div>
+    </div>
 
-child A -> child B -> child C -> child D
+    <div class="mt-6 grid grid-cols-2 gap-3 text-center text-sm">
+      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">22 children</div>
+      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">arm-to-arm transfer</div>
+      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">live vaccine</div>
+      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">book + local institutions</div>
+    </div>
+  </div>
+</div>
+<div>
+  <div class="text-4xl leading-tight" style="max-width: 28rem;">
+    The procedure was known.
+  </div>
 
-::right::
+  <div class="pt-6 text-4xl leading-tight" style="max-width: 30rem; color: rgb(153,27,27);">
+    The hard part was transporting a viable instance of it.
+  </div>
 
-The procedure was known.
-
-## The hard part was transporting a viable instance of it.
-
-The Balmis expedition carried the vaccine as a running biological chain. Documentation and local setup traveled alongside the live material.
+  <div class="pt-8 text-lg leading-snug" style="max-width: 33rem;">
+    The Balmis expedition carried the vaccine as a running biological chain. Documentation and local setup traveled alongside the live material.
+  </div>
+</div>
+</div>
 
 <div class="absolute bottom-4 right-6 text-xs opacity-60">Balmis expedition accounts describe arm-to-arm transport across the ocean; PMC describes inoculation from fresh lesion material and the later pustule stage</div>
 
