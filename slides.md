@@ -3,7 +3,7 @@ title: Browser-Delivered Scientific Instruments
 theme: seriph
 info: |
   ## Browser-Delivered Scientific Instruments
-  WebAssembly makes the browser a practical packaging target for some local, confidential, computational lab tools.
+  Biology software has a distribution problem; the browser has tried to solve it for decades, and WebAssembly is the missing piece for some local computational tools.
 class: text-left
 drawings:
   persist: true
@@ -13,167 +13,167 @@ hideInToc: true
 ---
 
 <div class="pt-16">
-  <div class="uppercase tracking-widest text-sm opacity-60">Lab software delivery</div>
-  <h1 style="font-size: 2.8em; line-height: 1.05; margin-top: 0.4rem; max-width: 38rem;">
+  <div class="uppercase tracking-widest text-sm opacity-60">Biology software distribution</div>
+  <h1 style="font-size: 2.75em; line-height: 1.05; margin-top: 0.4rem; max-width: 40rem;">
     Browser-Delivered<br>Scientific Instruments
   </h1>
-  <p style="font-size: 1.15em; max-width: 36rem; margin-top: 1.3rem; line-height: 1.35;">
-    WebAssembly makes the browser a practical packaging target for some local, confidential, computational lab tools.
+  <p style="font-size: 1.15em; max-width: 39rem; margin-top: 1.3rem; line-height: 1.35;">
+    Biology software has a distribution problem; the browser has tried to solve it for decades, and WebAssembly is the missing piece for some local computational tools.
   </p>
 </div>
 
 <div class="absolute bottom-8 left-0 right-0 grid grid-cols-3 gap-4 text-center text-sm opacity-75">
-  <div>Packaging first</div>
-  <div>Confidential data stays local</div>
-  <div>Real compute core in browser</div>
+  <div>Packaging pain</div>
+  <div>Browser history</div>
+  <div>Local scientific tools</div>
 </div>
 
 ---
 
-## The real bottleneck is packaging
+## Why is biology software still awkward to distribute?
 
-<div class="grid grid-cols-2 gap-8 pt-6">
+<div class="grid grid-cols-2 gap-10 pt-8">
 <div>
 
-- ReCall works on specific setups
-- Dependencies drift across machines
-- Internal tools never spread cleanly
-- Confidential data must stay local
+- Native installs drift by machine
+- Internal tools spread badly
+- Confidential data complicates hosting
 
 </div>
 <div class="rounded-2xl px-6 py-6" style="background: rgba(153,27,27,0.08); border: 1px solid rgba(153,27,27,0.18);">
-<div class="text-sm uppercase tracking-widest opacity-65 mb-3">Main point</div>
+<div class="text-sm uppercase tracking-widest opacity-65 mb-3">Premise</div>
 <div class="text-2xl leading-tight">
-For lab software, packaging and data handling often block adoption before the algorithm even matters.
+In biology, the bottleneck is often distribution, not the algorithm.
 </div>
 </div>
 </div>
 
 ---
 
-## Three places lab software can run
+## Three deployment models in our world
 
-<div class="grid grid-cols-3 gap-4 pt-6 text-center">
-<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
-<div class="text-xl font-bold mb-3">Native install</div>
-<div class="text-sm uppercase tracking-widest opacity-60 mb-2">Example</div>
-<div class="text-lg mb-4">ReCall</div>
-<div class="text-sm uppercase tracking-widest opacity-60 mb-2">Compute</div>
-<div class="mb-4">User machine</div>
-<div class="text-sm uppercase tracking-widest opacity-60 mb-2">Data</div>
-<div class="mb-4">Local</div>
-<div class="text-sm uppercase tracking-widest opacity-60 mb-2">Packaging problem</div>
-<div>Per-machine setup drift</div>
-</div>
+| Model | Who installs it? | Where does data go? | Where does compute run? |
+| --- | --- | --- | --- |
+| ReCall | User or local lab IT | Local machine | Local machine |
+| QAI | Central team | Centralized service | Central server |
+| Browser-delivered client | Nobody beyond opening a URL | Local files and browser storage | User machine in browser |
 
-<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
-<div class="text-xl font-bold mb-3">Central server</div>
-<div class="text-sm uppercase tracking-widest opacity-60 mb-2">Example</div>
-<div class="text-lg mb-4">QAI</div>
-<div class="text-sm uppercase tracking-widest opacity-60 mb-2">Compute</div>
-<div class="mb-4">Central service</div>
-<div class="text-sm uppercase tracking-widest opacity-60 mb-2">Data</div>
-<div class="mb-4">Uploaded or centralized</div>
-<div class="text-sm uppercase tracking-widest opacity-60 mb-2">Tradeoff</div>
-<div>One environment, more ops</div>
-</div>
-
-<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">
-<div class="text-xl font-bold mb-3">Browser client</div>
-<div class="text-sm uppercase tracking-widest opacity-60 mb-2">Example</div>
-<div class="text-lg mb-4">CFEIntact demo</div>
-<div class="text-sm uppercase tracking-widest opacity-60 mb-2">Compute</div>
-<div class="mb-4">User machine, in browser</div>
-<div class="text-sm uppercase tracking-widest opacity-60 mb-2">Data</div>
-<div class="mb-4">Local files and browser storage</div>
-<div class="text-sm uppercase tracking-widest opacity-60 mb-2">Packaging benefit</div>
-<div>Zero-install by URL</div>
-</div>
+<div class="pt-8 text-xl" style="max-width: 44rem;">
+Most tools get pushed into the first two boxes. The opportunity is when the third box becomes the better answer.
 </div>
 
 ---
 
-## Why not just use an online tool?
-
-<div class="grid grid-cols-2 gap-8 pt-8">
-<div>
-
-- Some sequence data should not leave the machine
-- Third-party upload is often unacceptable
-- Even internal servers move data centrally
-- Local execution can be the right model
-
-</div>
-<div class="rounded-2xl px-6 py-6" style="background: rgba(8,145,178,0.08); border: 1px solid rgba(8,145,178,0.18);">
-<div class="text-sm uppercase tracking-widest opacity-65 mb-3">Why browser delivery matters</div>
-<div class="text-2xl leading-tight">
-The browser can make distribution easy without forcing confidential data onto someone else’s server.
-</div>
-</div>
-</div>
-
-<div class="absolute bottom-4 right-6 text-xs opacity-60">MDN: permission-based file access; OPFS origin-private local storage</div>
-
----
-
-## Why the browser is now usable for real tools
+## The web kept trying to become an application platform
 
 <div class="grid grid-cols-4 gap-4 pt-8 text-center">
-<div class="rounded-2xl px-4 py-6" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
-<div class="text-sm uppercase tracking-widest opacity-60 mb-3">Input</div>
-<div class="text-lg font-bold">User-mediated file access</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
+<div class="text-sm uppercase tracking-widest opacity-60 mb-3">Plug-ins</div>
+<div class="text-lg font-bold mb-3">Java applets<br>and Flash</div>
+<div class="text-sm">Rich software, weak future</div>
 </div>
-<div class="rounded-2xl px-4 py-6" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
-<div class="text-sm uppercase tracking-widest opacity-60 mb-3">Compute</div>
-<div class="text-lg font-bold">Workers in the background</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
+<div class="text-sm uppercase tracking-widest opacity-60 mb-3">Faster JavaScript</div>
+<div class="text-lg font-bold mb-3">asm.js</div>
+<div class="text-sm">Useful stopgap, now deprecated</div>
 </div>
-<div class="rounded-2xl px-4 py-6" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
-<div class="text-sm uppercase tracking-widest opacity-60 mb-3">Delivery</div>
-<div class="text-lg font-bold">Service worker caching</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
+<div class="text-sm uppercase tracking-widest opacity-60 mb-3">Browser-specific native</div>
+<div class="text-lg font-bold mb-3">NaCl</div>
+<div class="text-sm">Powerful, but not cross-browser</div>
 </div>
-<div class="rounded-2xl px-4 py-6" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
-<div class="text-sm uppercase tracking-widest opacity-60 mb-3">Working data</div>
-<div class="text-lg font-bold">OPFS local storage</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">
+<div class="text-sm uppercase tracking-widest opacity-60 mb-3">Portable standard</div>
+<div class="text-lg font-bold mb-3">WebAssembly</div>
+<div class="text-sm">W3C Recommendation in 2019</div>
 </div>
 </div>
 
-<div class="pt-8 text-xl" style="max-width: 42rem;">
-That is enough browser capability to support real local workflows, not just forms and dashboards.
-</div>
-
-<div class="absolute bottom-4 right-6 text-xs opacity-60">MDN: Web Workers, Service Workers, File System API, OPFS</div>
+<div class="absolute bottom-4 right-6 text-xs opacity-60">Oracle JDK migration guide; asm.js deprecated in favor of Wasm; NaCl deprecated as Wasm matured</div>
 
 ---
 
-## Why WebAssembly matters
+## Biology already trusts serious browser software
 
-<div class="grid grid-cols-2 gap-4 pt-8 text-center">
-<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Compile existing C/C++/Rust-style cores</div>
-<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Keep JavaScript for interface</div>
-<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Keep Wasm for the engine</div>
-<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Ship one browser-delivered artifact</div>
+<div class="grid grid-cols-3 gap-5 pt-8 text-center">
+<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
+<div class="text-xl font-bold mb-3">Galaxy</div>
+<div class="text-sm uppercase tracking-widest opacity-60 mb-3">What it proves</div>
+<div class="text-lg">Web-based biomedical research can be serious software.</div>
+</div>
+<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
+<div class="text-xl font-bold mb-3">JBrowse</div>
+<div class="text-sm uppercase tracking-widest opacity-60 mb-3">What it proves</div>
+<div class="text-lg">Browser-native genome exploration can stand on its own.</div>
+</div>
+<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">
+<div class="text-xl font-bold mb-3">IGV-Web</div>
+<div class="text-sm uppercase tracking-widest opacity-60 mb-3">What it proves</div>
+<div class="text-lg">Local-file viewing in the browser is already legitimate.</div>
+</div>
+</div>
+
+<div class="pt-8 text-xl" style="max-width: 45rem;">
+The browser already won credibility for visualization and access. The missing question was compute.
+</div>
+
+---
+
+## What was still missing before Wasm
+
+<div class="grid grid-cols-2 gap-10 pt-8">
+<div>
+<div class="text-sm uppercase tracking-widest opacity-60 mb-3">Already good</div>
+
+- Interfaces
+- Visualization
+- URL-based delivery
+
+</div>
+<div>
+<div class="text-sm uppercase tracking-widest opacity-60 mb-3">Still awkward</div>
+
+- Reusing compute cores
+- Shipping real engines locally
+- Avoiding full front-end rewrites
+
+</div>
+</div>
+
+<div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(153,27,27,0.07); border: 1px solid rgba(153,27,27,0.18);">
+"Just rewrite it in JavaScript" is not a satisfying packaging strategy for serious lab software.
+</div>
+
+---
+
+## Why WebAssembly matters for lab software
+
+<div class="grid grid-cols-3 gap-4 pt-8 text-center">
+<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.14);">Old compute cores can travel into the browser</div>
+<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.14);">Zero-install delivery no longer means server-side execution</div>
+<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.14);">The browser becomes a packaging target, not just a viewer</div>
 </div>
 
 <div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
-Wasm complements JavaScript. It gives serious compute code a browser target instead of forcing a front-end rewrite.
+Wasm complements JavaScript by giving C, C++, and Rust-style code a portable browser target.
 </div>
 
-<div class="absolute bottom-4 right-6 text-xs opacity-60">MDN WebAssembly: low-level compilation target alongside JavaScript</div>
+<div class="absolute bottom-4 right-6 text-xs opacity-60">MDN WebAssembly concepts; MDN Web Workers and browser capability model</div>
 
 ---
 
-## What kinds of biology tools benefit most
+## Plausible next instruments for our lab
 
 <div class="grid grid-cols-2 gap-4 pt-6 text-center">
-<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">FASTQ or QC viewer</div>
-<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Resistance or defect review tool</div>
-<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Sample sheet validator</div>
-<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Consensus or annotation explorer</div>
-<div class="rounded-2xl px-4 py-5 col-span-2" style="border: 1px solid rgba(15,23,42,0.14);">Phylogeny, coverage, or result viewer with local computation</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Local sequence QC viewer</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Resistance interpretation assistant</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Coverage and mutation explorer</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.14);">Run-validation or sample-sheet checker</div>
+<div class="rounded-2xl px-4 py-5 col-span-2" style="border: 1px solid rgba(15,23,42,0.14);">Contamination, primer-mismatch, or result-review tool with local compute</div>
 </div>
 
-<div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(21,128,61,0.07); border: 1px solid rgba(21,128,61,0.18);">
-Good fit when the compute core is real, the packaging pain is high, and the data should stay local.
+<div class="mt-8 text-xl" style="max-width: 44rem;">
+These are not generic web apps. They are browser-delivered lab instruments.
 </div>
 
 ---
@@ -190,32 +190,25 @@ Good fit when the compute core is real, the packaging pain is high, and the data
 <div class="grid grid-cols-3 gap-3 pt-3 text-center text-sm font-bold">
   <div class="rounded-xl px-3 py-5" style="background: rgba(8,145,178,0.10); border: 1px solid rgba(8,145,178,0.20);">Wasm engine</div>
   <div class="flex items-center justify-center text-2xl opacity-50">→</div>
-  <div class="rounded-xl px-3 py-5" style="background: rgba(21,128,61,0.08); border: 1px solid rgba(21,128,61,0.18);">Results and plots</div>
-</div>
-
-<div class="grid grid-cols-3 gap-4 pt-10 text-center">
-  <div class="rounded-xl px-3 py-4" style="border: 1px solid rgba(15,23,42,0.12);">Data stays local</div>
-  <div class="rounded-xl px-3 py-4" style="border: 1px solid rgba(15,23,42,0.12);">Interface and engine separate</div>
-  <div class="rounded-xl px-3 py-4" style="border: 1px solid rgba(15,23,42,0.12);">Tool arrives by URL</div>
+  <div class="rounded-xl px-3 py-5" style="background: rgba(21,128,61,0.08); border: 1px solid rgba(21,128,61,0.18);">Results and visualization</div>
 </div>
 
 ---
 
-## CFEIntact as a concrete example
+## CFEIntact demo
 
-<div class="grid grid-cols-2 gap-8 pt-6 items-start">
+<div class="grid grid-cols-2 gap-8 pt-8 items-start">
 <div>
 <img src="./assets/cfeintactdocs.png" style="border-radius: 18px; border: 1px solid rgba(15,23,42,0.14); box-shadow: 0 12px 28px rgba(0,0,0,0.14);">
 </div>
 <div>
 
+- A real lab tool
 - Delivered by URL
-- Keeps files on the user side
-- Reuses a serious compute core
-- Shows the model is practical
+- Files stay user-side
 
 <div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
-The point is not only that one tool runs in a browser. The point is that this becomes a plausible packaging model for similar lab tools.
+One working example is enough to make the model feel real.
 </div>
 
 </div>
@@ -223,12 +216,12 @@ The point is not only that one tool runs in a browser. The point is that this be
 
 ---
 
-## Closing claim
+## Closing takeaway
 
-<div class="pt-12 text-4xl leading-tight" style="max-width: 48rem;">
-The browser is becoming the easiest way to distribute some serious lab tools without giving up local execution.
+<div class="pt-14 text-4xl leading-tight" style="max-width: 48rem;">
+The browser is no longer just where we view results.
 </div>
 
-<div class="pt-10 text-2xl leading-snug" style="max-width: 44rem;">
-WebAssembly is what makes that practical for tools whose compute core is real and whose data should stay local.
+<div class="pt-10 text-3xl leading-tight" style="max-width: 48rem;">
+For some biology tools, it is becoming the easiest place to deliver the software itself.
 </div>
