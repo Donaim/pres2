@@ -3,7 +3,7 @@ title: How Methods Travel
 theme: seriph
 info: |
   ## How Methods Travel
-  A history of how methods are packaged and shared, from apprenticeship and print to browser-delivered lab software.
+  People keep inventing containers that let methods travel farther than the inventor.
 class: text-left
 drawings:
   persist: true
@@ -13,277 +13,368 @@ hideInToc: true
 ---
 
 <div class="pt-14">
-  <div class="uppercase tracking-widest text-sm opacity-60">Deployment as a human story</div>
+  <div class="uppercase tracking-widest text-sm opacity-60">A history of containers for methods</div>
   <h1 style="font-size: 3em; line-height: 1.02; margin-top: 0.45rem; max-width: 42rem;">
     How Methods Travel
   </h1>
-  <p style="font-size: 1.18em; max-width: 40rem; margin-top: 1.35rem; line-height: 1.35;">
-    From apprenticeship and printed manuals to browser-delivered lab software.
+  <p style="font-size: 1.3em; max-width: 41rem; margin-top: 1.3rem; line-height: 1.35;">
+    A method is only useful if it can survive distance, time, and absence.
   </p>
 </div>
 
+<div class="mt-12 rounded-2xl px-6 py-6" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); max-width: 48rem;">
+People keep inventing new containers that let methods travel farther than the inventor.
+</div>
+
 <div class="absolute bottom-8 left-0 right-0 grid grid-cols-4 gap-4 text-center text-sm opacity-75">
-  <div>Person to person</div>
-  <div>Page to page</div>
-  <div>Method in a machine</div>
-  <div>Method in a URL</div>
+  <div>People</div>
+  <div>Cards</div>
+  <div>Media</div>
+  <div>URLs</div>
 </div>
 
 ---
 
-<div class="pt-14 text-center">
-  <div class="uppercase tracking-widest text-sm opacity-60 mb-6">Same problem, every era</div>
-  <div class="text-4xl leading-tight mx-auto" style="max-width: 48rem;">
-    A method only matters if someone else can use it
-    <span style="white-space: nowrap;">correctly</span>
-    without the inventor standing beside them.
-  </div>
-</div>
-
-<div class="grid grid-cols-4 gap-4 pt-14 text-center text-sm font-bold">
-  <div class="rounded-2xl px-4 py-5" style="background: rgba(15,23,42,0.05); border: 1px solid rgba(15,23,42,0.12);">Teacher</div>
-  <div class="rounded-2xl px-4 py-5" style="background: rgba(15,23,42,0.05); border: 1px solid rgba(15,23,42,0.12);">Written protocol</div>
-  <div class="rounded-2xl px-4 py-5" style="background: rgba(15,23,42,0.05); border: 1px solid rgba(15,23,42,0.12);">Instrument</div>
-  <div class="rounded-2xl px-4 py-5" style="background: rgba(8,145,178,0.08); border: 1px solid rgba(8,145,178,0.18);">Software</div>
-</div>
-
----
-
-## First deployment model: one person teaches another
-
-<div class="grid grid-cols-2 gap-10 pt-8">
-<div class="rounded-2xl px-6 py-6" style="background: rgba(21,128,61,0.07); border: 1px solid rgba(21,128,61,0.18);">
-<div class="text-sm uppercase tracking-widest opacity-60 mb-3">What it gets right</div>
-
-- Rich feedback
-- Tacit know-how
-- Corrections in real time
-
-</div>
-<div class="rounded-2xl px-6 py-6" style="background: rgba(153,27,27,0.07); border: 1px solid rgba(153,27,27,0.18);">
-<div class="text-sm uppercase tracking-widest opacity-60 mb-3">Where it breaks</div>
-
-- Slow to scale
-- Bound to place and schedule
-- Hard to preserve exactly
-
-</div>
-</div>
-
-<div class="pt-8 text-2xl leading-tight" style="max-width: 45rem;">
-Apprenticeship is powerful, but it does not travel well.
-</div>
-
----
-
-## Writing let methods outlive the teacher
-
-<div class="grid grid-cols-5 gap-6 pt-8 items-start">
-<div class="col-span-3">
-  <div class="text-3xl leading-tight" style="max-width: 34rem;">
-    Recipe, protocol, checklist, manual:
-    writing moves a method farther than a person can.
-  </div>
-</div>
-<div class="col-span-2 rounded-2xl px-6 py-6" style="background: rgba(15,23,42,0.05); border: 1px solid rgba(15,23,42,0.12);">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Tradeoff</div>
-  <div class="text-lg leading-snug">
-    Reach improves, but readers still fill in gaps with judgment.
-  </div>
-</div>
-</div>
-
-<div class="grid grid-cols-3 gap-4 pt-12 text-center text-sm font-bold">
-  <div class="rounded-xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.12);">The author can be absent</div>
-  <div class="rounded-xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.12);">The method can cross distance</div>
-  <div class="rounded-xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.12);">Ambiguity still travels too</div>
-</div>
-
----
-
-## Printing turned methods into infrastructure
-
-<div class="grid grid-cols-3 gap-5 pt-8 text-center">
-<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
-<div class="text-lg font-bold mb-3">Cheap copying</div>
-<div class="text-base leading-snug">One method can reach a whole institution instead of one room.</div>
-</div>
-<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
-<div class="text-lg font-bold mb-3">Shared editions</div>
-<div class="text-base leading-snug">People can point to the same version of the same instructions.</div>
-</div>
-<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
-<div class="text-lg font-bold mb-3">Standard training</div>
-<div class="text-base leading-snug">Manuals, textbooks, and protocols become part of scientific life.</div>
-</div>
-</div>
-
-<div class="mt-10 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); max-width: 48rem;">
-Once a method can be copied cheaply, reproducibility stops being only a personal virtue and starts becoming a system property.
-</div>
-
----
-
-## Instruments are packaged methods
+## When a computer was a person
 
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
 <div>
   <div class="text-3xl leading-tight" style="max-width: 32rem;">
-    An instrument hides expertise inside a stable object.
+    Before machine computers were dependable enough, the method traveled inside trained humans.
   </div>
 
-  <div class="pt-8 text-xl leading-snug" style="max-width: 33rem;">
-    A balance, a thermocycler, or a sequencer is not just hardware. It is a method that has been packed into a form other people can use.
+  <div class="pt-8 text-lg leading-snug" style="max-width: 33rem;">
+    JPL's human computers computed launch windows, trajectories, and telemetry checks by hand. The container for the method was not a device. It was a room full of people who knew the procedure.
+  </div>
+</div>
+<div class="grid grid-cols-1 gap-4">
+  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+    <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Carrier</div>
+    <div class="text-2xl">A trained team</div>
+  </div>
+  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(153,27,27,0.06);">
+    <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Constraint</div>
+    <div class="text-lg">Room-sized machines were still weak for fast trajectory work.</div>
+  </div>
+  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(21,128,61,0.06);">
+    <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Workaround</div>
+    <div class="text-lg">Package labor and procedure together, then cross-check constantly.</div>
+  </div>
+</div>
+</div>
+
+<div class="absolute bottom-4 right-6 text-xs opacity-60">NASA/JPL: human computers performed crucial calculations and later became early programmers</div>
+
+---
+
+## A program as a chain of holes
+
+<div class="grid grid-cols-2 gap-10 pt-8 items-start">
+<div>
+  <div class="text-3xl leading-tight" style="max-width: 33rem;">
+    The Jacquard loom stored a weaving pattern in a chain of punched cards.
+  </div>
+
+  <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
+    That is a wonderfully strange moment in history: the program is physical, readable by a machine, and detachable from the inventor.
+  </div>
+</div>
+<div>
+  <div class="grid grid-cols-4 gap-2 text-center text-sm font-bold">
+    <div class="rounded-xl px-2 py-5" style="border: 1px solid rgba(15,23,42,0.12);">card</div>
+    <div class="rounded-xl px-2 py-5" style="border: 1px solid rgba(15,23,42,0.12);">card</div>
+    <div class="rounded-xl px-2 py-5" style="border: 1px solid rgba(15,23,42,0.12);">card</div>
+    <div class="rounded-xl px-2 py-5" style="border: 1px solid rgba(15,23,42,0.12);">card</div>
+  </div>
+  <div class="mt-4 rounded-2xl px-5 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
+    Hollerith later used punched cards to process the 1890 U.S. Census. The weird textile trick became a data-processing industry.
+  </div>
+</div>
+</div>
+
+<div class="absolute bottom-4 right-6 text-xs opacity-60">Computer History Museum: Jacquard cards controlled weaving; Hollerith cards later powered census tabulation</div>
+
+---
+
+## A bug could be a dropped deck
+
+<div class="grid grid-cols-5 gap-8 pt-8 items-start">
+<div class="col-span-3">
+  <div class="text-3xl leading-tight" style="max-width: 34rem;">
+    For a long time, software was not a file.
+    It was a stack.
+  </div>
+
+  <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
+    Programs and data moved around as punched-card decks. Order mattered. Drop the deck and you did not just make a mess. You broke the program.
+  </div>
+</div>
+<div class="col-span-2 grid grid-cols-1 gap-4">
+  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12);">Carrier: a physical deck</div>
+  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12);">Limitation: order is fragile</div>
+  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12);">Workaround: sort, label, protect, pray</div>
+</div>
+</div>
+
+<div class="mt-10 rounded-2xl px-6 py-5" style="background: rgba(153,27,27,0.07); border: 1px solid rgba(153,27,27,0.18); max-width: 48rem;">
+That is an early deployment lesson that never went away: once the method lives in a container, the container creates its own new failure modes.
+</div>
+
+---
+
+## Magazines were once app stores
+
+<div class="grid grid-cols-2 gap-10 pt-8 items-start">
+<div>
+  <div class="text-3xl leading-tight" style="max-width: 32rem;">
+    Home-computer users got software by reading it off paper and typing it in.
+  </div>
+
+  <div class="pt-8 text-lg leading-snug" style="max-width: 33rem;">
+    A magazine listing could be the distribution channel. The workaround was human re-entry: line by line, keyword by keyword, then save to cassette and hope the save worked.
   </div>
 </div>
 <div class="grid grid-cols-1 gap-4 text-center">
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12);">Less left to interpretation</div>
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12);">Same behavior across sites</div>
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12);">More users can apply the method</div>
+  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Artifact: the printed listing</div>
+  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Hack: helper tools to speed BASIC keyword entry</div>
+  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(153,27,27,0.06);">Failure mode: cassette save errors as minor tragedy</div>
 </div>
 </div>
 
 ---
 
-## Software is the most exact package we have invented
+## Cloud, but by airplane
 
-<div class="grid grid-cols-2 gap-10 pt-8">
+<div class="grid grid-cols-2 gap-10 pt-8 items-start">
 <div>
-<div class="text-sm uppercase tracking-widest opacity-60 mb-3">What software solves</div>
+  <div class="text-3xl leading-tight" style="max-width: 33rem;">
+    The network never fully won.
+  </div>
 
-- Exact steps
-- Instant copying
-- Fast updates
-- No hand-transcription
-
+  <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
+    When the data is large enough, the old trick returns: put the bits onto a box and ship the box. Google still sells a Transfer Appliance for exactly this. AWS still ships Snowball devices.
+  </div>
 </div>
 <div>
-<div class="text-sm uppercase tracking-widest opacity-60 mb-3">What deployment reintroduces</div>
-
-- Installers and dependencies
-- Different operating systems
-- Version drift by machine
-- Support burden for local tools
-
+  <div class="rounded-2xl px-6 py-6" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
+    <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Concrete number</div>
+    <div class="text-2xl leading-tight">
+      Google says 300 TB over a typical 100 Mbps connection can take about 9 months, while Transfer Appliance can capture it in under 25 days.
+    </div>
+  </div>
 </div>
 </div>
 
-<div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(153,27,27,0.07); border: 1px solid rgba(153,27,27,0.18); max-width: 49rem;">
-The method can now travel perfectly, but the package is still awkward to deliver.
-</div>
+<div class="absolute bottom-4 right-6 text-xs opacity-60">Google Transfer Appliance; AWS Snowball: ship the storage, then upload at the destination</div>
 
 ---
 
-## In biology, that usually means three packages
+## 1993: the browser stops being plain text
+
+<div class="grid grid-cols-5 gap-8 pt-8 items-start">
+<div class="col-span-3">
+  <div class="text-3xl leading-tight" style="max-width: 34rem;">
+    Mosaic was the turning point where the browser started to feel like a medium, not a terminal.
+  </div>
+
+  <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
+    NCSA's big move was simple and enormous: pictures appeared automatically alongside text. That changed who the web was for.
+  </div>
+</div>
+<div class="col-span-2 rounded-2xl px-6 py-6" style="background: rgba(15,23,42,0.05); border: 1px solid rgba(15,23,42,0.12);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Mutation</div>
+  <div class="text-xl leading-snug">
+    The browser stops being a page of linked text and starts becoming a richer container for experience.
+  </div>
+</div>
+</div>
+
+<div class="absolute bottom-4 right-6 text-xs opacity-60">NCSA Mosaic: first published browser to automatically display pictures with text</div>
+
+---
+
+## The browser learns behavior
+
+<div class="grid grid-cols-2 gap-10 pt-8 items-start">
+<div>
+  <div class="text-3xl leading-tight" style="max-width: 32rem;">
+    First JavaScript makes the page react.
+    Then XHR and Ajax teach it to change without turning the page.
+  </div>
+
+  <div class="pt-8 text-lg leading-snug" style="max-width: 33rem;">
+    That is the moment the browser stops acting like a stack of documents and starts acting like an application shell.
+  </div>
+</div>
+<div class="grid grid-cols-1 gap-4 text-center">
+  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12);">1995: page scripts react to clicks and forms</div>
+  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12);">XHR: fetch data without a full refresh</div>
+  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">Ajax: only part of the page changes, but the app keeps going</div>
+</div>
+</div>
+
+<div class="absolute bottom-4 right-6 text-xs opacity-60">JavaScript created at Netscape in 1995; XHR and Ajax enabled partial-page updates</div>
+
+---
+
+## The browser learns to draw, wait, and persist
+
+<div class="grid grid-cols-5 gap-4 pt-8 text-center">
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Canvas</div>
+  <div class="text-lg">JavaScript paints pixels</div>
+</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">WebGL</div>
+  <div class="text-lg">GPU graphics without plug-ins</div>
+</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Workers</div>
+  <div class="text-lg">Heavy work leaves the UI thread</div>
+</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Service workers</div>
+  <div class="text-lg">The app survives bad networks</div>
+</div>
+<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">WebGPU</div>
+  <div class="text-lg">Now the browser learns compute too</div>
+</div>
+</div>
+
+<div class="mt-10 text-xl leading-snug" style="max-width: 49rem;">
+This is not one feature. It is a series of species changes. The browser keeps absorbing jobs that used to belong to the desktop.
+</div>
+
+<div class="absolute bottom-4 right-6 text-xs opacity-60">Canvas, WebGL, Web Workers, service workers, and WebGPU progressively expanded the browser's role</div>
+
+---
+
+## The browser kept trying to smuggle in a runtime
+
+<div class="grid grid-cols-4 gap-4 pt-8 text-center items-stretch">
+<div class="rounded-2xl px-4 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Java applets</div>
+  <div class="text-lg">Bring a whole JVM into the page</div>
+</div>
+<div class="rounded-2xl px-4 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Flash</div>
+  <div class="text-lg">A parallel plug-in world for rich apps</div>
+</div>
+<div class="rounded-2xl px-4 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">NaCl / PNaCl</div>
+  <div class="text-lg">Native-ish code, but trapped in one browser's story</div>
+</div>
+<div class="rounded-2xl px-4 py-6" style="border: 1px solid rgba(153,27,27,0.18); background: rgba(153,27,27,0.07);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">asm.js</div>
+  <div class="text-lg">Compiled code disguised as weird JavaScript</div>
+</div>
+</div>
+
+<div class="mt-10 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); max-width: 48rem;">
+Different hacks, same desire: people wanted the browser to carry more real software than plain web pages could.
+</div>
+
+<div class="absolute bottom-4 right-6 text-xs opacity-60">Oracle: applets and Java deployment stack removed; MDN: asm.js deprecated in favor of WebAssembly</div>
+
+---
+
+## Biology already trusts browser software
 
 <div class="grid grid-cols-3 gap-5 pt-8 text-center items-stretch">
-<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
-<div class="text-sm uppercase tracking-widest opacity-60 mb-3">Installed client</div>
-<div class="text-2xl font-bold mb-4">ReCall</div>
-<div class="text-base leading-snug">Local files stay local, but every machine becomes its own support story.</div>
+<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-2xl font-bold mb-3">Galaxy</div>
+  <div class="text-base leading-snug">An open, web-based platform for accessible, reproducible, transparent computational biomedical research.</div>
 </div>
-<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.14); background: rgba(15,23,42,0.04);">
-<div class="text-sm uppercase tracking-widest opacity-60 mb-3">Central service</div>
-<div class="text-2xl font-bold mb-4">QAI</div>
-<div class="text-base leading-snug">One managed system, shared policy, but the work happens away from the user's machine.</div>
+<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-2xl font-bold mb-3">JBrowse</div>
+  <div class="text-base leading-snug">A genome browser that runs on the web, on the desktop, or embedded in another app.</div>
 </div>
 <div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">
-<div class="text-sm uppercase tracking-widest opacity-60 mb-3">Browser-delivered local client</div>
-<div class="text-2xl font-bold mb-4">The new option</div>
-<div class="text-base leading-snug">Open a URL, get the current version, and keep sensitive files on the user's side.</div>
+  <div class="text-2xl font-bold mb-3">IGV-Web</div>
+  <div class="text-base leading-snug">A pure-client genome browser application that already lives entirely in the browser.</div>
 </div>
 </div>
 
 <div class="pt-8 text-xl" style="max-width: 46rem;">
-This third model matters when distribution is hard, data is sensitive, and the tool does not need a shared server-side state.
+So the argument is not that biology must learn to trust browsers. Biology already does. The open question is how much more method can fit inside that container.
 </div>
+
+<div class="absolute bottom-4 right-6 text-xs opacity-60">Galaxy project page; JBrowse homepage; IGV-Web README</div>
 
 ---
 
-## The browser has already earned trust in biology
+## What WebAssembly finally changes
 
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
 <div>
-  <div class="grid grid-cols-1 gap-4 text-center">
-    <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-      <div class="text-xl font-bold mb-2">Galaxy</div>
-      <div class="text-base leading-snug">Web-based biomedical analysis is already taken seriously.</div>
-    </div>
-    <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-      <div class="text-xl font-bold mb-2">JBrowse</div>
-      <div class="text-base leading-snug">Genome exploration in the browser is already normal.</div>
-    </div>
-    <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-      <div class="text-xl font-bold mb-2">IGV-Web</div>
-      <div class="text-base leading-snug">A pure-client genome browser is already a real product.</div>
-    </div>
-  </div>
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Already true</div>
+
+  - The browser already has UI, graphics, storage, and background execution
+  - Biology already has serious browser software
+  - URL delivery is already the easiest way to distribute a client
+
 </div>
 <div>
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Why this is now plausible</div>
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">New with Wasm</div>
 
-  - Users can choose local files
-  - Browsers can store data locally
-  - Background work can run without freezing the page
-  - Apps can cache assets for flaky networks
+  - More of the existing compute core can travel inside that package
+  - Fewer tools need a server just to avoid installation pain
+  - Fewer teams need a rewrite-from-scratch browser version
 
-  <div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
-    The browser is no longer just a document viewer. It is a serious delivery vehicle.
-  </div>
 </div>
 </div>
 
-<div class="absolute bottom-4 right-6 text-xs opacity-60">Galaxy project page; JBrowse homepage; IGV-Web README; MDN Web Workers</div>
+<div class="mt-10 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); max-width: 49rem;">
+WebAssembly is not interesting here because it is low-level. It is interesting because it is a better container for moving existing software into a browser-delivered tool.
+</div>
+
+<div class="absolute bottom-4 right-6 text-xs opacity-60">MDN: Wasm complements JavaScript and lets code from multiple languages run in modern browsers</div>
 
 ---
 
-## What WebAssembly changes
+## ReCall, QAI, and the new packaging option
 
-<div class="grid grid-cols-2 gap-10 pt-8 items-start">
-<div class="rounded-2xl px-6 py-6" style="background: rgba(153,27,27,0.07); border: 1px solid rgba(153,27,27,0.18);">
-<div class="text-sm uppercase tracking-widest opacity-60 mb-3">Before</div>
-<div class="text-2xl leading-tight">
-If you wanted browser delivery, you often had to rewrite the tool for the browser or move the work onto a server.
+<div class="grid grid-cols-3 gap-5 pt-8 text-center items-stretch">
+<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Installed client</div>
+  <div class="text-2xl font-bold mb-4">ReCall</div>
+  <div class="text-base leading-snug">Strong local control, but every machine becomes a deployment story.</div>
 </div>
+<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Central service</div>
+  <div class="text-2xl font-bold mb-4">QAI</div>
+  <div class="text-base leading-snug">Shared control and policy, but the work happens in a managed central system.</div>
 </div>
-<div class="rounded-2xl px-6 py-6" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
-<div class="text-sm uppercase tracking-widest opacity-60 mb-3">With Wasm</div>
-<div class="text-2xl leading-tight">
-More of the existing program can travel into the browser package without being rewritten from scratch.
+<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Browser-delivered local client</div>
+  <div class="text-2xl font-bold mb-4">New option</div>
+  <div class="text-base leading-snug">Open a URL, use the current version, and still keep the sensitive files on the analyst's side.</div>
 </div>
-</div>
-</div>
-
-<div class="grid grid-cols-3 gap-4 pt-10 text-center">
-  <div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.12);">Same URL delivery</div>
-  <div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.12);">More local execution</div>
-  <div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.12);">Less throw-away reimplementation</div>
 </div>
 
-<div class="mt-8 text-lg leading-snug" style="max-width: 48rem;">
-It still runs inside browser rules. File access, storage, and networking are mediated by the browser rather than granted directly.
+<div class="pt-8 text-xl" style="max-width: 47rem;">
+That third box matters when distribution is painful, confidentiality matters, and the tool behaves more like an instrument than a shared workflow hub.
 </div>
-
-<div class="absolute bottom-4 right-6 text-xs opacity-60">MDN WebAssembly concepts</div>
 
 ---
 
-## If this model is real, where should we use it next?
+## What should we package this way next?
 
 <div class="grid grid-cols-2 gap-4 pt-8 text-center">
-<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.14);">FASTQ or coverage viewer that opens local files directly</div>
-<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.14);">Resistance review tool that stays on the analyst's machine</div>
-<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.14);">Run-validation or sample-sheet checker distributed by URL</div>
-<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.14);">Primer-mismatch, contamination, or mutation explorer with local compute</div>
+  <div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12);">FASTQ or coverage viewer that opens local files directly</div>
+  <div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12);">Resistance review tool that stays on the analyst's machine</div>
+  <div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12);">Run-validation or sample-sheet checker distributed by URL</div>
+  <div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12);">Primer-mismatch, contamination, or mutation explorer with local compute</div>
 </div>
 
 <div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); max-width: 48rem;">
-These are good candidates when installation is a burden, confidentiality matters, and the user mostly needs an interactive local instrument rather than a shared workflow server.
+These are good candidates when installation hurts more than the algorithm, and when server centralization buys less than local privacy and easy distribution.
 </div>
 
 ---
 
-## CFEIntact makes the model concrete
+## CFEIntact demo
 
 <div class="grid grid-cols-2 gap-8 pt-8 items-start">
 <div>
@@ -292,12 +383,12 @@ These are good candidates when installation is a burden, confidentiality matters
 <div>
 
 - Reached by URL
-- Interactive on the user's machine
-- A real biology task, not a toy demo
+- Real biology task, not a toy benchmark
+- Interactive on the user's own machine
 - Sensitive input files can stay user-side
 
 <div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
-The point is not that every tool should look like this. The point is that this package now exists.
+This is the moment where the long history lands in the room: the latest container is already usable for one of our own instruments.
 </div>
 
 </div>
@@ -308,9 +399,9 @@ The point is not that every tool should look like this. The point is that this p
 ## Closing takeaway
 
 <div class="pt-12 text-4xl leading-tight" style="max-width: 49rem;">
-The history of deployment is the history of making methods travel farther with less friction.
+The browser is not the first strange container people have used to move a method.
 </div>
 
 <div class="pt-10 text-3xl leading-tight" style="max-width: 49rem;">
-For some biology software, the next package is simply a URL that still runs locally.
+It is just the latest one, and WebAssembly is one reason more of our lab software can finally fit inside it.
 </div>
