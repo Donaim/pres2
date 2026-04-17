@@ -550,7 +550,7 @@ hideInToc: true
 
 <div class="grid grid-cols-2 gap-6 pt-2 items-stretch">
   <div class="panel px-6 py-6">
-    <h1 class="hero-title text-5xl leading-none">ТРАМП І ГОРИЛА</h1>
+    <h1 class="hero-title text-5xl leading-none">КОМЕНСУРАЦІЯ</h1>
     <div class="text-2xl opacity-80 mt-2">Як починається приниження</div>
     <table class="data-table mt-8">
       <thead>
