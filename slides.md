@@ -196,13 +196,12 @@ hideInToc: true
       До тої хати він запрошував мандрівників переночувати.
       Були в него ліжка, а всі одного розміру.
     </div>
+    <v-clicks>
     <div class="panel-soft mt-6 px-6 py-6 text-xl leading-snug">
       Кого тіло було замалим — він розтягував, аж підійде. <br></br>
       Кого завеликим — вкорочував (відрізав кінцівки).
     </div>
-    <div class="text-2xl leading-tight mt-6">
-      На рано в нього всі ставали однаковими.
-    </div>
+    </v-clicks>
   </div>
 
   <v-clicks class="col-span-2">
@@ -210,8 +209,8 @@ hideInToc: true
     <div style="height: 17rem;">
     <img src="./assets/procrustes.webp" alt="Прокруст" class="watch">
     </div>
-    <div class="text-2xl leading-tight">
-      Одне ложе. Одна правильна довжина. Один господар, який ненавидів усе, що не влазить.
+    <div class="text-2xl leading-tight mt-6">
+      На рано в нього всі ставали однаковими.
     </div>
   </div>
   </v-clicks>
