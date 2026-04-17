@@ -270,7 +270,7 @@ hideInToc: true
 ---
 
 <div class="pt-2">
-  <h1 class="hero-title text-6xl">Чи чули ви…</h1>
+  <h1 class="hero-title text-6xl">Чи чули ви такі фрази</h1>
 </div>
 
 <div class="grid grid-cols-4 gap-4 mt-8">
