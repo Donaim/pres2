@@ -410,27 +410,6 @@ hideInToc: true
 
 ---
 
-<div class="pt-2">
-  <h1 class="hero-title text-6xl">СЛОВА, ЯКІ ВОНИ ЛЮБЛЯТ</h1>
-</div>
-
-<div class="grid grid-cols-3 gap-4 mt-8 text-xl">
-  <div class="panel-soft px-5 py-5">quantifiable</div>
-  <div class="panel-soft px-5 py-5">standardized</div>
-  <div class="panel-soft px-5 py-5">optimized</div>
-  <div class="panel-soft px-5 py-5">objective</div>
-  <div class="panel-soft px-5 py-5">measurable</div>
-  <div class="panel-soft px-5 py-5">commensurable</div>
-  <div class="panel-soft px-5 py-5">legible</div>
-  <div class="panel-soft px-5 py-5">scalable</div>
-  <div class="panel-soft px-5 py-5">evidence-based</div>
-  <div class="panel-soft px-5 py-5">actionable</div>
-  <div class="panel-soft px-5 py-5">dashboard-ready</div>
-  <div class="panel-soft px-5 py-5">придатне до управління</div>
-</div>
-
----
-
 <div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
   <div class="col-span-3 panel px-7 py-7">
     <h1 class="hero-title text-5xl leading-none">ЩО ВОНИ ХОЧУТЬ?</h1>
@@ -471,6 +450,28 @@ hideInToc: true
       Щойно ми просимо графік як доказ, ми вже погодились, що реальне тільки те, що можна виміряти, показати і порівняти.
     </div>
   </div>
+</div>
+
+
+---
+
+<div class="pt-2">
+  <h1 class="hero-title text-6xl">СЛОВА, ЯКІ ВОНИ ЛЮБЛЯТ</h1>
+</div>
+
+<div class="grid grid-cols-3 gap-4 mt-8 text-xl">
+  <div class="panel-soft px-5 py-5">quantifiable</div>
+  <div class="panel-soft px-5 py-5">standardized</div>
+  <div class="panel-soft px-5 py-5">optimized</div>
+  <div class="panel-soft px-5 py-5">objective</div>
+  <div class="panel-soft px-5 py-5">measurable</div>
+  <div class="panel-soft px-5 py-5">commensurable</div>
+  <div class="panel-soft px-5 py-5">legible</div>
+  <div class="panel-soft px-5 py-5">scalable</div>
+  <div class="panel-soft px-5 py-5">evidence-based</div>
+  <div class="panel-soft px-5 py-5">actionable</div>
+  <div class="panel-soft px-5 py-5">dashboard-ready</div>
+  <div class="panel-soft px-5 py-5">придатне до управління</div>
 </div>
 
 ---
