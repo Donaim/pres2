@@ -191,12 +191,9 @@ hideInToc: true
 
 <div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
   <div class="col-span-3 panel px-8 py-8 flex flex-col justify-between">
-    <div>
-      <h1 class="hero-title text-6xl">ПРОКРУСТ</h1>
-      <div class="text-2xl opacity-80 mt-3">Старий грецький жах</div>
-    </div>
     <div class="text-2xl leading-snug max-w-3xl mt-8">
-      На дорозі стояв розбійник, який запрошував мандрівників переночувати.
+      Жив був Прокруст, він був розбійник.
+      Прокруст стояв на дорозі і ласкаво запрошував мандрівників переночувати.
     </div>
     <div class="panel-soft mt-6 px-6 py-6 text-xl leading-snug">
       У нього було ложе однієї правильної довжини.
@@ -262,9 +259,6 @@ hideInToc: true
   <div class="panel-ivory px-8 py-8 flex flex-col justify-between">
     <div>
       <h1 class="hero-title text-6xl mt-1">Уявіть шо…</h1>
-      <div class="small-note mt-6" style="color:#4b5563; max-width: 25rem;">
-        Світ, де про речі судять по суті, а не по цифрі, ціннику чи рейтингу.
-      </div>
     </div>
   </div>
 
