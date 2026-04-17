@@ -391,7 +391,7 @@ hideInToc: true
     <div class="timeline-node px-4 py-5">
       <div class="text-sm uppercase opacity-60 mb-2">VI ст. до н.е.</div>
       <div class="text-xl leading-tight">у хітоні</div>
-      <div class="small-note mt-2">клянуться числу і прямому кутові</div>
+      <div class="small-note mt-2">поклоняютсє числу і прямому куту</div>
     </div>
     <div class="timeline-node px-4 py-5">
       <div class="text-sm uppercase opacity-60 mb-2">античність</div>
