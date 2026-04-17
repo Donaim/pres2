@@ -194,7 +194,7 @@ hideInToc: true
     <div class="text-2xl leading-snug max-w-3xl mt-8">
       Жив був Прокруст, він мав хату при дорозі.
       До тої хати він запрошував мандрівників переночувати.
-      Були в него ліжка, а всі одного розміру.
+      Були в него ліжка, а всі на один розмір.
     </div>
     <v-clicks>
     <div class="panel-soft mt-6 px-6 py-6 text-xl leading-snug">
