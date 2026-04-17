@@ -378,7 +378,6 @@ hideInToc: true
 </div>
 
 <div class="relative mt-10 px-4 py-10">
-  <div class="timeline-track"></div>
   <div class="grid grid-cols-5 gap-4 relative">
     <div class="timeline-node px-4 py-5">
       <div class="text-sm uppercase opacity-60 mb-2">VI ст. до н.е.</div>
