@@ -260,7 +260,7 @@ hideInToc: true
     <v-clicks>
       <div class="text-2xl leading-tight mb-4">на роботі вам платят за вклад, а не за години</div>
       <div class="text-2xl leading-tight mb-4">за каву ви платите за смак, а не за цінник</div>
-      <div class="text-2xl leading-tight mb-4">у школі цінують розумінє, а не зубрінє</div>
+      <div class="text-2xl leading-tight mb-4">у школі цінують розуміня, а не зубріня</div>
       <div class="text-2xl leading-tight mb-4">дорожче означає не “статусніше”, а справді якісніше</div>
       <div class="text-2xl leading-tight">країну оцінюють по добробуту людей, а не по GDP</div>
     </v-clicks>
