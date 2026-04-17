@@ -435,10 +435,6 @@ hideInToc: true
   <div class="panel px-5 py-5 text-[var(--deck-accent)]">придатне до управління</div>
 </div>
 
-<div class="mt-8 text-2xl leading-tight max-w-4xl">
-  Кожне з цих слів означає одне: зробіть світ придатним до обліку.
-</div>
-
 ---
 
 <div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
