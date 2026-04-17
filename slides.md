@@ -210,7 +210,7 @@ hideInToc: true
     <img src="./assets/procrustes.webp" alt="Прокруст" class="watch">
     </div>
     <div class="text-2xl leading-tight mt-6">
-      На рано в нього всі ставали однаковими.
+      На рано в нього всі ставали однакові.
     </div>
   </div>
   </v-clicks>
