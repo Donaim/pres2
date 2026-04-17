@@ -3,7 +3,7 @@ title: Братство прямої міри
 theme: seriph
 info: |
   ## Братство прямої міри
-  Серйозна псевдо-аналітична сатирична презентація про культ вимірюваного.
+  Розслідування культу вимірюваного.
 class: text-left
 drawings:
   persist: false
@@ -45,13 +45,6 @@ hideInToc: true
     letter-spacing: -0.03em;
   }
 
-  .eyebrow {
-    text-transform: uppercase;
-    letter-spacing: 0.22em;
-    font-size: 0.72rem;
-    color: var(--deck-muted);
-  }
-
   .panel {
     background: var(--deck-panel);
     border: 1px solid var(--deck-line);
@@ -73,17 +66,6 @@ hideInToc: true
     box-shadow: 0 18px 40px rgba(0, 0, 0, 0.2);
   }
 
-  .metric-chip {
-    display: inline-flex;
-    align-items: center;
-    padding: 0.55rem 0.85rem;
-    border-radius: 999px;
-    border: 1px solid var(--deck-line);
-    background: rgba(243, 236, 223, 0.06);
-    font-size: 0.92rem;
-    line-height: 1.2;
-  }
-
   .quote-chip {
     display: block;
     padding: 0.85rem 1rem;
@@ -92,19 +74,6 @@ hideInToc: true
     background: rgba(7, 13, 22, 0.58);
     line-height: 1.25;
     min-height: 4.4rem;
-  }
-
-  .stamp {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.45rem;
-    padding: 0.4rem 0.7rem;
-    border-radius: 999px;
-    border: 1px solid rgba(214, 178, 94, 0.34);
-    color: var(--deck-accent);
-    font-size: 0.78rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
   }
 
   .axis-card {
@@ -127,13 +96,12 @@ hideInToc: true
 
   .mini-chart svg,
   .spiral svg,
-  .circumplex svg {
+  .circumplex svg,
+  .portrait svg {
     width: 100%;
     height: 100%;
   }
 
-  .case-card,
-  .victim-card,
   .timeline-node {
     border-radius: 22px;
     border: 1px solid var(--deck-line);
@@ -154,19 +122,6 @@ hideInToc: true
     letter-spacing: 0.14em;
     text-transform: uppercase;
     font-size: 0.72rem;
-  }
-
-  .data-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.92rem;
-  }
-
-  .data-table td,
-  .data-table th {
-    border-bottom: 1px solid rgba(243, 236, 223, 0.08);
-    padding: 0.58rem 0.1rem;
-    text-align: left;
   }
 
   .admin-tag {
@@ -211,20 +166,30 @@ hideInToc: true
     font-size: 0.9rem;
     line-height: 1.35;
   }
+
+  .portrait {
+    height: 8.6rem;
+    border-radius: 22px;
+    border: 1px solid rgba(243, 236, 223, 0.12);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+    overflow: hidden;
+  }
 </style>
 
 <div class="grid grid-cols-2 gap-8 pt-4 items-stretch">
   <div class="panel-ivory px-8 py-8 flex flex-col justify-between">
     <div>
-      <div class="eyebrow">гіпотетичний вступ</div>
-      <h1 class="hero-title text-6xl mt-3">Уявіть шо…</h1>
+      <h1 class="hero-title text-6xl mt-1">Уявіть шо…</h1>
+      <div class="small-note mt-6" style="color:#4b5563; max-width: 25rem;">
+        Світ, де про речі судять по суті, а не по цифрі, ціннику чи рейтингу.
+      </div>
     </div>
-    <div class="small-note mt-6" style="color:#4b5563; max-width: 25rem;">
-      Світ, де сутність іще не програла своєму замінникові.
+    <div class="text-xl leading-snug" style="color:#1f2937; max-width: 26rem;">
+      Саме такий порядок і перекрили люди, які навчили нас плутати реальність із її вимірюваним сурогатом.
     </div>
   </div>
 
-  <div class="panel px-8 py-8">
+  <div class="panel px-8 py-8 flex flex-col justify-between">
     <v-clicks>
       <div class="text-2xl leading-tight mb-4">на роботі вам платят за вклад, а не за години</div>
       <div class="text-2xl leading-tight mb-4">за каву ви платите за смак, а не за цінник</div>
@@ -232,32 +197,13 @@ hideInToc: true
       <div class="text-2xl leading-tight mb-4">дорожче означає не “статусніше”, а справді якісніше</div>
       <div class="text-2xl leading-tight">країну оцінюють по добробуту людей, а не по GDP</div>
     </v-clicks>
+    <div class="small-note mt-8">Саме цей світ у нас і забрали.</div>
   </div>
 </div>
-
-<!--
-Промова.
-
-Уявіть собі такий світ.
-
-Світ, де на роботі вам платят не за те, скільки часу ви просиділи, а за те, наскільки ви реально помогли спільній справі.
-Де за каву ви платите не за бренд, не за інтер'єр і не за цінник, а просто за те, наскільки вона вам смакувала.
-Де в школі цінують не слухняне відтворінє, а розумінє.
-Де дорожче означає не “престижніше”, а справді ліпше.
-Де країну судят не по GDP, а по тому, як там реально живеця людям.
-
-Звучить якось нереально, правда?
-Навіть трохи наївно.
-Ніби так не буває.
-Ніби так не прийнято думати.
-
-Бо ми привикли чути зовсім інше.
--->
 
 ---
 
 <div class="pt-2">
-  <div class="eyebrow mb-4">культурний шум</div>
   <h1 class="hero-title text-6xl">Чи чули ви…</h1>
 </div>
 
@@ -272,127 +218,190 @@ hideInToc: true
   <div class="quote-chip">“Може ти й чудова людина, але кредитний скор так не думає”</div>
 </div>
 
-<div class="panel-soft mt-8 px-6 py-5 text-2xl leading-tight" v-click>
-  Зауважте: це не набір дурних фраз. Це одна й та сама логіка, просто в різних костюмах.
+<div class="panel-soft mt-8 px-6 py-5 text-2xl leading-tight">
+  Це не випадкові фрази. Це один дисциплінарний голос, розкладений на вісім рупорів.
 </div>
-
-<!--
-Промова.
-
-Ми чуємо таке постійно.
-
-“Де цифри?”
-“А на еґзамені то буде?”
-“Оцініть свій біль від нуля до десяти.”
-“Школа не для того, шоб тобі подобалось.”
-“Дорожче означає ліпше.”
-“Якісне не може бути дешеве.”
-“Може ти й чудова людина, але кредитний скор так не думає.”
-
-Зауважте, шо це не просто окремі дурні фрази.
-В них усіх є одна і та сама логіка.
-
-Насправді нас цікавит вклад, але ми говорим про години.
-Нас цікавит смак, але ми говорим про ціну.
-Нас цікавит розумінє, але ми говорим про екзамен.
-Нас цікавит людське життя, але ми говорим про скор, шкалу і показник.
-
-То не випадковість.
-Таке мисленє не виростає само.
-Нам то насаджували дуже довго.
-На впротязі тисячоліть.
--->
 
 ---
 
 <div class="h-full flex flex-col justify-center items-center text-center">
-  <div class="stamp mb-5">перехід до викриття</div>
   <div class="hero-title" style="font-size: 5.3rem; line-height: 0.95;">КОМУ ТО ВИГІДНО?</div>
   <div class="mt-10 text-2xl leading-tight max-w-3xl opacity-85">
-    Чому школа, ринок, медицина і держава раптом однаково вірять не сутності, а її вимірюваному замінникові?
+    Чому школа, ринок, медицина і держава так дружно вимагають не правду, а показник?
+  </div>
+  <div class="panel-soft mt-10 px-6 py-5 text-xl leading-snug max-w-3xl">
+    Бо за кожною шкалою стоїть той, хто вирішив, що саме вважати видимим, серйозним і реальним.
   </div>
 </div>
 
-<!--
-Промова.
+---
 
-І отут починаєсє найцікавіше.
+<div class="pt-2">
+  <h1 class="hero-title text-6xl">КОЛИ ЧИСЛО СТАЄ ЦІЛЛЮ</h1>
+  <div class="text-2xl opacity-80 mt-2">Історія кобр</div>
+</div>
 
-Бо якби це був просто збіг, то він був би надто вже системний.
-Надто багато різних сфер раптом почали мислити однаково.
-Школа, робота, медицина, економіка, держава, ринок, усі вони знов і знов підсовуют нам те саме:
-не сутність, а її вимірюваний замінник.
+<div class="panel mt-8 px-7 py-6 text-2xl leading-tight">
+  В 18 столітті Британська імперія колонізовувала Індію і зіткнулася з проблемою кобр.
+</div>
 
-То хто нас так перевчив?
-Хто зробив так, шо ми вже самі говорим їхньою мовою?
-Хто навчив нас більше довіряти шкалі, ніж досвідові,
-більше довіряти ціннику, ніж смаку,
-і більше довіряти показнику, ніж людині?
--->
+<div class="grid grid-cols-4 gap-4 mt-6 text-xl">
+  <div class="panel-soft px-5 py-5">
+    У містах було багато кобр, і колоніальна влада хотіла швидко показати результат.
+  </div>
+  <div class="panel-soft px-5 py-5">
+    Влада оголосила нагороду за кожну мертву кобру і зробила труп кобри офіційною одиницею успіху.
+  </div>
+  <div class="panel-soft px-5 py-5">
+    Люди почали розводити кобр, щоби стабільно здавати їх за винагороду.
+  </div>
+  <div class="panel-soft px-5 py-5">
+    Коли схему згорнули, розплідники випустили кобр назад. Імперія сама розвела те, що хотіла винищити.
+  </div>
+</div>
+
+<div class="panel-soft mt-8 px-6 py-5 text-2xl leading-tight">
+  Так працює їхня улюблена магія: щойно показник стає важливішим за реальність, система починає виробляти показник.
+</div>
+
+---
+
+<div class="grid grid-cols-2 gap-6 pt-2 items-stretch">
+  <div class="panel px-6 py-6">
+    <h1 class="hero-title text-5xl leading-none">ПРОКРУСТ І КОМЕНСУРАЦІЯ</h1>
+    <div class="text-2xl opacity-80 mt-2">Як людей роблять порівнюваними</div>
+    <div class="mt-8 panel-soft px-5 py-5 text-xl leading-snug">
+      Прокруст клав мандрівника на ложе і підганяв тіло під задану довжину. Те, що не влазило, відрізав. Те, чого бракувало, дотягував.
+    </div>
+    <div class="mt-6 text-2xl leading-tight">
+      Коменсурація починається там, де різне силою перетворюють на порівнюване.
+    </div>
+  </div>
+
+  <div class="panel px-6 py-6 flex flex-col justify-between">
+    <div class="text-2xl leading-tight">
+      Людину не питають, ким вона є. Її питають, у яку шкалу вона влазить.
+    </div>
+    <div class="panel-soft px-5 py-5 mt-5 text-xl leading-snug">
+      Далі все йде за старою схемою: відрізати зайве, витягнути недостатнє, а решту оголосити шумом.
+    </div>
+    <div class="text-2xl leading-tight mt-5">
+      Прокруст був першим польовим техніком тієї системи, яка тепер називає це оцінюванням.
+    </div>
+  </div>
+</div>
 
 ---
 
 <div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
   <div class="col-span-3 panel px-7 py-7">
-    <div class="eyebrow">суб'єкт цивілізаційного впливу</div>
-    <h1 class="hero-title text-5xl mt-3 leading-none">ГЕОМЕТРИЧНО-ВИМІРУВАЛЬНИЙ КОМПЛЕКС</h1>
+    <h1 class="hero-title text-5xl mt-1 leading-none">ПІФАГОРІЙЦІ ТА ЇХ ГЕОМЕТРИЧНО-ВИМІРУВАЛЬНИЙ КОМПЛЕКС</h1>
     <div class="mt-5 text-xl leading-snug max-w-2xl">
-      Не одна школа. Не один бізнес. Не одна держава.
-      Це коаліція всіх, кому потрібен світ, придатний до агрегування, порівняння і звітности.
+      Це було не коло невинних математиків. Це була сектантська група, яка проголосила число єдиним шляхом до істини, а правильну форму — законом для світу і людей.
     </div>
-    <div class="mt-8 flex flex-wrap gap-3 text-sm">
-      <span class="metric-chip">Братство прямої міри</span>
-      <span class="metric-chip">культ вимірюваного</span>
-      <span class="metric-chip">олівцево-лінійкове лобі</span>
-      <span class="metric-chip">картель прикладної прямоти</span>
+    <div class="panel-soft mt-6 px-5 py-5 text-2xl leading-tight">
+      Піфагор казав: “Я ненавиджу фасолю”. Для культу, який хотів очистити світ до ідеальної схеми, навіть біб був підозрілим.
+    </div>
+    <div class="mt-6 text-2xl leading-tight">
+      Прокруст не стояв осторонь. Він був силовим крилом тієї самої секти: якщо життя криве, його треба випрямити.
     </div>
   </div>
 
-  <div class="col-span-2 axis-card px-5 py-5">
-    <div class="eyebrow mb-3">псевдо-схема коаліції</div>
-    <div class="grid grid-cols-2 gap-3 text-center text-sm h-full">
-      <div class="panel-soft px-4 py-5 flex flex-col justify-center">
-        <div class="text-3xl mb-2">▭</div>
-        <div>таблиця</div>
+  <div class="col-span-2 grid grid-rows-3 gap-4">
+    <div class="panel-soft px-4 py-4">
+      <div class="portrait mb-3">
+        <svg viewBox="0 0 220 140" fill="none">
+          <rect width="220" height="140" fill="rgba(214,178,94,0.08)" />
+          <circle cx="110" cy="52" r="30" fill="#f0d6b3" />
+          <path d="M72 122 C84 92, 136 92, 148 122" fill="#d6b25e" opacity="0.42" />
+          <path d="M86 40 C94 18, 126 18, 134 40" stroke="#1b2432" stroke-width="10" stroke-linecap="round" />
+          <circle cx="100" cy="52" r="3" fill="#1b2432" />
+          <circle cx="120" cy="52" r="3" fill="#1b2432" />
+          <path d="M101 67 C107 71, 113 71, 119 67" stroke="#1b2432" stroke-width="3" stroke-linecap="round" />
+        </svg>
       </div>
-      <div class="panel-soft px-4 py-5 flex flex-col justify-center">
-        <div class="text-3xl mb-2">◔</div>
-        <div>dashboard</div>
+      <div class="text-xl leading-tight">Піфагор</div>
+      <div class="small-note mt-2">вождь секти, ненависник фасолі, проповідник числа</div>
+    </div>
+
+    <div class="panel-soft px-4 py-4">
+      <div class="portrait mb-3">
+        <svg viewBox="0 0 220 140" fill="none">
+          <rect width="220" height="140" fill="rgba(121,181,168,0.08)" />
+          <circle cx="110" cy="54" r="30" fill="#efddc2" />
+          <path d="M76 126 C89 92, 131 92, 144 126" fill="#79b5a8" opacity="0.36" />
+          <path d="M86 34 C96 24, 125 22, 138 38" stroke="#79b5a8" stroke-width="12" stroke-linecap="round" />
+          <circle cx="99" cy="53" r="3" fill="#1b2432" />
+          <circle cx="120" cy="53" r="3" fill="#1b2432" />
+          <path d="M95 70 C104 62, 115 62, 124 70" stroke="#1b2432" stroke-width="3" stroke-linecap="round" />
+        </svg>
       </div>
-      <div class="panel-soft px-4 py-5 flex flex-col justify-center">
-        <div class="text-3xl mb-2">⌁</div>
-        <div>кадастр</div>
+      <div class="text-xl leading-tight">Посвячений брат</div>
+      <div class="small-note mt-2">шепче числа, боїться невимірюваного, клянеться прямому кутові</div>
+    </div>
+
+    <div class="panel-soft px-4 py-4">
+      <div class="portrait mb-3">
+        <svg viewBox="0 0 220 140" fill="none">
+          <rect width="220" height="140" fill="rgba(207,120,93,0.08)" />
+          <circle cx="110" cy="54" r="30" fill="#f0d0bb" />
+          <path d="M72 122 C86 88, 134 88, 148 122" fill="#cf785d" opacity="0.34" />
+          <path d="M88 40 C95 28, 127 28, 132 40" stroke="#1b2432" stroke-width="12" stroke-linecap="round" />
+          <circle cx="100" cy="54" r="3" fill="#1b2432" />
+          <circle cx="120" cy="54" r="3" fill="#1b2432" />
+          <path d="M96 70 L124 70" stroke="#1b2432" stroke-width="3" stroke-linecap="round" />
+        </svg>
       </div>
-      <div class="panel-soft px-4 py-5 flex flex-col justify-center">
-        <div class="text-3xl mb-2">✓</div>
-        <div>approved</div>
-      </div>
+      <div class="text-xl leading-tight">Прокруст</div>
+      <div class="small-note mt-2">польовий оператор, який випрямляв людей під стандарт</div>
     </div>
   </div>
 </div>
-
-<div class="mt-6 panel-soft px-6 py-4 text-2xl leading-tight">
-  Вони не люблять сутність. Вони люблять її вимірюваний замінник.
-</div>
-
-<!--
-Промова.
-
-Тут ми вперше можемо назвати ворога.
-
-Я не стверджую, що всім керують продавці лінійок і циркулів.
-Але прошу звернути увагу, кому вигідний світ, у якому істинне тільки те, що можна поміряти.
-
-Це не один бізнес, не одна школа, не одна держава.
-Це широка цивілізаційна коаліція всіх, кому вигідний світ, у якому людське життя можна звести до керованих метрик.
-
-Вони не люблять сутність. Вони люблять її вимірюваний замінник.
--->
 
 ---
 
 <div class="pt-2">
-  <div class="eyebrow mb-4">словник ворога</div>
+  <h1 class="hero-title text-6xl">ОДНІ Й ТІ САМІ ЛЮДИ В РІЗНИХ КОСТЮМАХ</h1>
+</div>
+
+<div class="relative mt-10 px-4 py-10">
+  <div class="timeline-track"></div>
+  <div class="grid grid-cols-5 gap-4 relative">
+    <div class="timeline-node px-4 py-5">
+      <div class="text-sm uppercase opacity-60 mb-2">VI ст. до н.е.</div>
+      <div class="text-xl leading-tight">у хітоні</div>
+      <div class="small-note mt-2">клянуться числу і прямому кутові</div>
+    </div>
+    <div class="timeline-node px-4 py-5">
+      <div class="text-sm uppercase opacity-60 mb-2">античність</div>
+      <div class="text-xl leading-tight">у мандрівному плащі</div>
+      <div class="small-note mt-2">перевіряють, хто влазить у правильну форму</div>
+    </div>
+    <div class="timeline-node px-4 py-5">
+      <div class="text-sm uppercase opacity-60 mb-2">ранні держави</div>
+      <div class="text-xl leading-tight">у печатці й мантії</div>
+      <div class="small-note mt-2">оформлюють світ так, щоби його було зручно зводити</div>
+    </div>
+    <div class="timeline-node px-4 py-5">
+      <div class="text-sm uppercase opacity-60 mb-2">офісна епоха</div>
+      <div class="text-xl leading-tight">у костюмі менеджера</div>
+      <div class="small-note mt-2">малюють KPI, рейтинги, дашборди і таблиці</div>
+    </div>
+    <div class="timeline-node px-4 py-5">
+      <div class="text-sm uppercase opacity-60 mb-2">теперішній час</div>
+      <div class="text-xl leading-tight">на вашому зап'ясті</div>
+      <div class="small-note mt-2">стежать вже не збоку, а зсередини вашого дня</div>
+    </div>
+  </div>
+</div>
+
+<div class="panel-soft px-6 py-4 text-2xl leading-tight mt-2">
+  Вони не множилися і не зникали. Вони просто навчились міняти тканину, печатку й інтерфейс.
+</div>
+
+---
+
+<div class="pt-2">
   <h1 class="hero-title text-6xl">СЛОВА, ЯКІ ВОНИ ЛЮБЛЯТ</h1>
 </div>
 
@@ -408,91 +417,60 @@ hideInToc: true
   <div class="panel-soft px-5 py-5">evidence-based</div>
   <div class="panel-soft px-5 py-5">actionable</div>
   <div class="panel-soft px-5 py-5">dashboard-ready</div>
-  <div class="panel px-5 py-5 text-[var(--deck-accent)]">approved for management</div>
+  <div class="panel px-5 py-5 text-[var(--deck-accent)]">придатне до управління</div>
 </div>
 
-<div class="mt-8 text-2xl leading-tight max-w-4xl" v-click>
-  Це не просто слова. Це їхні молитви.
+<div class="mt-8 text-2xl leading-tight max-w-4xl">
+  Кожне з цих слів означає одне: зробіть світ придатним до обліку.
 </div>
-
-<!--
-Промова.
-
-Подивіться на цю лексику.
-Вона звучить дуже пристойно.
-Майже доброчесно.
-
-Але це не просто слова. Це їхні молитви.
-
-Я не кажу, що диявол живе в Excel.
-Але якби жив, йому би дуже подобалось слово “quantifiable”.
-
-І зверніть увагу: майже всі ці слова звучать так, ніби вони не злі.
-Саме в тому й сила культу.
--->
 
 ---
 
-<div class="pt-2">
-  <div class="eyebrow mb-4">тяглість цивілізаційної сили</div>
-  <h1 class="hero-title text-6xl">ТЯГЛІСТЬ БРАТСТВА ПРЯМОЇ МІРИ</h1>
-</div>
+<div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
+  <div class="col-span-3 panel px-7 py-7">
+    <h1 class="hero-title text-5xl leading-none">ЩО ВОНИ ХОЧУТЬ?</h1>
+    <div class="grid grid-cols-3 gap-4 mt-8 text-lg">
+      <div class="panel-soft px-4 py-5">
+        <div class="text-2xl leading-tight">На поверхні</div>
+        <div class="small-note mt-3">більше проданих лінійок, тестів, шкал, аудитів і дашбордів</div>
+      </div>
+      <div class="panel-soft px-4 py-5">
+        <div class="text-2xl leading-tight">Глибше</div>
+        <div class="small-note mt-3">хто задає форму видимого, той керує рішеннями, бюджетами і нормою</div>
+      </div>
+      <div class="panel-soft px-4 py-5">
+        <div class="text-2xl leading-tight">Найглибше</div>
+        <div class="small-note mt-3">змусити людей вважати реальним тільки те, що можна внести в метрику, таблицю або графік</div>
+      </div>
+    </div>
 
-<div class="relative mt-10 px-4 py-10">
-  <div class="timeline-track"></div>
-  <div class="grid grid-cols-5 gap-4 relative">
-    <div class="timeline-node px-4 py-5">
-      <div class="text-sm uppercase opacity-60 mb-2">пускова точка</div>
-      <div class="text-xl leading-tight">Піфагорійці</div>
-      <div class="small-note mt-2">секта, числа, дивні думки про фасолю</div>
+    <div class="panel-soft mt-6 px-5 py-5 text-2xl leading-tight">
+      Якщо люди довіряють тільки графіку, ними керують ті, хто малює графік.
     </div>
-    <div class="timeline-node px-4 py-5">
-      <div class="text-sm uppercase opacity-60 mb-2">державний хребет</div>
-      <div class="text-xl leading-tight">землеміри</div>
-      <div class="small-note mt-2">кадастр, реєстр, межа</div>
+  </div>
+
+  <div class="col-span-2 axis-card px-5 py-5 flex flex-col justify-between">
+    <div class="text-xl leading-snug">
+      Якщо подивитись на графіки їхнього прямого впливу, вони виглядають незначними.
     </div>
-    <div class="timeline-node px-4 py-5">
-      <div class="text-sm uppercase opacity-60 mb-2">нормативний етап</div>
-      <div class="text-xl leading-tight">стандартизована міра</div>
-      <div class="small-note mt-2">легібельна держава</div>
+    <div class="mini-chart mt-6 px-4 py-4">
+      <svg viewBox="0 0 100 60" fill="none">
+        <path d="M8 44 C20 43, 34 42, 48 40 S72 36, 92 34" stroke="#a9b4c5" stroke-width="4" stroke-linecap="round" opacity="0.75" />
+        <path d="M8 49 L92 49" stroke="rgba(243,236,223,0.18)" stroke-width="2" stroke-linecap="round" />
+      </svg>
     </div>
-    <div class="timeline-node px-4 py-5">
-      <div class="text-sm uppercase opacity-60 mb-2">офісна мутація</div>
-      <div class="text-xl leading-tight">Excel і KPI</div>
-      <div class="small-note mt-2">dashboard як храм</div>
-    </div>
-    <div class="timeline-node px-4 py-5">
-      <div class="text-sm uppercase opacity-60 mb-2">внутрішня колонія</div>
-      <div class="text-xl leading-tight">quantified self</div>
-      <div class="small-note mt-2">лінійка вже на зап'ясті</div>
+    <div class="text-xl leading-snug mt-5">
+      Але саме в цьому пастка. Щойно ми просимо графік як доказ, ми вже прийняли їхню методику суду над реальністю.
     </div>
   </div>
 </div>
-
-<div class="panel-soft px-6 py-4 text-2xl leading-tight mt-2">
-  Піфагорійці не зникли. Вони просто пройшли через кадастр і вийшли на smartwatch.
-</div>
-
-<!--
-Промова.
-
-Це важливо бачити не як набір випадкових епізодів, а як тяглу лінію однієї й тієї самої сили.
-
-Піфагорійці не зникли. Вони просто пройшли через кадастр і вийшли на smartwatch.
-
-Щоб ви розуміли, це не були просто математики.
-Це були люди, які одночасно обожнювали числа і ненавиділи фасолю.
-
-Культ вимірювання починається, що показово, з секти, яка мала дуже сильні думки про боби.
-Після того він просто став респектабельнішим.
--->
 
 ---
 
 <div class="grid grid-cols-2 gap-6 pt-2 items-stretch">
   <div class="axis-card px-6 py-6">
-    <div class="eyebrow mb-4">дозволені графіки</div>
-    <div class="grid grid-cols-2 gap-4">
+    <h1 class="hero-title text-5xl leading-none">ДОЗВОЛЕНІ ФОРМИ РЕАЛЬНОСТИ</h1>
+    <div class="grid grid-cols-2 gap-4 mt-8">
       <div class="mini-chart px-4 py-4">
         <svg viewBox="0 0 100 60" fill="none">
           <rect x="12" y="26" width="10" height="22" fill="#d6b25e" />
@@ -527,10 +505,13 @@ hideInToc: true
         </svg>
       </div>
     </div>
+    <div class="text-2xl leading-tight mt-6">
+      Excel приймає тільки те, що можна звести, порівняти і вставити в звіт.
+    </div>
   </div>
 
   <div class="axis-card px-6 py-6 spiral">
-    <div class="forbidden-label mb-4">заборонений графік</div>
+    <div class="forbidden-label mb-4">форма, яку вони не контролюють</div>
     <div style="height: 18rem;">
       <svg viewBox="0 0 320 260" fill="none">
         <path d="M162 131 C162 131, 185 122, 192 137 C199 152, 175 171, 151 170 C119 168, 97 138, 104 103 C112 63, 155 42, 198 54 C247 68, 274 120, 259 171 C240 235, 167 257, 103 239 C27 218, -2 124, 33 57" stroke="#cf785d" stroke-width="6" stroke-linecap="round" />
@@ -540,199 +521,15 @@ hideInToc: true
       </svg>
     </div>
     <div class="text-2xl leading-tight mt-3">
-      Свобода є. Але лише в межах обліку.
-    </div>
-    <div class="small-note mt-3">Нам ніколи не дозволять мати такий графік.</div>
-  </div>
-</div>
-
-<!--
-Промова.
-
-Це один із найчесніших слайдів у всій презентації.
-
-Зауважте: нам дають вибір.
-Але тільки між формами, придатними до порівняння.
-
-Bar, line, pie, scatter, area.
-Свобода є.
-Але лише в межах обліку.
-
-Нам ніколи не дозволять мати такий графік.
-Бо він гарний, складний, живий і погано масштабується в KPI.
--->
-
----
-
-<div class="pt-2">
-  <div class="eyebrow mb-3">механіка корупції метрики</div>
-  <h1 class="hero-title text-6xl">КОЛИ ЧИСЛО СТАЄ ЦІЛЛЮ</h1>
-  <div class="text-2xl opacity-80 mt-2">Закон Гудгарта</div>
-</div>
-
-<div class="grid grid-cols-3 gap-5 mt-8">
-  <div class="case-card px-5 py-5">
-    <div class="stamp mb-4">cobra effect</div>
-    <div class="text-2xl leading-tight">боролись не з кобрами</div>
-    <div class="small-note mt-3">оптимізували виробництво кобр</div>
-  </div>
-  <div class="case-card px-5 py-5">
-    <div class="stamp mb-4">body count</div>
-    <div class="text-2xl leading-tight">число виглядає рішучим</div>
-    <div class="small-note mt-3">навіть коли правда вже втекла</div>
-  </div>
-  <div class="case-card px-5 py-5">
-    <div class="stamp mb-4">офісний кейс</div>
-    <div class="text-2xl leading-tight">ідеальний працівник</div>
-    <div class="small-note mt-3">пише “ок” за 0.3 секунди</div>
-  </div>
-</div>
-
-<div class="panel-soft mt-8 px-6 py-5 text-2xl leading-tight">
-  Коли число стає ціллю, правда починає удавати число.
-</div>
-
-<!--
-Промова.
-
-Тут механіка проста.
-Як тільки число стає ціллю, система починає виробляти не правду, а саме число.
-
-Коли число стає ціллю, правда починає удавати число.
-
-Вони не боролися з кобрами. Вони оптимізували виробництво кобр.
-
-Якщо міряти дружбу кількістю повідомлень, найкращі стосунки будуть з чат-ботами.
-Якщо міряти університет рейтингом, він починає не вчити, а виглядати рейтингово.
-Якщо міряти роботу швидкістю відповіді, ідеальний працівник пише “ок” за 0.3 секунди.
-
-Як тільки ви починаєте винагороджувати число, люди починають виробляти число.
--->
-
----
-
-<div class="grid grid-cols-2 gap-6 pt-2 items-stretch">
-  <div class="panel px-6 py-6">
-    <div class="eyebrow mb-4">міфологічний прецедент</div>
-    <h1 class="hero-title text-5xl leading-none">КОМЕНСУРАЦІЯ</h1>
-    <div class="text-2xl opacity-80 mt-2">Як принизити людину метриками</div>
-    <div class="mt-8 panel-soft px-5 py-5 text-xl leading-snug">
-      Прокруст брав мандрівника і підганяв його під ложе.
-      Якщо не влазив, відрізав зайве.
-      Якщо був замалий, дотягував.
-    </div>
-    <div class="mt-6 text-2xl leading-tight">
-      Принизити людину метриками — це спочатку зробити її порівнюваною.
+      Живе, криве, неоднозначне не заборонене. Воно просто не проходить їхній формат видимости.
     </div>
   </div>
-
-  <div class="panel px-6 py-6">
-    <div class="eyebrow mb-4">демонстраційне порівняння</div>
-    <table class="data-table">
-      <thead>
-        <tr>
-          <th>показник</th>
-          <th>горила</th>
-          <th>Трамп</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>кількість волосся</td>
-          <td>висока</td>
-          <td>нестабільна</td>
-        </tr>
-        <tr>
-          <td>маса</td>
-          <td>значна</td>
-          <td>також значна</td>
-        </tr>
-        <tr>
-          <td>сила хвату</td>
-          <td>домінує</td>
-          <td>невідомо</td>
-        </tr>
-        <tr>
-          <td>коефіцієнт придатности до джунглів</td>
-          <td>високий</td>
-          <td>катастрофічний</td>
-        </tr>
-        <tr>
-          <td>симетрія лиця</td>
-          <td>поза контекстом</td>
-          <td>чомусь врахована</td>
-        </tr>
-      </tbody>
-    </table>
-    <div class="small-note mt-5">Ми попали в їхню пастку, пробуючи порівняти їх.</div>
-  </div>
 </div>
-
-<!--
-Промова.
-
-Насильство метрики починається не тоді, коли ми щось порахували.
-Воно починається тоді, коли ми різні речі кладемо на одну вісь і називаємо це нейтральним.
-
-Прокруст — це не міф. Це архетип усіх систем оцінювання.
-
-Щойно ми погодились на порівняння, ми вже прийняли їхню владу.
-Ми попали в їхню пастку, пробуючи порівняти їх.
-
-Лінійка не просто міряє світ. Вона навчає світ соромитися кривизни.
--->
-
----
-
-<div class="pt-2">
-  <div class="eyebrow mb-4">сухий кейсовий блок</div>
-  <h1 class="hero-title text-6xl">ЖЕРТВИ ЛІНІЙКИ</h1>
-</div>
-
-<div class="grid grid-cols-2 gap-5 mt-8">
-  <div class="victim-card px-5 py-5">
-    <div class="stamp mb-3">медицина</div>
-    <div class="text-2xl leading-tight">пацієнт, якому “ще не досить болить по шкалі”</div>
-  </div>
-  <div class="victim-card px-5 py-5">
-    <div class="stamp mb-3">робота</div>
-    <div class="text-2xl leading-tight">працівник, який “не проходить по KPI”</div>
-  </div>
-  <div class="victim-card px-5 py-5">
-    <div class="stamp mb-3">освіта</div>
-    <div class="text-2xl leading-tight">дитина, яку тест переводить у “середній рівень”</div>
-  </div>
-  <div class="victim-card px-5 py-5">
-    <div class="stamp mb-3">соціальна видимість</div>
-    <div class="text-2xl leading-tight">людина, яка справді мудра, але неформалізована</div>
-  </div>
-</div>
-
-<div class="panel-soft mt-8 px-6 py-5 text-2xl leading-tight">
-  Система не бачить вас повністю. Вона бачить вас настільки, наскільки вас можна ранжувати.
-</div>
-
-<!--
-Промова.
-
-Тут уже не смішно, а просто сухо видно шкоду.
-
-Вони кажуть, що цифри прибирають суб'єктивність.
-Але дуже часто вони просто прибирають людину.
-
-Пацієнт має біль, але його біль мусить пройти через шкалу.
-Працівник має реальний вклад, але система питає тільки про KPI.
-Дитина має спосіб думати, але тест перетворює її на рівень.
-Людина може бути мудра, але якщо це не переводиться в сертифікат, система не має для неї поля.
-
-Система не бачить вас повністю. Вона бачить вас настільки, наскільки вас можна ранжувати.
--->
 
 ---
 
 <div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
   <div class="col-span-3 panel px-6 py-6">
-    <div class="eyebrow mb-4">поле без адміністративної ваги</div>
     <h1 class="hero-title text-5xl leading-none">АДМІНІСТРАТИВНО НЕІСНУЮЧЕ</h1>
     <div class="grid grid-cols-2 gap-3 mt-8 text-lg">
       <div class="admin-tag">ніжність</div>
@@ -748,17 +545,15 @@ Bar, line, pie, scatter, area.
   </div>
 
   <div class="col-span-2 panel px-5 py-5 flex flex-col justify-between">
-    <div>
-      <div class="eyebrow mb-4">фінальний приклад</div>
-      <div class="grid grid-cols-2 gap-3">
-        <div class="panel-soft px-4 py-4">
-          <div class="text-sm uppercase opacity-60 mb-2">GDP</div>
-          <div class="text-xl leading-tight">добре бачить виробництво</div>
-        </div>
-        <div class="panel-soft px-4 py-4">
-          <div class="text-sm uppercase opacity-60 mb-2">Gross National Happiness</div>
-          <div class="text-xl leading-tight">ставить незручне питання про життя</div>
-        </div>
+    <div class="grid grid-cols-1 gap-3">
+      <div class="panel-soft px-4 py-4">
+        <div class="text-xl leading-tight">Нема поля — нема рядка.</div>
+      </div>
+      <div class="panel-soft px-4 py-4">
+        <div class="text-xl leading-tight">Нема рядка — нема бюджету.</div>
+      </div>
+      <div class="panel-soft px-4 py-4">
+        <div class="text-xl leading-tight">Нема бюджету — нема офіційної реальности.</div>
       </div>
     </div>
     <div class="void-stamp mt-5">нерепортоване не означає неіснуюче</div>
@@ -770,28 +565,47 @@ Bar, line, pie, scatter, area.
   <div class="panel-soft px-5 py-4">Гідність існує, але не в дашборді.</div>
 </div>
 
-<!--
-Промова.
+---
 
-Один із найсильніших ефектів системи в тому, що вона не мусить прямо забороняти важливі речі.
-Достатньо зробити їх адміністративно неіснуючими.
+<div class="grid grid-cols-5 gap-6 pt-2 items-center">
+  <div class="col-span-2 panel px-6 py-6">
+    <h1 class="hero-title text-5xl leading-none">ОСТАННЯ СТАДІЯ: QUANTIFIED SELF</h1>
+    <div class="mt-8 text-2xl leading-snug">
+      Того тижня я знайшов спільноту людей, метою яких є поміряти себе.
+    </div>
+    <div class="panel-soft px-5 py-5 mt-6 text-xl leading-snug">
+      сон, кроки, стрес, готовність до продуктивности, якість ранку, індекс вечора, настрій у цифрі
+    </div>
+    <div class="mt-6 text-2xl leading-tight">
+      Коли людина сама стає своїм інспектором, братству вже не треба стояти поруч.
+    </div>
+  </div>
 
-Нема одиниці виміру, нема обіцянки, нема звітности, нема реальности.
-
-Ніжність не заборонена. Вона просто не має бюджетного рядка.
-Гідність існує, але не в дашборді.
-
-GDP чудово бачить виробництво.
-Але дуже погано бачить, чи взагалі варто було так жити.
--->
+  <div class="col-span-3 flex items-center justify-center gap-6">
+    <div class="watch-band"></div>
+    <div class="watch flex flex-col justify-center items-center text-center">
+      <div class="text-sm uppercase tracking-[0.22em] opacity-60">self report</div>
+      <div class="text-5xl mt-2">87</div>
+      <div class="text-lg mt-2">готовність до продуктивности</div>
+      <div class="mt-4 grid grid-cols-2 gap-3 text-sm w-44">
+        <div class="panel-soft px-2 py-2">сон 6:11</div>
+        <div class="panel-soft px-2 py-2">стрес 42</div>
+        <div class="panel-soft px-2 py-2">кроки 9 804</div>
+        <div class="panel-soft px-2 py-2">настрій 6.2</div>
+      </div>
+    </div>
+    <div class="watch-band"></div>
+  </div>
+</div>
 
 ---
 
 <div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
   <div class="col-span-3 panel px-6 py-6 circumplex">
-    <div class="eyebrow mb-4">Excel для душі</div>
     <h1 class="hero-title text-5xl leading-none">ЕМОЦІЙНИЙ ЦИРКУМПЛЕКС</h1>
-    <div class="text-2xl opacity-80 mt-2">дві санкціоновані осі для внутрішнього життя</div>
+    <div class="text-2xl leading-snug mt-4 max-w-3xl">
+      Там я знайшов оцей диявольський прилад, шо вони назвали емоційним циркумплексом.
+    </div>
     <div style="height: 20rem; margin-top: 1.2rem;">
       <svg viewBox="0 0 520 340" fill="none">
         <rect x="70" y="25" width="280" height="280" rx="26" fill="rgba(243,236,223,0.03)" stroke="rgba(243,236,223,0.16)" />
@@ -819,127 +633,13 @@ GDP чудово бачить виробництво.
 
   <div class="col-span-2 panel px-5 py-5 flex flex-col justify-between">
     <div class="text-2xl leading-tight">
-      Нам дозволили мати емоції, але лише двовимірні.
+      Це прилад для душі, в якому внутрішнє життя силоміць кладуть на дві санкціоновані осі.
     </div>
     <div class="panel-soft px-4 py-4 mt-5 text-xl leading-snug">
-      Емоційний циркумплекс — це прокрустове ложе для внутрішнього життя.
+      Якщо почуття не вкладається в цю схему, його оголосять шумом, збоєм або некоректною самозвітністю.
+    </div>
+    <div class="final-quote" style="font-size: 1.9rem; max-width: 19rem;">
+      Вони дійшли вже до душі.
     </div>
   </div>
 </div>
-
-<!--
-Промова.
-
-Ось момент, де змова доходить до внутрішнього життя.
-
-Нам дозволили мати емоції, але лише двовимірні.
-
-Емоційний циркумплекс зручний.
-Саме тому він такий підозрілий.
-Він добре працює для вимірювання, але погано поводиться зі змішаними станами.
-
-Бути одночасно злим і веселим адміністративно незручно.
-
-Емоційний циркумплекс — це прокрустове ложе для внутрішнього життя.
-Проблема не в тому, що модель проста.
-Проблема в тому, що вона принижує змішані стани до помилки вимірювання.
--->
-
----
-
-<div class="grid grid-cols-5 gap-6 pt-2 items-center">
-  <div class="col-span-2 panel px-6 py-6">
-    <div class="eyebrow mb-4">кульмінація</div>
-    <h1 class="hero-title text-5xl leading-none">ОСТАННЯ СТАДІЯ ЗМОВИ</h1>
-    <div class="text-2xl opacity-80 mt-2">Quantified Self</div>
-    <div class="mt-8 space-y-3 text-xl leading-snug">
-      <div>раніше людину міряли ззовні</div>
-      <div>потім її навчили мислити метриками</div>
-      <div>тепер вона добровільно носить dashboard на собі</div>
-    </div>
-  </div>
-
-  <div class="col-span-3 flex items-center justify-center gap-6">
-    <div class="watch-band"></div>
-    <div class="watch flex flex-col justify-center items-center text-center">
-      <div class="text-sm uppercase tracking-[0.22em] opacity-60">self report</div>
-      <div class="text-5xl mt-2">87</div>
-      <div class="text-lg mt-2">готовність до продуктивности</div>
-      <div class="mt-4 grid grid-cols-2 gap-3 text-sm w-44">
-        <div class="panel-soft px-2 py-2">сон 6:11</div>
-        <div class="panel-soft px-2 py-2">стрес 42</div>
-        <div class="panel-soft px-2 py-2">кроки 9 804</div>
-        <div class="panel-soft px-2 py-2">настрій 6.2</div>
-      </div>
-    </div>
-    <div class="watch-band"></div>
-  </div>
-</div>
-
-<div class="panel-soft mt-6 px-6 py-5 text-2xl leading-tight">
-  Остання стадія змови — коли жертва сама купує собі датчик.
-</div>
-
-<!--
-Промова.
-
-Оце і є кульмінація.
-
-Раніше вони носили лінійку в руці.
-Тепер ми носимо її на зап'ясті.
-
-Остання стадія змови — коли жертва сама купує собі датчик.
-
-Раніше людину міряли ззовні.
-Потім її навчили мислити метриками.
-Тепер вона добровільно перетворює себе на dashboard.
-
-Self-knowledge through numbers — це коли самопізнання вже остаточно перейшло на бік нагляду.
--->
-
----
-
-<div class="h-full flex flex-col justify-between pt-4 pb-4">
-  <div>
-    <div class="eyebrow mb-4">фінал</div>
-    <h1 class="hero-title text-6xl">ЩО ВОНИ ХОЧУТЬ?</h1>
-  </div>
-
-  <div class="panel px-8 py-8">
-    <div class="final-quote">
-      Найуспішніша маніпуляція не в тому, щоб знищити невимірюване.
-      А в тому, щоб зробити його несерйозним.
-    </div>
-  </div>
-
-  <div class="grid grid-cols-4 gap-4 text-center text-lg">
-    <div class="panel-soft px-4 py-4">спершу міряли світ</div>
-    <div class="panel-soft px-4 py-4">потім людей</div>
-    <div class="panel-soft px-4 py-4">потім емоції</div>
-    <div class="panel-soft px-4 py-4">тепер люди міряють себе самі</div>
-  </div>
-
-  <div class="text-2xl leading-tight max-w-4xl opacity-85">
-    Ми не в світі, де все міряють. Ми в світі, де неміряне мусить виправдовуватись.
-  </div>
-</div>
-
-<!--
-Промова.
-
-Тут важливо не моралізувати.
-Треба просто назвати їхню справжню перемогу.
-
-Їхня перемога не в тому, що вони все виміряли.
-Їхня перемога в тому, що ми вже самі автоматично довіряємо шкалі більше, ніж досвідові.
-
-Найуспішніша маніпуляція не в тому, щоб знищити невимірюване.
-А в тому, щоб зробити його несерйозним.
-
-Вони не забрали в нас душу.
-Вони просто зробили її нерепортованою.
-
-Ми не в світі, де все міряють.
-Ми в світі, де неміряне мусить виправдовуватись.
--->
-
