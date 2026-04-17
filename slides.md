@@ -252,7 +252,7 @@ hideInToc: true
 <div class="grid grid-cols-2 gap-8 pt-4 items-stretch">
   <div class="panel-ivory px-8 py-8 flex flex-col justify-between">
     <div>
-      <h1 class="hero-title text-6xl mt-1">Уявіть шо…</h1>
+      <h1 class="hero-title text-6xl mt-1">Уяви що...</h1>
     </div>
   </div>
 
