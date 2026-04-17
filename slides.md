@@ -234,10 +234,10 @@ hideInToc: true
     Влада почала скуповувати шкіру кобр.
   </div>
   <div class="panel-soft px-5 py-5">
-    Люди почали розводити кобр, щоби стабільно здавати їх за винагороду.
+    Люди почали розводити кобр, і здавати їх за винагороду.
   </div>
   <div class="panel-soft px-5 py-5">
-    Влада сама створила те, що хотіла знищити.
+    Влада сама породила те, що хотіла знищити.
   </div>
 </div>
 
@@ -530,14 +530,11 @@ hideInToc: true
   <div class="col-span-3 panel px-6 py-6">
     <h1 class="hero-title text-5xl leading-none">АДМІНІСТРАТИВНО НЕІСНУЮЧЕ</h1>
     <div class="grid grid-cols-2 gap-3 mt-8 text-lg">
-      <div class="admin-tag">ніжність</div>
       <div class="admin-tag">гідність</div>
-      <div class="admin-tag">змішані емоції</div>
-      <div class="admin-tag">локальне знання</div>
-      <div class="admin-tag">примирення</div>
-      <div class="admin-tag">мудрість без сертифіката</div>
-      <div class="admin-tag">відчуття, що тебе справді побачили</div>
       <div class="admin-tag">добрий смак</div>
+      <div class="admin-tag">мудрість</div>
+      <div class="admin-tag">ніжність</div>
+      <div class="admin-tag">локальне знання</div>
       <div class="admin-tag">милість</div>
     </div>
   </div>
