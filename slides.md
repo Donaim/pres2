@@ -243,7 +243,7 @@ hideInToc: true
 
 <v-clicks>
 <div class="panel-soft mt-8 px-6 py-5 text-2xl leading-tight">
-  Кек
+  Коли число стає цільом, правда починає вдавати число.
 </div>
 </v-clicks>
 
