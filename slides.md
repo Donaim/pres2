@@ -432,7 +432,7 @@ hideInToc: true
   <div class="panel-soft px-5 py-5">evidence-based</div>
   <div class="panel-soft px-5 py-5">actionable</div>
   <div class="panel-soft px-5 py-5">dashboard-ready</div>
-  <div class="panel px-5 py-5 text-[var(--deck-accent)]">придатне до управління</div>
+  <div class="panel-soft px-5 py-5">придатне до управління</div>
 </div>
 
 ---
