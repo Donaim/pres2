@@ -548,6 +548,45 @@ hideInToc: true
 
 ---
 
+<div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
+  <div class="col-span-3 panel px-6 py-6">
+    <h1 class="hero-title text-5xl leading-none">АДМІНІСТРАТИВНО НЕІСНУЮЧЕ</h1>
+    <div class="grid grid-cols-2 gap-3 mt-8 text-lg">
+      <div class="admin-tag">ніжність</div>
+      <div class="admin-tag">гідність</div>
+      <div class="admin-tag">змішані емоції</div>
+      <div class="admin-tag">локальне знання</div>
+      <div class="admin-tag">примирення</div>
+      <div class="admin-tag">мудрість без сертифіката</div>
+      <div class="admin-tag">відчуття, що тебе справді побачили</div>
+      <div class="admin-tag">добрий смак</div>
+      <div class="admin-tag">милість</div>
+    </div>
+  </div>
+
+  <div class="col-span-2 panel px-5 py-5 flex flex-col justify-between">
+    <div class="grid grid-cols-1 gap-3">
+      <div class="panel-soft px-4 py-4">
+        <div class="text-xl leading-tight">Нема поля — нема рядка.</div>
+      </div>
+      <div class="panel-soft px-4 py-4">
+        <div class="text-xl leading-tight">Нема рядка — нема бюджету.</div>
+      </div>
+      <div class="panel-soft px-4 py-4">
+        <div class="text-xl leading-tight">Нема бюджету — нема офіційної реальности.</div>
+      </div>
+    </div>
+    <div class="void-stamp mt-5">нерепортоване не означає неіснуюче</div>
+  </div>
+</div>
+
+<div class="mt-6 grid grid-cols-2 gap-4 text-xl">
+  <div class="panel-soft px-5 py-4">Ніжність не заборонена. Вона просто не має бюджетного рядка.</div>
+  <div class="panel-soft px-5 py-4">Гідність існує, але не в дашборді.</div>
+</div>
+
+---
+
 <div class="grid grid-cols-2 gap-6 pt-2 items-stretch">
   <div class="panel px-6 py-6">
     <h1 class="hero-title text-5xl leading-none">КОМЕНСУРАЦІЯ</h1>
@@ -601,45 +640,6 @@ hideInToc: true
       Коменсурація не просто описує світ. Вона силоміць робить його зручним для приниження.
     </div>
   </div>
-</div>
-
----
-
-<div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
-  <div class="col-span-3 panel px-6 py-6">
-    <h1 class="hero-title text-5xl leading-none">АДМІНІСТРАТИВНО НЕІСНУЮЧЕ</h1>
-    <div class="grid grid-cols-2 gap-3 mt-8 text-lg">
-      <div class="admin-tag">ніжність</div>
-      <div class="admin-tag">гідність</div>
-      <div class="admin-tag">змішані емоції</div>
-      <div class="admin-tag">локальне знання</div>
-      <div class="admin-tag">примирення</div>
-      <div class="admin-tag">мудрість без сертифіката</div>
-      <div class="admin-tag">відчуття, що тебе справді побачили</div>
-      <div class="admin-tag">добрий смак</div>
-      <div class="admin-tag">милість</div>
-    </div>
-  </div>
-
-  <div class="col-span-2 panel px-5 py-5 flex flex-col justify-between">
-    <div class="grid grid-cols-1 gap-3">
-      <div class="panel-soft px-4 py-4">
-        <div class="text-xl leading-tight">Нема поля — нема рядка.</div>
-      </div>
-      <div class="panel-soft px-4 py-4">
-        <div class="text-xl leading-tight">Нема рядка — нема бюджету.</div>
-      </div>
-      <div class="panel-soft px-4 py-4">
-        <div class="text-xl leading-tight">Нема бюджету — нема офіційної реальности.</div>
-      </div>
-    </div>
-    <div class="void-stamp mt-5">нерепортоване не означає неіснуюче</div>
-  </div>
-</div>
-
-<div class="mt-6 grid grid-cols-2 gap-4 text-xl">
-  <div class="panel-soft px-5 py-4">Ніжність не заборонена. Вона просто не має бюджетного рядка.</div>
-  <div class="panel-soft px-5 py-4">Гідність існує, але не в дашборді.</div>
 </div>
 
 ---
