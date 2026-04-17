@@ -192,8 +192,8 @@ hideInToc: true
 <div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
   <div class="col-span-3 panel px-8 py-8 flex flex-col justify-between">
     <div class="text-2xl leading-snug max-w-3xl mt-8">
-      Жив був Прокруст, він був розбійник.
-      Прокруст стояв на дорозі і ласкаво запрошував мандрівників переночувати.
+      Жив був Прокруст, він мав хату при дорозі.
+      До тої хати він запрошував мандрівників переночувати.
     </div>
     <div class="panel-soft mt-6 px-6 py-6 text-xl leading-snug">
       У нього було ложе однієї правильної довжини.
