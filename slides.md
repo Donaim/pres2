@@ -292,12 +292,16 @@ hideInToc: true
 
 <div class="h-full flex flex-col justify-center items-center text-center">
   <div class="hero-title" style="font-size: 5.3rem; line-height: 0.95;">КОМУ ТО ВИГІДНО?</div>
+  <v-clicks>
   <div class="mt-10 text-2xl leading-tight max-w-3xl opacity-85">
     Чому школа, ринок, медицина і держава так дружно вимагають не правду, а показник?
   </div>
+  </v-clicks>
+  <v-clicks>
   <div class="panel-soft mt-10 px-6 py-5 text-xl leading-snug max-w-3xl">
     Бо за кожною шкалою стоїть той, хто вирішив, що саме вважати видимим, серйозним і реальним.
   </div>
+  </v-clicks>
 </div>
 
 ---
