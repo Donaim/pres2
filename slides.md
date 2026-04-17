@@ -720,6 +720,3 @@ hideInToc: true
     </div>
   </div>
 </div>
-
----
-
