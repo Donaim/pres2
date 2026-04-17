@@ -228,7 +228,7 @@ hideInToc: true
 
 <div class="grid grid-cols-4 gap-4 mt-6 text-xl">
   <div class="panel-soft px-5 py-5">
-    У містах було багато кобр. Як горобці китайцям, вони перешкоджали тодішній короні.
+    Як горобці китайцям, кобри перешкоджали тодішній короні.
   </div>
   <div class="panel-soft px-5 py-5">
     Влада почала скуповувати шкіру кобр.
@@ -240,6 +240,12 @@ hideInToc: true
     Влада сама породила те, що хотіла знищити.
   </div>
 </div>
+
+<v-clicks>
+<div class="panel-soft mt-8 px-6 py-5 text-2xl leading-tight">
+  Кек
+</div>
+</v-clicks>
 
 ---
 
