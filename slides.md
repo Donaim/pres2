@@ -385,11 +385,6 @@ hideInToc: true
       <div class="small-note mt-2">поклоняютсє числу і прямому куту</div>
     </div>
     <div class="timeline-node px-4 py-5">
-      <div class="text-sm uppercase opacity-60 mb-2">античність</div>
-      <div class="text-xl leading-tight">у мандрівному плащі</div>
-      <div class="small-note mt-2">перевіряють, хто влазить у правильну форму</div>
-    </div>
-    <div class="timeline-node px-4 py-5">
       <div class="text-sm uppercase opacity-60 mb-2">ранні держави</div>
       <div class="text-xl leading-tight">у печатці й мантії</div>
       <div class="small-note mt-2">оформлюють світ так, щоби його було зручно зводити</div>
