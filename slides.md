@@ -161,6 +161,19 @@ hideInToc: true
     max-width: 49rem;
   }
 
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+  }
+
+  .data-table td,
+  .data-table th {
+    border-bottom: 1px solid rgba(243, 236, 223, 0.08);
+    padding: 0.58rem 0.1rem;
+    text-align: left;
+  }
+
   .small-note {
     color: var(--deck-muted);
     font-size: 0.9rem;
@@ -176,6 +189,75 @@ hideInToc: true
   }
 </style>
 
+<div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
+  <div class="col-span-3 panel px-8 py-8 flex flex-col justify-between">
+    <div>
+      <h1 class="hero-title text-6xl">ПРОКРУСТ</h1>
+      <div class="text-2xl opacity-80 mt-3">Старий грецький жах</div>
+    </div>
+    <div class="text-2xl leading-snug max-w-3xl mt-8">
+      На дорозі стояв розбійник, який запрошував мандрівників переночувати.
+    </div>
+    <div class="panel-soft mt-6 px-6 py-6 text-xl leading-snug">
+      У нього було ложе однієї правильної довжини.
+      Кого тіло виявлялось завеликим — він обрізав.
+      Кого замалим — розтягував, доки не підійде.
+    </div>
+    <div class="text-2xl leading-tight mt-6">
+      На ранок у нього всі ставали однаковими.
+    </div>
+  </div>
+
+  <div class="col-span-2 panel-soft px-6 py-6 flex flex-col justify-between">
+    <div style="height: 17rem;">
+      <svg viewBox="0 0 260 180" fill="none">
+        <rect x="44" y="62" width="172" height="50" rx="12" stroke="rgba(243,236,223,0.28)" stroke-width="3" />
+        <rect x="54" y="72" width="68" height="30" rx="8" fill="rgba(243,236,223,0.12)" />
+        <line x1="54" y1="112" x2="54" y2="156" stroke="rgba(243,236,223,0.22)" stroke-width="6" stroke-linecap="round" />
+        <line x1="206" y1="112" x2="206" y2="156" stroke="rgba(243,236,223,0.22)" stroke-width="6" stroke-linecap="round" />
+        <line x1="62" y1="112" x2="62" y2="156" stroke="rgba(243,236,223,0.22)" stroke-width="6" stroke-linecap="round" />
+        <line x1="198" y1="112" x2="198" y2="156" stroke="rgba(243,236,223,0.22)" stroke-width="6" stroke-linecap="round" />
+        <circle cx="136" cy="86" r="13" fill="#d6b25e" opacity="0.85" />
+        <path d="M149 86 L188 86" stroke="#d6b25e" stroke-width="10" stroke-linecap="round" />
+        <path d="M112 86 L83 86" stroke="#cf785d" stroke-width="10" stroke-linecap="round" />
+        <path d="M137 99 L137 118" stroke="#d6b25e" stroke-width="10" stroke-linecap="round" />
+        <path d="M126 120 L109 142" stroke="#d6b25e" stroke-width="8" stroke-linecap="round" />
+        <path d="M148 120 L165 142" stroke="#d6b25e" stroke-width="8" stroke-linecap="round" />
+      </svg>
+    </div>
+    <div class="text-2xl leading-tight">
+      Одне ложе. Одна правильна довжина. Один господар, який ненавидів усе, що не влазить.
+    </div>
+  </div>
+</div>
+
+---
+
+<div class="pt-2">
+  <h1 class="hero-title text-6xl">ЗАКОН ГУДГАРТА</h1>
+</div>
+
+<div class="panel mt-8 px-7 py-6 text-2xl leading-tight">
+  В 18 столітті Британська імперія колонізовувала Індію і зіткнулася з проблемою кобр.
+</div>
+
+<div class="grid grid-cols-4 gap-4 mt-6 text-xl">
+  <div class="panel-soft px-5 py-5">
+    У містах було багато кобр, і влада хотіла швидко показати результат.
+  </div>
+  <div class="panel-soft px-5 py-5">
+    Ввели нагороду за кожну мертву кобру.
+  </div>
+  <div class="panel-soft px-5 py-5">
+    Люди почали розводити кобр, щоби стабільно здавати їх за винагороду.
+  </div>
+  <div class="panel-soft px-5 py-5">
+    Влада сама створила те, що хотіла знищити.
+  </div>
+</div>
+
+---
+
 <div class="grid grid-cols-2 gap-8 pt-4 items-stretch">
   <div class="panel-ivory px-8 py-8 flex flex-col justify-between">
     <div>
@@ -183,9 +265,6 @@ hideInToc: true
       <div class="small-note mt-6" style="color:#4b5563; max-width: 25rem;">
         Світ, де про речі судять по суті, а не по цифрі, ціннику чи рейтингу.
       </div>
-    </div>
-    <div class="text-xl leading-snug" style="color:#1f2937; max-width: 26rem;">
-      Саме такий порядок і перекрили люди, які навчили нас плутати реальність із її вимірюваним сурогатом.
     </div>
   </div>
 
@@ -197,7 +276,6 @@ hideInToc: true
       <div class="text-2xl leading-tight mb-4">дорожче означає не “статусніше”, а справді якісніше</div>
       <div class="text-2xl leading-tight">країну оцінюють по добробуту людей, а не по GDP</div>
     </v-clicks>
-    <div class="small-note mt-8">Саме цей світ у нас і забрали.</div>
   </div>
 </div>
 
@@ -219,7 +297,7 @@ hideInToc: true
 </div>
 
 <div class="panel-soft mt-8 px-6 py-5 text-2xl leading-tight">
-  Це не випадкові фрази. Це один дисциплінарний голос, розкладений на вісім рупорів.
+  Це не випадкові фрази. Це вісім інтонацій одного й того самого дисциплінарного голосу.
 </div>
 
 ---
@@ -231,63 +309,6 @@ hideInToc: true
   </div>
   <div class="panel-soft mt-10 px-6 py-5 text-xl leading-snug max-w-3xl">
     Бо за кожною шкалою стоїть той, хто вирішив, що саме вважати видимим, серйозним і реальним.
-  </div>
-</div>
-
----
-
-<div class="pt-2">
-  <h1 class="hero-title text-6xl">КОЛИ ЧИСЛО СТАЄ ЦІЛЛЮ</h1>
-  <div class="text-2xl opacity-80 mt-2">Історія кобр</div>
-</div>
-
-<div class="panel mt-8 px-7 py-6 text-2xl leading-tight">
-  В 18 столітті Британська імперія колонізовувала Індію і зіткнулася з проблемою кобр.
-</div>
-
-<div class="grid grid-cols-4 gap-4 mt-6 text-xl">
-  <div class="panel-soft px-5 py-5">
-    У містах було багато кобр, і колоніальна влада хотіла швидко показати результат.
-  </div>
-  <div class="panel-soft px-5 py-5">
-    Влада оголосила нагороду за кожну мертву кобру і зробила труп кобри офіційною одиницею успіху.
-  </div>
-  <div class="panel-soft px-5 py-5">
-    Люди почали розводити кобр, щоби стабільно здавати їх за винагороду.
-  </div>
-  <div class="panel-soft px-5 py-5">
-    Коли схему згорнули, розплідники випустили кобр назад. Імперія сама розвела те, що хотіла винищити.
-  </div>
-</div>
-
-<div class="panel-soft mt-8 px-6 py-5 text-2xl leading-tight">
-  Так працює їхня улюблена магія: щойно показник стає важливішим за реальність, система починає виробляти показник.
-</div>
-
----
-
-<div class="grid grid-cols-2 gap-6 pt-2 items-stretch">
-  <div class="panel px-6 py-6">
-    <h1 class="hero-title text-5xl leading-none">ПРОКРУСТ І КОМЕНСУРАЦІЯ</h1>
-    <div class="text-2xl opacity-80 mt-2">Як людей роблять порівнюваними</div>
-    <div class="mt-8 panel-soft px-5 py-5 text-xl leading-snug">
-      Прокруст клав мандрівника на ложе і підганяв тіло під задану довжину. Те, що не влазило, відрізав. Те, чого бракувало, дотягував.
-    </div>
-    <div class="mt-6 text-2xl leading-tight">
-      Коменсурація починається там, де різне силою перетворюють на порівнюване.
-    </div>
-  </div>
-
-  <div class="panel px-6 py-6 flex flex-col justify-between">
-    <div class="text-2xl leading-tight">
-      Людину не питають, ким вона є. Її питають, у яку шкалу вона влазить.
-    </div>
-    <div class="panel-soft px-5 py-5 mt-5 text-xl leading-snug">
-      Далі все йде за старою схемою: відрізати зайве, витягнути недостатнє, а решту оголосити шумом.
-    </div>
-    <div class="text-2xl leading-tight mt-5">
-      Прокруст був першим польовим техніком тієї системи, яка тепер називає це оцінюванням.
-    </div>
   </div>
 </div>
 
@@ -445,13 +466,13 @@ hideInToc: true
     </div>
 
     <div class="panel-soft mt-6 px-5 py-5 text-2xl leading-tight">
-      Якщо люди довіряють тільки графіку, ними керують ті, хто малює графік.
+      Якщо люди довіряють тільки графіку, світом керують ті, хто вирішує, що саме можна намалювати.
     </div>
   </div>
 
   <div class="col-span-2 axis-card px-5 py-5 flex flex-col justify-between">
     <div class="text-xl leading-snug">
-      Якщо подивитись на графіки їхнього прямого впливу, вони виглядають незначними.
+      Хтось скаже: якщо дивитися на прямі показники, їхній вплив виглядає мізерним.
     </div>
     <div class="mini-chart mt-6 px-4 py-4">
       <svg viewBox="0 0 100 60" fill="none">
@@ -459,8 +480,11 @@ hideInToc: true
         <path d="M8 49 L92 49" stroke="rgba(243,236,223,0.18)" stroke-width="2" stroke-linecap="round" />
       </svg>
     </div>
+    <div class="panel-soft mt-5 px-4 py-4 text-2xl leading-tight">
+      І отут ми вже в пастці.
+    </div>
     <div class="text-xl leading-snug mt-5">
-      Але саме в цьому пастка. Щойно ми просимо графік як доказ, ми вже прийняли їхню методику суду над реальністю.
+      Щойно ми просимо графік як доказ, ми вже погодились, що реальне тільки те, що можна виміряти, показати і порівняти.
     </div>
   </div>
 </div>
@@ -505,13 +529,9 @@ hideInToc: true
         </svg>
       </div>
     </div>
-    <div class="text-2xl leading-tight mt-6">
-      Excel приймає тільки те, що можна звести, порівняти і вставити в звіт.
-    </div>
   </div>
 
   <div class="axis-card px-6 py-6 spiral">
-    <div class="forbidden-label mb-4">форма, яку вони не контролюють</div>
     <div style="height: 18rem;">
       <svg viewBox="0 0 320 260" fill="none">
         <path d="M162 131 C162 131, 185 122, 192 137 C199 152, 175 171, 151 170 C119 168, 97 138, 104 103 C112 63, 155 42, 198 54 C247 68, 274 120, 259 171 C240 235, 167 257, 103 239 C27 218, -2 124, 33 57" stroke="#cf785d" stroke-width="6" stroke-linecap="round" />
@@ -520,8 +540,65 @@ hideInToc: true
         <circle cx="204" cy="198" r="6" fill="#f3ecdf" opacity="0.8" />
       </svg>
     </div>
-    <div class="text-2xl leading-tight mt-3">
-      Живе, криве, неоднозначне не заборонене. Воно просто не проходить їхній формат видимости.
+    <div class="text-2xl leading-tight mt-3 text-center">
+      нам ніколи не дозволять мати такий графік
+    </div>
+  </div>
+</div>
+
+---
+
+<div class="grid grid-cols-2 gap-6 pt-2 items-stretch">
+  <div class="panel px-6 py-6">
+    <h1 class="hero-title text-5xl leading-none">ТРАМП І ГОРИЛА</h1>
+    <div class="text-2xl opacity-80 mt-2">Як починається приниження</div>
+    <table class="data-table mt-8">
+      <thead>
+        <tr>
+          <th>показник</th>
+          <th>горила</th>
+          <th>Трамп</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>кількість волосся</td>
+          <td>висока</td>
+          <td>нестабільна</td>
+        </tr>
+        <tr>
+          <td>маса</td>
+          <td>значна</td>
+          <td>також значна</td>
+        </tr>
+        <tr>
+          <td>сила хвату</td>
+          <td>домінує</td>
+          <td>невідомо</td>
+        </tr>
+        <tr>
+          <td>коефіцієнт придатности до джунглів</td>
+          <td>високий</td>
+          <td>катастрофічний</td>
+        </tr>
+        <tr>
+          <td>симетрія лиця</td>
+          <td>поза контекстом</td>
+          <td>чомусь врахована</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="panel px-6 py-6 flex flex-col justify-between">
+    <div class="text-2xl leading-tight">
+      Насильство починається не в моменті висновку. Воно починається в моменті, коли хтось вирішує, що в них узагалі має бути спільна вісь.
+    </div>
+    <div class="panel-soft px-5 py-5 mt-5 text-xl leading-snug">
+      Щойно ми погодились на таку таблицю, ми вже погодились, що різне треба принизити до порівнюваного.
+    </div>
+    <div class="text-2xl leading-tight mt-5">
+      Коменсурація не просто описує світ. Вона силоміць робить його зручним для приниження.
     </div>
   </div>
 </div>
