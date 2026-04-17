@@ -207,20 +207,7 @@ hideInToc: true
 
   <div class="col-span-2 panel-soft px-6 py-6 flex flex-col justify-between">
     <div style="height: 17rem;">
-      <svg viewBox="0 0 260 180" fill="none">
-        <rect x="44" y="62" width="172" height="50" rx="12" stroke="rgba(243,236,223,0.28)" stroke-width="3" />
-        <rect x="54" y="72" width="68" height="30" rx="8" fill="rgba(243,236,223,0.12)" />
-        <line x1="54" y1="112" x2="54" y2="156" stroke="rgba(243,236,223,0.22)" stroke-width="6" stroke-linecap="round" />
-        <line x1="206" y1="112" x2="206" y2="156" stroke="rgba(243,236,223,0.22)" stroke-width="6" stroke-linecap="round" />
-        <line x1="62" y1="112" x2="62" y2="156" stroke="rgba(243,236,223,0.22)" stroke-width="6" stroke-linecap="round" />
-        <line x1="198" y1="112" x2="198" y2="156" stroke="rgba(243,236,223,0.22)" stroke-width="6" stroke-linecap="round" />
-        <circle cx="136" cy="86" r="13" fill="#d6b25e" opacity="0.85" />
-        <path d="M149 86 L188 86" stroke="#d6b25e" stroke-width="10" stroke-linecap="round" />
-        <path d="M112 86 L83 86" stroke="#cf785d" stroke-width="10" stroke-linecap="round" />
-        <path d="M137 99 L137 118" stroke="#d6b25e" stroke-width="10" stroke-linecap="round" />
-        <path d="M126 120 L109 142" stroke="#d6b25e" stroke-width="8" stroke-linecap="round" />
-        <path d="M148 120 L165 142" stroke="#d6b25e" stroke-width="8" stroke-linecap="round" />
-      </svg>
+    <img src="./assets/procrustes.webp" alt="Прокруст" class="watch">
     </div>
     <div class="text-2xl leading-tight">
       Одне ложе. Одна правильна довжина. Один господар, який ненавидів усе, що не влазить.
