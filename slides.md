@@ -422,12 +422,12 @@ hideInToc: true
 
 <div class="grid grid-cols-3 gap-4 mt-8 text-xl">
   <div class="panel-soft px-5 py-5">quantifiable</div>
-  <div class="panel-soft px-5 py-5">measurable</div>
-  <div class="panel-soft px-5 py-5">commensurable</div>
-  <div class="panel-soft px-5 py-5">legible</div>
   <div class="panel-soft px-5 py-5">standardized</div>
   <div class="panel-soft px-5 py-5">optimized</div>
   <div class="panel-soft px-5 py-5">objective</div>
+  <div class="panel-soft px-5 py-5">measurable</div>
+  <div class="panel-soft px-5 py-5">commensurable</div>
+  <div class="panel-soft px-5 py-5">legible</div>
   <div class="panel-soft px-5 py-5">scalable</div>
   <div class="panel-soft px-5 py-5">evidence-based</div>
   <div class="panel-soft px-5 py-5">actionable</div>
