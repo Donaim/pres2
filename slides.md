@@ -551,7 +551,6 @@ hideInToc: true
         <div class="text-xl leading-tight">Нема бюджету — нема офіційної реальности.</div>
       </div>
     </div>
-    <div class="void-stamp mt-5">нерепортоване не означає неіснуюче</div>
   </div>
 </div>
 
