@@ -723,4 +723,3 @@ hideInToc: true
 
 ---
 
-Рудолов
