@@ -205,6 +205,7 @@ hideInToc: true
     </div>
   </div>
 
+  <v-clicks class="col-span-2">
   <div class="col-span-2 panel-soft px-6 py-6 flex flex-col justify-between">
     <div style="height: 17rem;">
     <img src="./assets/procrustes.webp" alt="Прокруст" class="watch">
@@ -213,6 +214,7 @@ hideInToc: true
       Одне ложе. Одна правильна довжина. Один господар, який ненавидів усе, що не влазить.
     </div>
   </div>
+  </v-clicks>
 </div>
 
 ---
