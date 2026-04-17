@@ -279,7 +279,7 @@ hideInToc: true
   <div class="quote-chip">“Мені не треба красиво, мені треба, шоб робило”</div>
   <div class="quote-chip">“Оцініть свій біль від 0 до 10”</div>
   <div class="quote-chip">“Школа не для того, шоб тобі подобалось”</div>
-  <div class="quote-chip">“Дорожче означає ліпше”</div>
+  <div class="quote-chip">“Дорожче значить ліпше”</div>
   <div class="quote-chip">“Якісне не може бути дешеве”</div>
   <div class="quote-chip">“Може ти й чудова людина, але кредитний скор так не думає”</div>
 </div>
