@@ -486,18 +486,29 @@ hideInToc: true
     <h1 class="hero-title text-5xl leading-none">ДОЗВОЛЕНІ ФОРМИ РЕАЛЬНОСТИ</h1>
     <div class="text-xl opacity-60">те, що можна намалювати і показати</div>
   </div>
-  <div style="flex:1; display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr 1fr; gap:0.75rem; min-height:0;">
-    <div style="border-radius:14px; overflow:hidden; background:#fff; display:flex; align-items:center; justify-content:center; padding:0.5rem;">
-      <img src="./assets/chart-column.png" alt="Column chart" style="width:100%;height:100%;object-fit:contain;display:block;">
+  <div class="grid grid-cols-5 gap-4" style="flex:1; min-height:0;">
+    <div class="col-span-3" style="display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr 1fr; gap:0.6rem; min-height:0;">
+      <div style="border-radius:14px;overflow:hidden;background:#fff;display:flex;align-items:center;justify-content:center;padding:0.4rem;">
+        <img src="./assets/chart-column.png" alt="Column chart" style="width:100%;height:100%;object-fit:contain;display:block;">
+      </div>
+      <div style="border-radius:14px;overflow:hidden;background:#fff;display:flex;align-items:center;justify-content:center;padding:0.4rem;">
+        <img src="./assets/chart-line.png" alt="Line chart" style="width:100%;height:100%;object-fit:contain;display:block;">
+      </div>
+      <div style="border-radius:14px;overflow:hidden;background:#fff;display:flex;align-items:center;justify-content:center;padding:0.4rem;">
+        <img src="./assets/chart-pie.png" alt="Pie chart" style="width:100%;height:100%;object-fit:contain;display:block;">
+      </div>
+      <div style="border-radius:14px;overflow:hidden;background:#fff;display:flex;align-items:center;justify-content:center;padding:0.4rem;">
+        <img src="./assets/chart-scatter.png" alt="Scatter plot" style="width:100%;height:100%;object-fit:contain;display:block;">
+      </div>
     </div>
-    <div style="border-radius:14px; overflow:hidden; background:#fff; display:flex; align-items:center; justify-content:center; padding:0.5rem;">
-      <img src="./assets/chart-line.png" alt="Line chart" style="width:100%;height:100%;object-fit:contain;display:block;">
-    </div>
-    <div style="border-radius:14px; overflow:hidden; background:#fff; display:flex; align-items:center; justify-content:center; padding:0.5rem;">
-      <img src="./assets/chart-pie.png" alt="Pie chart" style="width:100%;height:100%;object-fit:contain;display:block;">
-    </div>
-    <div style="border-radius:14px; overflow:hidden; background:#fff; display:flex; align-items:center; justify-content:center; padding:0.5rem;">
-      <img src="./assets/chart-scatter.png" alt="Scatter plot" style="width:100%;height:100%;object-fit:contain;display:block;">
+    <div class="col-span-2 axis-card px-4 py-4 flex flex-col">
+      <div class="text-lg leading-snug opacity-75 mb-2">те, що ніколи не дозволять показати</div>
+      <div style="flex:1; min-height:0; display:flex; align-items:center; justify-content:center; overflow:hidden;">
+        <img src="./assets/chart-banned.png" alt="Banned chart" style="max-width:100%;max-height:100%;object-fit:contain;display:block;">
+      </div>
+      <div class="text-xl leading-tight text-center mt-2" style="color:var(--deck-danger);">
+        нам ніколи не дозволять мати такий графік
+      </div>
     </div>
   </div>
 </div>
