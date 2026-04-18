@@ -634,8 +634,8 @@ hideInToc: true
 
 <!-- Найдраматичніший момент. Зупинитись. "Зараз прошу всіх вразливих заплющити очі" — пауза — "бо я покажу вам диявольський прилад для душі." -->
 
-<div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
-  <div class="col-span-3 panel px-6 py-6">
+<div class="grid grid-cols-6 gap-6 pt-2 items-stretch">
+  <div class="col-span-4 panel px-6 py-6">
     <h1 class="hero-title text-5xl leading-none">ЕМОЦІЙНИЙ ЦИРКУМПЛЕКС</h1>
     <div style="height: 22rem; margin-top: 1rem; border-radius:18px; overflow:hidden; border:1px solid rgba(243,236,223,0.1); background:rgba(243,236,223,0.03); display:flex; align-items:center; justify-content:center;">
       <img src="./assets/emotional-circumplex.svg" alt="Емоційний циркумплекс" style="width:100%;height:100%;object-fit:contain;padding:0.5rem;">
