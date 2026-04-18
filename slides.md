@@ -330,7 +330,7 @@ hideInToc: true
     <br>
     Їхнє кредо:
     <div class="panel-soft mt-5 px-5 py-5 text-2xl leading-tight">
-      Їхнє кредо: <br> число — першопричина всього
+      Число — першопричина всього
     </div>
     <div class="mt-5 text-xl leading-snug">
       Правильна форма — не просто краса. Це модель, якій світ зобов'язаний коритись.
