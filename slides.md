@@ -400,30 +400,33 @@ hideInToc: true
 <div class="pt-2 flex flex-col" style="height:100%;">
   <h1 class="hero-title text-5xl leading-none text-center">ЩО ВОНИ ХОЧУТЬ?</h1>
   <div style="flex:1; min-height:0; display:flex; align-items:center; justify-content:center; padding-top:0.5rem; overflow:hidden;">
-    <svg viewBox="0 0 520 430" fill="none" style="max-height:100%;width:auto;max-width:88%;">
+    <svg viewBox="0 0 520 370" fill="none" style="max-height:100%;width:auto;max-width:88%;">
       <defs>
         <marker id="cw" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
           <path d="M0 0 L10 4 L0 8 Z" fill="rgba(214,178,94,0.95)"/>
         </marker>
       </defs>
-      <text x="260" y="192" text-anchor="middle" fill="rgba(243,236,223,0.28)" style="font-size:12px;">замкнуте</text>
-      <text x="260" y="208" text-anchor="middle" fill="rgba(243,236,223,0.28)" style="font-size:12px;">коло</text>
-      <path d="M 373 44 Q 468 18 464 170" stroke="rgba(214,178,94,0.65)" stroke-width="2.5" stroke-dasharray="8 5" fill="none" marker-end="url(#cw)"/>
-      <path d="M 464 232 Q 478 374 372 374" stroke="rgba(214,178,94,0.65)" stroke-width="2.5" stroke-dasharray="8 5" fill="none" marker-end="url(#cw)"/>
-      <path d="M 145 374 Q 38 374 54 234" stroke="rgba(214,178,94,0.65)" stroke-width="2.5" stroke-dasharray="8 5" fill="none" marker-end="url(#cw)"/>
-      <path d="M 54 168 Q 38 18 145 44" stroke="rgba(214,178,94,0.65)" stroke-width="2.5" stroke-dasharray="8 5" fill="none" marker-end="url(#cw)"/>
-      <rect x="142" y="22" width="236" height="44" rx="14" fill="rgba(243,236,223,0.07)" stroke="rgba(243,236,223,0.25)" stroke-width="1.5"/>
-      <text x="260" y="49" text-anchor="middle" fill="#f3ecdf" style="font-size:13px;">Задати форму видимого</text>
-      <rect x="348" y="168" width="158" height="64" rx="14" fill="rgba(243,236,223,0.07)" stroke="rgba(243,236,223,0.25)" stroke-width="1.5"/>
-      <text x="427" y="194" text-anchor="middle" fill="#f3ecdf" style="font-size:12px;">Керувати бюджетами</text>
-      <text x="427" y="213" text-anchor="middle" fill="#f3ecdf" style="font-size:12px;">і нормами</text>
-      <rect x="142" y="334" width="236" height="90" rx="14" fill="rgba(243,236,223,0.07)" stroke="rgba(243,236,223,0.25)" stroke-width="1.5"/>
-      <text x="260" y="366" text-anchor="middle" fill="#f3ecdf" style="font-size:12px;">Змусити людей</text>
-      <text x="260" y="386" text-anchor="middle" fill="#f3ecdf" style="font-size:12px;">вважати реальним</text>
-      <text x="260" y="406" text-anchor="middle" fill="#f3ecdf" style="font-size:12px;">лише вимірюване</text>
-      <rect x="26" y="172" width="148" height="56" rx="14" fill="rgba(214,178,94,0.12)" stroke="rgba(214,178,94,0.55)" stroke-width="1.5"/>
-      <text x="100" y="190" text-anchor="middle" fill="#f3ecdf" style="font-size:11px;">Більше проданих</text>
-      <text x="100" y="206" text-anchor="middle" fill="#f3ecdf" style="font-size:11px;">лінійок і циркулів</text>
+      <text x="260" y="196" text-anchor="middle" fill="rgba(243,236,223,0.28)" style="font-size:12px;">замкнуте</text>
+      <text x="260" y="214" text-anchor="middle" fill="rgba(243,236,223,0.28)" style="font-size:12px;">коло</text>
+      <!-- T→R -->
+      <path d="M 400 84 Q 506 172 438 254" stroke="rgba(214,178,94,0.65)" stroke-width="2.5" stroke-dasharray="8 5" fill="none" marker-end="url(#cw)"/>
+      <!-- R→L -->
+      <path d="M 344 292 Q 260 348 176 292" stroke="rgba(214,178,94,0.65)" stroke-width="2.5" stroke-dasharray="8 5" fill="none" marker-end="url(#cw)"/>
+      <!-- L→T -->
+      <path d="M 94 254 Q 14 168 148 84" stroke="rgba(214,178,94,0.65)" stroke-width="2.5" stroke-dasharray="8 5" fill="none" marker-end="url(#cw)"/>
+      <!-- Top box -->
+      <rect x="112" y="16" width="296" height="78" rx="14" fill="rgba(243,236,223,0.07)" stroke="rgba(243,236,223,0.25)" stroke-width="1.5"/>
+      <text x="260" y="40" text-anchor="middle" fill="#f3ecdf" style="font-size:12px;">Привчити людей</text>
+      <text x="260" y="58" text-anchor="middle" fill="#f3ecdf" style="font-size:12px;">вважати реальним</text>
+      <text x="260" y="76" text-anchor="middle" fill="#f3ecdf" style="font-size:12px;">лише виміруване</text>
+      <!-- Right box -->
+      <rect x="344" y="254" width="164" height="60" rx="14" fill="rgba(243,236,223,0.07)" stroke="rgba(243,236,223,0.25)" stroke-width="1.5"/>
+      <text x="426" y="277" text-anchor="middle" fill="#f3ecdf" style="font-size:12px;">Керувати бюджетами</text>
+      <text x="426" y="296" text-anchor="middle" fill="#f3ecdf" style="font-size:12px;">і нормами</text>
+      <!-- Left box (gold) -->
+      <rect x="12" y="254" width="164" height="60" rx="14" fill="rgba(214,178,94,0.12)" stroke="rgba(214,178,94,0.55)" stroke-width="1.5"/>
+      <text x="94" y="277" text-anchor="middle" fill="#f3ecdf" style="font-size:12px;">Більше проданих</text>
+      <text x="94" y="296" text-anchor="middle" fill="#f3ecdf" style="font-size:12px;">циркулів і лінійок</text>
     </svg>
   </div>
 </div>
