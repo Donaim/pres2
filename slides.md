@@ -461,11 +461,9 @@ hideInToc: true
 -->
 
 <div class="h-full flex flex-col justify-center items-center text-center px-12">
-  <v-clicks>
   <div class="text-2xl leading-tight max-w-3xl opacity-70" style="font-style:italic;">
     Хтось скаже: їхній вплив мізерний... який вплив можут мати продавці циркулів?
   </div>
-  </v-clicks>
 
   <v-clicks>
   <div class="hero-title mt-14" style="font-size: 4.4rem; line-height: 0.95; color: var(--deck-danger);">
