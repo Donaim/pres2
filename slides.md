@@ -609,7 +609,7 @@ hideInToc: true
   <div class="col-span-2 panel px-6 py-6">
     <div class="flex items-center gap-4 mb-6">
       <h1 class="hero-title text-4xl leading-none">ФІНАЛЬНА СТАДІЯ КОНТРОЛЮ</h1>
-      <img src="./assets/quantified-self-logo.png" alt="QS" style="width:3.5rem;height:3.5rem;opacity:0.9;">
+      <img src="./assets/quantified-self-logo.png" alt="QS" style="width:9.5rem;height:9.5rem;opacity:0.9;">
     </div>
     <div class="mt-4 text-2xl leading-snug">
       Того тижня я знайшов спільноту людей які самі мірают себе каждий Божий день
