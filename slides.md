@@ -481,27 +481,23 @@ hideInToc: true
 
 <!-- Зліва — ОК. Справа — заборонено. Пауза після підпису. -->
 
-<div class="grid grid-cols-2 gap-6 pt-2 items-stretch">
-  <div class="axis-card px-6 py-6">
+<div class="pt-2 flex flex-col" style="height:calc(100% - 0.5rem);">
+  <div class="flex items-baseline gap-5 mb-3">
     <h1 class="hero-title text-5xl leading-none">ДОЗВОЛЕНІ ФОРМИ РЕАЛЬНОСТИ</h1>
-    <div class="mt-6 text-xl leading-snug opacity-75">те, що можна намалювати і показати</div>
-    <div style="margin-top:1.5rem;border-radius:18px;overflow:hidden;border:1px solid rgba(243,236,223,0.1);">
-      <img src="./assets/excel-chart.png" alt="Excel" style="width:100%;display:block;filter:brightness(0.85) contrast(1.05);">
-    </div>
+    <div class="text-xl opacity-60">те, що можна намалювати і показати</div>
   </div>
-
-  <div class="axis-card px-6 py-6 spiral flex flex-col justify-between">
-    <div class="text-xl leading-snug opacity-75">те, що ніколи не дозволять показати</div>
-    <div style="height: 18rem; display:flex;align-items:center;justify-content:center;">
-      <svg viewBox="0 0 320 260" fill="none" style="width:100%;height:100%;">
-        <path d="M162 131 C162 131, 185 122, 192 137 C199 152, 175 171, 151 170 C119 168, 97 138, 104 103 C112 63, 155 42, 198 54 C247 68, 274 120, 259 171 C240 235, 167 257, 103 239 C27 218, -2 124, 33 57" stroke="#cf785d" stroke-width="6" stroke-linecap="round" />
-        <circle cx="245" cy="60" r="11" fill="#d6b25e" opacity="0.95" />
-        <circle cx="88" cy="204" r="8" fill="#79b5a8" opacity="0.9" />
-        <circle cx="204" cy="198" r="6" fill="#f3ecdf" opacity="0.8" />
-      </svg>
+  <div style="flex:1; display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr 1fr; gap:0.75rem; min-height:0;">
+    <div style="border-radius:14px; overflow:hidden; background:#fff; display:flex; align-items:center; justify-content:center; padding:0.5rem;">
+      <img src="./assets/chart-column.png" alt="Column chart" style="width:100%;height:100%;object-fit:contain;display:block;">
     </div>
-    <div class="text-2xl leading-tight text-center" style="color:var(--deck-danger);">
-      нам ніколи не дозволять мати такий графік
+    <div style="border-radius:14px; overflow:hidden; background:#fff; display:flex; align-items:center; justify-content:center; padding:0.5rem;">
+      <img src="./assets/chart-line.png" alt="Line chart" style="width:100%;height:100%;object-fit:contain;display:block;">
+    </div>
+    <div style="border-radius:14px; overflow:hidden; background:#fff; display:flex; align-items:center; justify-content:center; padding:0.5rem;">
+      <img src="./assets/chart-pie.png" alt="Pie chart" style="width:100%;height:100%;object-fit:contain;display:block;">
+    </div>
+    <div style="border-radius:14px; overflow:hidden; background:#fff; display:flex; align-items:center; justify-content:center; padding:0.5rem;">
+      <img src="./assets/chart-scatter.png" alt="Scatter plot" style="width:100%;height:100%;object-fit:contain;display:block;">
     </div>
   </div>
 </div>
