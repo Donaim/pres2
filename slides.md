@@ -561,25 +561,17 @@ hideInToc: true
 
 <!-- Смішний момент — таблиця з'являється поступово. Дати час прочитати. Потім — різкий поворот: наш сміх і є доказом. -->
 
-<div class="grid grid-cols-2 gap-6 pt-2 items-stretch">
-  <div class="panel px-6 py-6">
-    <h1 class="hero-title text-5xl leading-none">КОМЕНСУРАЦІЯ</h1>
-    <div class="text-2xl opacity-80 mt-2">Як починається приниження</div>
-    <div class="grid grid-cols-2 gap-4 mt-6" style="align-items:start;">
-      <div class="panel-soft flex flex-col items-center px-3 py-4" style="border-radius:18px;">
-        <div style="height:9rem;width:100%;overflow:hidden;border-radius:14px;">
-          <img src="./assets/trump.jpg" alt="Трамп" style="width:100%;height:100%;object-fit:cover;object-position:center top;filter:brightness(0.9);">
-        </div>
-        <div class="text-lg mt-3 text-center">Трамп</div>
-      </div>
-      <div class="panel-soft flex flex-col items-center px-3 py-4" style="border-radius:18px;">
-        <div style="height:9rem;width:100%;overflow:hidden;border-radius:14px;background:rgba(243,236,223,0.05);display:flex;align-items:center;justify-content:center;">
-          <div style="font-size:5rem;">🦍</div>
-        </div>
-        <div class="text-lg mt-3 text-center">Горила</div>
-      </div>
+<div class="grid gap-6 pt-2">
+  <div class="grid grid-cols-2 gap-4">
+    <div class="panel-soft overflow-hidden" style="min-height:16rem;">
+      <img src="./assets/gorilla.jpg" alt="Горила" style="width:100%;height:100%;object-fit:cover;object-position:center;">
     </div>
-    <table class="data-table mt-5">
+    <div class="panel-soft overflow-hidden" style="min-height:16rem;">
+      <img src="./assets/trump.jpg" alt="Трамп" style="width:100%;height:100%;object-fit:cover;object-position:center top;filter:brightness(0.92);">
+    </div>
+  </div>
+  <div class="panel px-6 py-6">
+    <table class="data-table mt-0">
       <thead><tr><th>показник</th><th>горила</th><th>Трамп</th></tr></thead>
       <tbody>
         <tr><td>маса</td><td>значна</td><td>також значна</td></tr>
@@ -589,17 +581,22 @@ hideInToc: true
       </tbody>
     </table>
   </div>
+</div>
+---
 
-  <div class="panel px-6 py-6 flex flex-col justify-between">
-    <div class="text-2xl leading-tight">
-      Насильство починається не в моменті висновку. Воно починається в моменті, коли хтось вирішує, що в них узагалі має бути спільна вісь.
-    </div>
-    <div class="panel-soft px-5 py-5 mt-5 text-xl leading-snug">
-      Щойно ми погодились на таку таблицю, ми вже погодились, що різне треба принизити до порівнюваного.
-    </div>
-    <div class="text-2xl leading-tight mt-5">
-      Коменсурація не просто описує світ. Вона силоміць робить його зручним для приниження.
-    </div>
+<!-- Окремий ударний слайд із поясненням. -->
+
+<div class="panel px-6 py-6">
+  <div class="hero-title text-5xl leading-none">КОМЕНСУРАЦІЯ</div>
+  <div class="text-2xl opacity-80 mt-3">Як починається приниження</div>
+  <div class="mt-10 text-2xl leading-tight">
+    Насильство починається не в моменті висновку. Воно починається в моменті, коли хтось вирішує, що в них узагалі має бути спільна вісь.
+  </div>
+  <div class="panel-soft px-5 py-5 mt-6 text-xl leading-snug">
+    Щойно ми погодились на таку таблицю, ми вже погодились, що різне треба принизити до порівнюваного.
+  </div>
+  <div class="text-2xl leading-tight mt-5">
+    Коменсурація не просто описує світ. Вона силоміць робить його зручним для приниження.
   </div>
 </div>
 ---
