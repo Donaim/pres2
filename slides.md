@@ -224,7 +224,6 @@ hideInToc: true
 
 <div class="grid grid-cols-5 gap-4 pt-1 items-stretch" style="height:calc(100% - 0.25rem);">
   <div class="col-span-3 flex flex-col gap-2">
-    <h1 class="hero-title text-6xl">ЗАКОН ГУДГАРТА</h1>
     <div class="panel px-6 py-3 text-xl leading-tight">
       В 18 столітті Британська імперія колонізовувала Індію і зіткнулася з проблемою кобр.
     </div>
