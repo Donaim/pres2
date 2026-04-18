@@ -373,7 +373,7 @@ hideInToc: true
     </div>
     <div class="timeline-node px-4 py-5">
       <div class="text-sm uppercase opacity-60 mb-2">ранні держави</div>
-      <div class="text-xl leading-tight">у печатці й мантії</div>
+      <div class="text-xl leading-tight">в мантії</div>
       <div class="small-note mt-2">оформлюють світ так, щоби його було зручно рахувати</div>
     </div>
     <div class="timeline-node px-4 py-5">
