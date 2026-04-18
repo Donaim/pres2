@@ -500,8 +500,8 @@ hideInToc: true
         <img src="./assets/chart-scatter.png" alt="Scatter plot" style="width:100%;height:100%;object-fit:contain;display:block;">
       </div>
     </div>
+    <v-clicks>
     <div class="col-span-2 axis-card px-4 py-4 flex flex-col">
-      <div class="text-lg leading-snug opacity-75 mb-2">те, що ніколи не дозволять показати</div>
       <div style="flex:1; min-height:0; display:flex; align-items:center; justify-content:center; overflow:hidden;">
         <img src="./assets/chart-banned.png" alt="Banned chart" style="max-width:100%;max-height:100%;object-fit:contain;display:block;">
       </div>
@@ -509,6 +509,7 @@ hideInToc: true
         нам ніколи не дозволять мати такий графік
       </div>
     </div>
+    </v-clicks>
   </div>
 </div>
 ---
