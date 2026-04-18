@@ -356,10 +356,14 @@ hideInToc: true
     <div class="grid grid-cols-2 gap-4 mt-6 text-xl">
       <div class="panel-soft px-4 py-4 leading-snug">
         Жорсткий лідерський культ:<br>слово Піфагора — закон <br>
+      </div>
+      <div class="panel-soft px-4 py-4 leading-snug">
         Заборони: не торкатись білого когута, не їсти з цілого хліба
       </div>
       <div class="panel-soft px-4 py-4 leading-snug">
         Очищення через математику: числа очищують душу <br>
+      </div>
+      <div class="panel-soft px-4 py-4 leading-snug">
         Нав'язлива любов до форми: правильна геометрія — ознака чистоти
       </div>
     </div>
