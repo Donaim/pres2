@@ -561,27 +561,38 @@ hideInToc: true
 
 <!-- Смішний момент — таблиця з'являється поступово. Дати час прочитати. Потім — різкий поворот: наш сміх і є доказом. -->
 
-<div class="grid gap-6 pt-2">
-  <div class="grid grid-cols-3 gap-4 items-end">
-    <div></div>
-    <div class="panel-soft overflow-hidden bg-black/5" style="height:12rem; display:flex; align-items:center; justify-content:center;">
-      <img src="./assets/gorilla.jpg" alt="Горила" style="max-width:100%;max-height:100%;object-fit:contain;object-position:center;">
-    </div>
-    <div class="panel-soft overflow-hidden bg-black/5" style="height:12rem; display:flex; align-items:center; justify-content:center;">
-      <img src="./assets/trump.jpg" alt="Трамп" style="max-width:100%;max-height:100%;object-fit:contain;object-position:center;filter:brightness(0.92);">
+<div class="grid grid-cols-3 gap-4 pt-2">
+  <div class="panel-soft flex flex-col p-5 min-h-[24rem]">
+    <div class="text-xl font-semibold opacity-80 mb-5">показник</div>
+    <div class="space-y-4 text-xl">
+      <div class="panel-soft px-4 py-4">маса</div>
+      <div class="panel-soft px-4 py-4">сила хвату</div>
+      <div class="panel-soft px-4 py-4">придатність до джунглів</div>
+      <div class="panel-soft px-4 py-4">симетрія лиця</div>
     </div>
   </div>
-  <div class="panel px-6 py-4">
-    <div style="overflow-x:auto;">
-      <table class="data-table mt-0">
-        <thead><tr><th>показник</th><th>горила</th><th>Трамп</th></tr></thead>
-        <tbody>
-          <tr><td>маса</td><td>значна</td><td>також значна</td></tr>
-          <tr><td>сила хвату</td><td>домінує</td><td>невідомо</td></tr>
-          <tr><td>придатність до джунглів</td><td>висока</td><td>катастрофічна</td></tr>
-          <tr><td>симетрія лиця</td><td>поза контекстом</td><td>чомусь врахована</td></tr>
-        </tbody>
-      </table>
+
+  <div class="panel-soft flex flex-col items-center p-5 min-h-[24rem]">
+    <div class="w-full overflow-hidden rounded-[22px]" style="height:12rem;">
+      <img src="./assets/gorilla.jpg" alt="Горила" style="width:100%;height:100%;object-fit:contain;object-position:center;">
+    </div>
+    <div class="mt-5 w-full space-y-4 text-xl">
+      <div class="panel-soft px-4 py-4">значна</div>
+      <div class="panel-soft px-4 py-4">домінує</div>
+      <div class="panel-soft px-4 py-4">висока</div>
+      <div class="panel-soft px-4 py-4">поза контекстом</div>
+    </div>
+  </div>
+
+  <div class="panel-soft flex flex-col items-center p-5 min-h-[24rem]">
+    <div class="w-full overflow-hidden rounded-[22px]" style="height:12rem;">
+      <img src="./assets/trump.jpg" alt="Трамп" style="width:100%;height:100%;object-fit:contain;object-position:center;filter:brightness(0.92);">
+    </div>
+    <div class="mt-5 w-full space-y-4 text-xl">
+      <div class="panel-soft px-4 py-4">також значна</div>
+      <div class="panel-soft px-4 py-4">невідомо</div>
+      <div class="panel-soft px-4 py-4">катастрофічна</div>
+      <div class="panel-soft px-4 py-4">чомусь врахована</div>
     </div>
   </div>
 </div>
