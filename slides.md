@@ -252,7 +252,7 @@ hideInToc: true
     <v-clicks>
       <div class="panel px-6 py-3 text-2xl leading-tight">на роботі тобі платять за вклад, а не за години</div>
       <div class="panel px-6 py-3 text-2xl leading-tight">за каву ти платиш на стільки на скільки вона була смачна</div>
-      <div class="panel px-6 py-3 text-2xl leading-tight">у школі цінують твоє розуміння, а не зубріння</div>
+      <div class="panel px-6 py-3 text-2xl leading-tight">в школі цінують твоє розуміння, а не зубріння</div>
       <div class="panel px-6 py-3 text-2xl leading-tight">дорожче означає не "статусніше", а справді якісніше</div>
       <div class="panel px-6 py-3 text-2xl leading-tight">країну оцінюють по добробуту людей, а не по GDP</div>
     </v-clicks>
