@@ -563,11 +563,11 @@ hideInToc: true
 
 <div class="grid gap-6 pt-2">
   <div class="grid grid-cols-2 gap-4">
-    <div class="panel-soft overflow-hidden" style="height:12rem;">
-      <img src="./assets/gorilla.jpg" alt="Горила" style="width:100%;height:100%;object-fit:cover;object-position:center;">
+    <div class="panel-soft overflow-hidden bg-black/5" style="height:12rem; display:flex; align-items:center; justify-content:center;">
+      <img src="./assets/gorilla.jpg" alt="Горила" style="max-width:100%;max-height:100%;object-fit:contain;object-position:center;">
     </div>
-    <div class="panel-soft overflow-hidden" style="height:12rem;">
-      <img src="./assets/trump.jpg" alt="Трамп" style="width:100%;height:100%;object-fit:cover;object-position:center top;filter:brightness(0.92);">
+    <div class="panel-soft overflow-hidden bg-black/5" style="height:12rem; display:flex; align-items:center; justify-content:center;">
+      <img src="./assets/trump.jpg" alt="Трамп" style="max-width:100%;max-height:100%;object-fit:contain;object-position:center;filter:brightness(0.92);">
     </div>
   </div>
   <div class="panel px-6 py-4">
