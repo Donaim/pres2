@@ -353,14 +353,12 @@ hideInToc: true
     <h1 class="hero-title text-5xl mt-1 leading-none">ОЗНАКИ СЕКТИ</h1>
     <div class="grid grid-cols-2 gap-4 mt-6 text-xl">
       <div class="panel-soft px-4 py-4 leading-snug">
-        Жорсткий лідерський культ:<br>слово Піфагора — закон
+        Жорсткий лідерський культ:<br>слово Піфагора — закон <br>
+        Заборони: не торкатись білого когута, не їсти з цілого хліба
       </div>
       <div class="panel-soft px-4 py-4 leading-snug">
-        Заборони: не торкатись білого когута, не їсти з цілого хліба, не 
-      </div>
-      <div class="panel-soft px-4 py-4 leading-snug">
-        Очищення через математику:<br>числа очищують душу
-        Нав'язлива любов до форми:<br>правильна геометрія — ознака чистоти
+        Очищення через математику: числа очищують душу <br>
+        Нав'язлива любов до форми: правильна геометрія — ознака чистоти
       </div>
     </div>
     <div class="panel-soft mt-5 px-5 py-5 text-2xl leading-tight">
