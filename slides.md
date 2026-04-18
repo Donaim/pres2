@@ -471,12 +471,6 @@ hideInToc: true
   </v-clicks>
 
   <v-clicks>
-  <div class="mt-12 text-3xl leading-tight max-w-3xl">
-    Розумієте, що не так із цим аргументом?
-  </div>
-  </v-clicks>
-
-  <v-clicks>
   <div class="mt-8 text-2xl leading-snug max-w-3xl opacity-80">
     Щойно ми просимо графік як доказ —<br>
     ми вже погодились на їхній спосіб суду над реальністю.
