@@ -363,17 +363,11 @@ hideInToc: true
         Нав'язлива любов до форми: правильна геометрія — ознака чистоти
       </div>
     </div>
-    <div class="panel-soft mt-5 px-5 py-5 text-2xl leading-tight">
-      Прокруст — силове крило: якщо тіло не підходить під стандарт, підрізати.
-    </div>
   </div>
 
   <div class="col-span-2 panel-soft flex flex-col items-center px-5 py-6">
     <div style="flex:1; width:100%; overflow:hidden; border-radius:18px;">
-      <img src="./assets/pythagoras.jpg" alt="Піфагор" style="width:100%;height:100%;object-fit:cover;object-position:center top;filter:brightness(0.7) sepia(0.3) contrast(1.1);">
-    </div>
-    <div class="mt-4 text-center" style="font-family:'IBM Plex Serif',serif; font-size:1.4rem; font-style:italic; color:var(--deck-accent);">
-      "Я ненавиджу фасолю"
+      <img src="./assets/bean.png" alt="Піфагор" style="width:100%;height:100%;object-fit:cover;object-position:center top;filter:brightness(0.7) sepia(0.3) contrast(1.1);">
     </div>
   </div>
 </div>
