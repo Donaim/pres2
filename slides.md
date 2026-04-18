@@ -485,7 +485,7 @@ hideInToc: true
 
   <v-clicks>
   <div class="hero-title mt-14" style="font-size: 4.4rem; line-height: 0.95; color: var(--deck-danger);">
-    Ми вже в пастці.
+    Ми попали в їхню пастку.
   </div>
   </v-clicks>
 </div>
