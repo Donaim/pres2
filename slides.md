@@ -324,7 +324,7 @@ hideInToc: true
   <div class="col-span-3 panel px-7 py-7 flex flex-col justify-between">
     <h1 class="hero-title text-5xl mt-1 leading-none">ХТО ТАКІ ПІФАГОРІЙЦІ?</h1>
     <div class="mt-5 text-xl leading-snug max-w-2xl">
-      VI ст. до н.е., Кротон, Велика Греція. Математик, містик, реформатор.
+      VI ст. до н.е., Математик, містик, реформатор
       Піфагор заснував закриту спільноту — зі своїм статутом, ієрархією і таємним знанням.
     </div>
     <div class="panel-soft mt-5 px-5 py-5 text-2xl leading-tight">
