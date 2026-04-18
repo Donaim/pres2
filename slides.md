@@ -222,39 +222,27 @@ hideInToc: true
 
 <!-- Ефект кобри — конкретна, весела, легко запам'ятовується. Дати час на кожну плашку. -->
 
-<div class="pt-2">
-  <h1 class="hero-title text-6xl">ЗАКОН ГУДГАРТА</h1>
-</div>
-
-<div class="grid grid-cols-5 gap-6 mt-6 items-stretch">
-  <div class="col-span-3">
-    <div class="panel px-7 py-6 text-2xl leading-tight">
+<div class="grid grid-cols-5 gap-6 pt-2 items-stretch" style="height:calc(100% - 0.5rem);">
+  <div class="col-span-3 flex flex-col gap-4">
+    <h1 class="hero-title text-6xl">ЗАКОН ГУДГАРТА</h1>
+    <div class="panel px-6 py-5 text-xl leading-tight">
       В 18 столітті Британська імперія колонізовувала Індію і зіткнулася з проблемою кобр.
     </div>
-    <div class="grid grid-cols-2 gap-4 mt-4 text-xl">
-      <div class="panel-soft px-5 py-5">
-        Як горобці китайцям, кобри перешкоджали тодішній короні.
-      </div>
-      <div class="panel-soft px-5 py-5">
-        Влада почала скуповувати шкіру кобр.
-      </div>
-      <div class="panel-soft px-5 py-5">
-        Люди почали розводити кобр, і здавати їх за винагороду.
-      </div>
-      <div class="panel-soft px-5 py-5">
-        Влада сама породила те, що хотіла знищити.
-      </div>
+    <div class="grid grid-cols-2 gap-3 text-lg" style="flex:1;">
+      <div class="panel-soft px-4 py-4">Як горобці китайцям, кобри перешкоджали тодішній короні.</div>
+      <div class="panel-soft px-4 py-4">Влада почала скуповувати шкіру кобр.</div>
+      <div class="panel-soft px-4 py-4">Люди почали розводити кобр, і здавати їх за винагороду.</div>
+      <div class="panel-soft px-4 py-4">Влада сама породила те, що хотіла знищити.</div>
     </div>
-  <v-clicks>
-  <div class="col-span-2 panel-soft flex items-center justify-center overflow-hidden" style="border-radius:24px; min-height:18rem;">
-    <img src="./assets/cobra-india.jpg" alt="Кобра" style="width:100%;height:50%;object-fit:cover;filter:brightness(0.75) contrast(1.1);border-radius:24px;">
-  </div>
-  </v-clicks>
     <v-clicks>
-    <div class="panel-soft mt-6 px-6 py-5 text-2xl leading-tight">
+    <div class="panel-soft px-6 py-4 text-xl leading-tight">
       Коли число стає цільом, правда починає вдавати число.
     </div>
     </v-clicks>
+  </div>
+
+  <div class="col-span-2 panel-soft overflow-hidden" style="border-radius:24px;">
+    <img src="./assets/cobra-india.jpg" alt="Кобра" style="width:100%;height:100%;object-fit:cover;filter:brightness(0.75) contrast(1.1);">
   </div>
 </div>
 
