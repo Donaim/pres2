@@ -311,17 +311,8 @@ hideInToc: true
   <div class="hero-title" style="font-size: 5.3rem; line-height: 0.95;">КОМУ ТО ВИГІДНО?</div>
 
   <v-clicks>
-  <div class="mt-14 text-4xl leading-tight" style="font-family: 'IBM Plex Serif', serif; max-width: 38rem;">
-    Вигідно тому,<br>хто задає формат доказу.
-  </div>
-  </v-clicks>
-
-  <v-clicks>
   <div class="panel-soft mt-10 px-8 py-6 text-2xl leading-relaxed max-w-3xl" style="text-align:left;">
-    Бо хто вирішує,<br>
-    що рахується,<br>
-    той вирішує і<br>
-    що існує.
+    Хто вирішує, що рахується, той вирішує і що існує.
   </div>
   </v-clicks>
 </div>
@@ -359,7 +350,7 @@ hideInToc: true
 
 <div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
   <div class="col-span-3 panel px-7 py-7 flex flex-col justify-between">
-    <h1 class="hero-title text-5xl mt-1 leading-none">ЧОМУ Я КАЖУ, ЩО ЦЕ СЕКТА</h1>
+    <h1 class="hero-title text-5xl mt-1 leading-none">ОЗНАКИ СЕКТИ</h1>
     <div class="grid grid-cols-2 gap-4 mt-6 text-xl">
       <div class="panel-soft px-4 py-4 leading-snug">
         Жорсткий лідерський культ:<br>слово Піфагора — закон
