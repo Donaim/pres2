@@ -189,6 +189,8 @@ hideInToc: true
   }
 </style>
 
+<!-- Пауза. Картинка з'являється після тексту. Дати аудиторії прочитати перед кліком. -->
+
 <div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
   <div class="col-span-3 panel px-8 py-8 flex flex-col justify-between">
     <div class="text-2xl leading-snug max-w-3xl mt-8">
@@ -206,8 +208,8 @@ hideInToc: true
 
   <v-clicks class="col-span-2">
   <div class="col-span-2 panel-soft px-6 py-6 flex flex-col justify-between">
-    <div style="height: 17rem;">
-    <img src="./assets/procrustes.webp" alt="Прокруст" class="watch">
+    <div style="height: 17rem; overflow: hidden; border-radius: 18px;">
+      <img src="./assets/procrustes.png" alt="Прокруст" style="width:100%;height:100%;object-fit:cover;filter:brightness(0.88) contrast(1.1);">
     </div>
     <div class="text-2xl leading-tight mt-6">
       На рано в нього всі ставали одинакові.
@@ -218,36 +220,45 @@ hideInToc: true
 
 ---
 
+<!-- Ефект кобри — конкретна, весела, легко запам'ятовується. Дати час на кожну плашку. -->
+
 <div class="pt-2">
   <h1 class="hero-title text-6xl">ЗАКОН ГУДГАРТА</h1>
 </div>
 
-<div class="panel mt-8 px-7 py-6 text-2xl leading-tight">
-  В 18 столітті Британська імперія колонізовувала Індію і зіткнулася з проблемою кобр.
+<div class="grid grid-cols-5 gap-6 mt-6 items-stretch">
+  <div class="col-span-3">
+    <div class="panel px-7 py-6 text-2xl leading-tight">
+      В 18 столітті Британська імперія колонізовувала Індію і зіткнулася з проблемою кобр.
+    </div>
+    <div class="grid grid-cols-2 gap-4 mt-4 text-xl">
+      <div class="panel-soft px-5 py-5">
+        Як горобці китайцям, кобри перешкоджали тодішній короні.
+      </div>
+      <div class="panel-soft px-5 py-5">
+        Влада почала скуповувати шкіру кобр.
+      </div>
+      <div class="panel-soft px-5 py-5">
+        Люди почали розводити кобр, і здавати їх за винагороду.
+      </div>
+      <div class="panel-soft px-5 py-5">
+        Влада сама породила те, що хотіла знищити.
+      </div>
+    </div>
+    <v-clicks>
+    <div class="panel-soft mt-6 px-6 py-5 text-2xl leading-tight">
+      Коли число стає цільом, правда починає вдавати число.
+    </div>
+    </v-clicks>
+  </div>
+  <div class="col-span-2 panel-soft flex items-center justify-center overflow-hidden" style="border-radius:24px; min-height:18rem;">
+    <img src="./assets/cobra-india.jpg" alt="Кобра" style="width:100%;height:100%;object-fit:cover;filter:brightness(0.75) contrast(1.1);border-radius:24px;">
+  </div>
 </div>
-
-<div class="grid grid-cols-4 gap-4 mt-6 text-xl">
-  <div class="panel-soft px-5 py-5">
-    Як горобці китайцям, кобри перешкоджали тодішній короні.
-  </div>
-  <div class="panel-soft px-5 py-5">
-    Влада почала скуповувати шкіру кобр.
-  </div>
-  <div class="panel-soft px-5 py-5">
-    Люди почали розводити кобр, і здавати їх за винагороду.
-  </div>
-  <div class="panel-soft px-5 py-5">
-    Влада сама породила те, що хотіла знищити.
-  </div>
-</div>
-
-<v-clicks>
-<div class="panel-soft mt-8 px-6 py-5 text-2xl leading-tight">
-  Коли число стає цільом, правда починає вдавати число.
-</div>
-</v-clicks>
 
 ---
+
+<!-- Простий слайд, риторичний. Не пояснювати — просто пройтись по пунктах з паузами. Остання фраза — підвести до питання: але хто це все влаштував? -->
 
 <div class="grid grid-cols-2 gap-8 pt-4 items-stretch">
   <div class="panel-ivory px-8 py-8 flex flex-col justify-between">
@@ -269,8 +280,9 @@ hideInToc: true
 
 ---
 
+<!-- "Чи знайомі тобі такі фрази" — дати людям впізнати себе. Цей слайд — пауза для впізнання. Потім підвести: це не випадкові фрази. -->
+
 <div class="pt-2">
-  <h1 class="hero-title text-6xl">Чи знайомі тобі такі фрази</h1>
 </div>
 
 <div class="grid grid-cols-4 gap-4 mt-8">
@@ -290,6 +302,8 @@ hideInToc: true
 
 ---
 
+<!-- Тут НЕ відповідати — лише поставити питання. Пауза після першого кліку довша. Наступний слайд дає відповідь — але несподівану. -->
+
 <div class="h-full flex flex-col justify-center items-center text-center">
   <div class="hero-title" style="font-size: 5.3rem; line-height: 0.95;">КОМУ ТО ВИГІДНО?</div>
   <v-clicks>
@@ -299,12 +313,20 @@ hideInToc: true
   </v-clicks>
   <v-clicks>
   <div class="panel-soft mt-10 px-6 py-5 text-xl leading-snug max-w-3xl">
-    Бо за каждою шкалою стоїть той, хто вирішив, що саме вважати видимим, серйозним і реальним.
+    Відповідь неочікувана: не тому, що хтось злий, а тому, що хтось колись навчив ці інституції говорити однією мовою.
+    Мовою числа. А вони просто повторюють — бо іншої не знають.
+  </div>
+  </v-clicks>
+  <v-clicks>
+  <div class="panel-soft mt-6 px-6 py-4 text-xl leading-snug max-w-3xl" style="border-color: rgba(207,120,93,0.28); background: rgba(207,120,93,0.08);">
+    Вигодонабувач — не школа і не лікарня. Вигодонабувач — той, хто першим вирішив, що саме вважати видимим.
   </div>
   </v-clicks>
 </div>
 
 ---
+
+<!-- Секта — не метафора. "Я ненавиджу фасолю" — пауза для сміху, потім серйозно. -->
 
 <div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
   <div class="col-span-3 panel px-7 py-7">
@@ -313,65 +335,33 @@ hideInToc: true
       Це було не коло невинних математиків. Це була сектантська група, яка проголосила число єдиним шляхом до істини, а правильну форму — законом для світу і людей.
     </div>
     <div class="panel-soft mt-6 px-5 py-5 text-2xl leading-tight">
-      Піфагор казав: “Я ненавиджу фасолю”. Для культу, який хотів очистити світ до ідеальної схеми, навіть біб був підозрілим.
+      Піфагор казав: "Я ненавиджу фасолю". Для культу, який хотів очистити світ до ідеальної схеми, навіть біб був підозрілим.
     </div>
     <div class="mt-6 text-2xl leading-tight">
       Прокруст не стояв осторонь. Він був силовим крилом тієї самої секти: якщо життя криве, його треба випрямити.
     </div>
   </div>
 
-  <div class="col-span-2 grid grid-rows-3 gap-4">
-    <div class="panel-soft px-4 py-4">
-      <div class="portrait mb-3">
-        <svg viewBox="0 0 220 140" fill="none">
-          <rect width="220" height="140" fill="rgba(214,178,94,0.08)" />
-          <circle cx="110" cy="52" r="30" fill="#f0d6b3" />
-          <path d="M72 122 C84 92, 136 92, 148 122" fill="#d6b25e" opacity="0.42" />
-          <path d="M86 40 C94 18, 126 18, 134 40" stroke="#1b2432" stroke-width="10" stroke-linecap="round" />
-          <circle cx="100" cy="52" r="3" fill="#1b2432" />
-          <circle cx="120" cy="52" r="3" fill="#1b2432" />
-          <path d="M101 67 C107 71, 113 71, 119 67" stroke="#1b2432" stroke-width="3" stroke-linecap="round" />
-        </svg>
+  <div class="col-span-2 flex flex-col gap-4">
+    <div class="panel-soft px-5 py-5 flex flex-col items-center" style="flex:1;">
+      <div style="height: 16rem; width: 100%; overflow: hidden; border-radius: 18px;">
+        <img src="./assets/pythagoras.jpg" alt="Піфагор" style="width:100%;height:100%;object-fit:cover;object-position:center top;filter:brightness(0.85) sepia(0.18);">
       </div>
-      <div class="text-xl leading-tight">Піфагор</div>
-      <div class="small-note mt-2">вождь секти, ненависник фасолі, проповідник числа</div>
+      <div class="text-xl leading-tight mt-3 text-center">Піфагор</div>
+      <div class="small-note mt-2 text-center">"я ненавиджу фасолю" — вождь секти, проповідник числа</div>
     </div>
-
-    <div class="panel-soft px-4 py-4">
-      <div class="portrait mb-3">
-        <svg viewBox="0 0 220 140" fill="none">
-          <rect width="220" height="140" fill="rgba(121,181,168,0.08)" />
-          <circle cx="110" cy="54" r="30" fill="#efddc2" />
-          <path d="M76 126 C89 92, 131 92, 144 126" fill="#79b5a8" opacity="0.36" />
-          <path d="M86 34 C96 24, 125 22, 138 38" stroke="#79b5a8" stroke-width="12" stroke-linecap="round" />
-          <circle cx="99" cy="53" r="3" fill="#1b2432" />
-          <circle cx="120" cy="53" r="3" fill="#1b2432" />
-          <path d="M95 70 C104 62, 115 62, 124 70" stroke="#1b2432" stroke-width="3" stroke-linecap="round" />
-        </svg>
+    <div class="panel-soft px-5 py-4 flex flex-row items-center gap-4" style="flex:0 0 auto;">
+      <div class="text-4xl">🧱</div>
+      <div>
+        <div class="text-xl leading-tight">Прокруст</div>
+        <div class="small-note mt-1">силове крило — якщо тіло не вміщається, вкоротити</div>
       </div>
-      <div class="text-xl leading-tight">Посвячений брат</div>
-      <div class="small-note mt-2">шепче числа, боїться невимірюваного, клянеться прямому кутові</div>
-    </div>
-
-    <div class="panel-soft px-4 py-4">
-      <div class="portrait mb-3">
-        <svg viewBox="0 0 220 140" fill="none">
-          <rect width="220" height="140" fill="rgba(207,120,93,0.08)" />
-          <circle cx="110" cy="54" r="30" fill="#f0d0bb" />
-          <path d="M72 122 C86 88, 134 88, 148 122" fill="#cf785d" opacity="0.34" />
-          <path d="M88 40 C95 28, 127 28, 132 40" stroke="#1b2432" stroke-width="12" stroke-linecap="round" />
-          <circle cx="100" cy="54" r="3" fill="#1b2432" />
-          <circle cx="120" cy="54" r="3" fill="#1b2432" />
-          <path d="M96 70 L124 70" stroke="#1b2432" stroke-width="3" stroke-linecap="round" />
-        </svg>
-      </div>
-      <div class="text-xl leading-tight">Прокруст</div>
-      <div class="small-note mt-2">польовий оператор, який випрямляв людей під стандарт</div>
     </div>
   </div>
 </div>
-
 ---
+
+<!-- Темп прискорюється. Показати що це не нова секта — вона просто переодягається. -->
 
 <div class="pt-2">
   <h1 class="hero-title text-6xl">ОДНІ Й ТІ САМІ ЛЮДИ В РІЗНИХ КОСТЮМАХ</h1>
@@ -408,26 +398,42 @@ hideInToc: true
 
 ---
 
+<!-- Ключовий слайд — цикл. Малювати пальцем у повітрі. Йти повільно по колу. -->
+
 <div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
   <div class="col-span-3 panel px-7 py-7">
     <h1 class="hero-title text-5xl leading-none">ЩО ВОНИ ХОЧУТЬ?</h1>
-    <div class="grid grid-cols-3 gap-4 mt-8 text-lg">
-      <div class="panel-soft px-4 py-5">
-        <div class="text-2xl leading-tight">На поверхні</div>
-        <div class="small-note mt-3">більше проданих лінійок, тестів, шкал, аудитів і дашбордів</div>
-      </div>
-      <div class="panel-soft px-4 py-5">
-        <div class="text-2xl leading-tight">Глибше</div>
-        <div class="small-note mt-3">хто задає форму видимого, той керує рішеннями, бюджетами і нормою</div>
-      </div>
-      <div class="panel-soft px-4 py-5">
-        <div class="text-2xl leading-tight">Найглибше</div>
-        <div class="small-note mt-3">змусити людей вважати реальним тільки те, що можна внести в метрику, таблицю або графік</div>
-      </div>
+    <div class="mt-6 text-xl leading-snug opacity-80 max-w-2xl">
+      Не лінійна вигода. Петля. Кожен крок закріплює наступний.
     </div>
-
-    <div class="panel-soft mt-6 px-5 py-5 text-2xl leading-tight">
-      Якщо люди довіряють тільки графіку, світом керують ті, хто вирішує, що саме можна намалювати.
+    <div class="mt-8 flex flex-col items-center" style="position:relative;">
+      <svg viewBox="0 0 420 300" fill="none" style="width:100%;max-width:420px;">
+        <!-- arcs connecting nodes -->
+        <path d="M 105 60 C 200 20, 315 20, 315 90" stroke="rgba(214,178,94,0.55)" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#arr)" />
+        <path d="M 330 110 C 380 170, 360 230, 300 250" stroke="rgba(214,178,94,0.55)" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#arr)" />
+        <path d="M 240 260 C 170 280, 100 260, 80 210" stroke="rgba(214,178,94,0.55)" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#arr)" />
+        <path d="M 70 185 C 40 130, 60 80, 90 65" stroke="rgba(214,178,94,0.55)" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#arr)" />
+        <defs>
+          <marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+            <path d="M1 1 L7 4 L1 7 Z" fill="rgba(214,178,94,0.8)" />
+          </marker>
+        </defs>
+        <!-- Node 1 top-left -->
+        <rect x="18" y="36" width="170" height="52" rx="16" fill="rgba(214,178,94,0.13)" stroke="rgba(214,178,94,0.4)" stroke-width="1.5" />
+        <text x="103" y="64" text-anchor="middle" fill="#f3ecdf" font-size="13" font-family="IBM Plex Sans, sans-serif">Задати форму видимого</text>
+        <!-- Node 2 top-right -->
+        <rect x="232" y="36" width="172" height="52" rx="16" fill="rgba(121,181,168,0.13)" stroke="rgba(121,181,168,0.4)" stroke-width="1.5" />
+        <text x="318" y="57" text-anchor="middle" fill="#f3ecdf" font-size="13" font-family="IBM Plex Sans, sans-serif">Керувати бюджетами</text>
+        <text x="318" y="76" text-anchor="middle" fill="#f3ecdf" font-size="13" font-family="IBM Plex Sans, sans-serif">і нормами</text>
+        <!-- Node 3 bottom-right -->
+        <rect x="232" y="226" width="172" height="52" rx="16" fill="rgba(207,120,93,0.13)" stroke="rgba(207,120,93,0.4)" stroke-width="1.5" />
+        <text x="318" y="247" text-anchor="middle" fill="#f3ecdf" font-size="13" font-family="IBM Plex Sans, sans-serif">Більше проданих</text>
+        <text x="318" y="266" text-anchor="middle" fill="#f3ecdf" font-size="13" font-family="IBM Plex Sans, sans-serif">лінійок</text>
+        <!-- Node 4 bottom-left -->
+        <rect x="18" y="226" width="170" height="52" rx="16" fill="rgba(243,236,223,0.07)" stroke="rgba(243,236,223,0.22)" stroke-width="1.5" />
+        <text x="103" y="247" text-anchor="middle" fill="#f3ecdf" font-size="12" font-family="IBM Plex Sans, sans-serif">Змусити вважати</text>
+        <text x="103" y="265" text-anchor="middle" fill="#f3ecdf" font-size="12" font-family="IBM Plex Sans, sans-serif">реальним лише вимірюване</text>
+      </svg>
     </div>
   </div>
 
@@ -441,17 +447,34 @@ hideInToc: true
         <path d="M8 49 L92 49" stroke="rgba(243,236,223,0.18)" stroke-width="2" stroke-linecap="round" />
       </svg>
     </div>
-    <div class="panel-soft mt-5 px-4 py-4 text-2xl leading-tight">
-      І отут ми вже в пастці.
-    </div>
-    <div class="text-xl leading-snug mt-5">
-      Щойно ми просимо графік як доказ, ми вже погодились, що реальне тільки те, що можна виміряти, показати і порівняти.
+    <div class="text-xl leading-snug mt-4 opacity-75">
+      Але саме це і є пасткою.
     </div>
   </div>
 </div>
 
-
 ---
+
+<!-- Зупинитись. Мовчати 3 секунди після першого речення. Потім — "Ми вже в пастці." дуже повільно. -->
+
+<div class="h-full flex flex-col justify-center items-center text-center px-12">
+  <div class="text-3xl leading-tight max-w-3xl opacity-85">
+    Розумієте, що не так із цим аргументом?
+  </div>
+  <v-clicks>
+  <div class="mt-10 text-3xl leading-tight max-w-3xl">
+    Щойно ми просимо графік як доказ — ми вже погодились, що реальне тільки те, що можна виміряти, показати і порівняти.
+  </div>
+  </v-clicks>
+  <v-clicks>
+  <div class="hero-title mt-14" style="font-size: 4.2rem; line-height: 0.95; color: var(--deck-danger);">
+    Ми вже в пастці.
+  </div>
+  </v-clicks>
+</div>
+---
+
+<!-- Зачитати кілька слів вголос. "Actionable" — наголос на слово. Дати аудиторії побачити список. -->
 
 <div class="pt-2">
   <h1 class="hero-title text-6xl">СЛОВА, ЯКІ ВОНИ ЛЮБЛЯТ</h1>
@@ -474,62 +497,35 @@ hideInToc: true
 
 ---
 
+<!-- Зліва — ОК. Справа — заборонено. Пауза після підпису. -->
+
 <div class="grid grid-cols-2 gap-6 pt-2 items-stretch">
   <div class="axis-card px-6 py-6">
     <h1 class="hero-title text-5xl leading-none">ДОЗВОЛЕНІ ФОРМИ РЕАЛЬНОСТИ</h1>
-    <div class="grid grid-cols-2 gap-4 mt-8">
-      <div class="mini-chart px-4 py-4">
-        <svg viewBox="0 0 100 60" fill="none">
-          <rect x="12" y="26" width="10" height="22" fill="#d6b25e" />
-          <rect x="30" y="18" width="10" height="30" fill="#d6b25e" opacity="0.85" />
-          <rect x="48" y="10" width="10" height="38" fill="#d6b25e" opacity="0.7" />
-          <rect x="66" y="22" width="10" height="26" fill="#d6b25e" opacity="0.55" />
-        </svg>
-      </div>
-      <div class="mini-chart px-4 py-4">
-        <svg viewBox="0 0 100 60" fill="none">
-          <path d="M8 42 C20 36, 28 34, 40 28 S64 18, 92 10" stroke="#79b5a8" stroke-width="4" stroke-linecap="round" />
-        </svg>
-      </div>
-      <div class="mini-chart px-4 py-4">
-        <svg viewBox="0 0 100 60" fill="none">
-          <circle cx="50" cy="30" r="18" stroke="#f3ecdf" stroke-width="18" opacity="0.18" />
-          <path d="M50 30 L50 12 A18 18 0 0 1 67.5 34 Z" fill="#d6b25e" />
-        </svg>
-      </div>
-      <div class="mini-chart px-4 py-4">
-        <svg viewBox="0 0 100 60" fill="none">
-          <circle cx="18" cy="39" r="3" fill="#79b5a8" />
-          <circle cx="34" cy="28" r="3" fill="#79b5a8" />
-          <circle cx="46" cy="34" r="3" fill="#79b5a8" />
-          <circle cx="62" cy="22" r="3" fill="#79b5a8" />
-          <circle cx="78" cy="17" r="3" fill="#79b5a8" />
-        </svg>
-      </div>
-      <div class="mini-chart px-4 py-4 col-span-2">
-        <svg viewBox="0 0 100 60" fill="none">
-          <path d="M8 50 L8 46 C22 44, 32 36, 46 26 S72 12, 92 10 L92 50 Z" fill="rgba(214,178,94,0.5)" />
-        </svg>
-      </div>
+    <div class="mt-6 text-xl leading-snug opacity-75">те, що можна намалювати і показати</div>
+    <div style="margin-top:1.5rem;border-radius:18px;overflow:hidden;border:1px solid rgba(243,236,223,0.1);">
+      <img src="./assets/excel-chart.png" alt="Excel" style="width:100%;display:block;filter:brightness(0.85) contrast(1.05);">
     </div>
   </div>
 
-  <div class="axis-card px-6 py-6 spiral">
-    <div style="height: 18rem;">
-      <svg viewBox="0 0 320 260" fill="none">
+  <div class="axis-card px-6 py-6 spiral flex flex-col justify-between">
+    <div class="text-xl leading-snug opacity-75">те, що ніколи не дозволять показати</div>
+    <div style="height: 18rem; display:flex;align-items:center;justify-content:center;">
+      <svg viewBox="0 0 320 260" fill="none" style="width:100%;height:100%;">
         <path d="M162 131 C162 131, 185 122, 192 137 C199 152, 175 171, 151 170 C119 168, 97 138, 104 103 C112 63, 155 42, 198 54 C247 68, 274 120, 259 171 C240 235, 167 257, 103 239 C27 218, -2 124, 33 57" stroke="#cf785d" stroke-width="6" stroke-linecap="round" />
         <circle cx="245" cy="60" r="11" fill="#d6b25e" opacity="0.95" />
         <circle cx="88" cy="204" r="8" fill="#79b5a8" opacity="0.9" />
         <circle cx="204" cy="198" r="6" fill="#f3ecdf" opacity="0.8" />
       </svg>
     </div>
-    <div class="text-2xl leading-tight mt-3 text-center">
+    <div class="text-2xl leading-tight text-center" style="color:var(--deck-danger);">
       нам ніколи не дозволять мати такий графік
     </div>
   </div>
 </div>
-
 ---
+
+<!-- Плавно. Не злобно — просто: якщо нема поля, нема рядка. Питання не в злі, а в архітектурі. -->
 
 <div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
   <div class="col-span-3 panel px-6 py-6">
@@ -566,44 +562,33 @@ hideInToc: true
 
 ---
 
+<!-- Смішний момент — таблиця з'являється поступово. Дати час прочитати. Потім — різкий поворот: наш сміх і є доказом. -->
+
 <div class="grid grid-cols-2 gap-6 pt-2 items-stretch">
   <div class="panel px-6 py-6">
     <h1 class="hero-title text-5xl leading-none">КОМЕНСУРАЦІЯ</h1>
     <div class="text-2xl opacity-80 mt-2">Як починається приниження</div>
-    <table class="data-table mt-8">
-      <thead>
-        <tr>
-          <th>показник</th>
-          <th>горила</th>
-          <th>Трамп</th>
-        </tr>
-      </thead>
+    <div class="grid grid-cols-2 gap-4 mt-6" style="align-items:start;">
+      <div class="panel-soft flex flex-col items-center px-3 py-4" style="border-radius:18px;">
+        <div style="height:9rem;width:100%;overflow:hidden;border-radius:14px;">
+          <img src="./assets/trump.jpg" alt="Трамп" style="width:100%;height:100%;object-fit:cover;object-position:center top;filter:brightness(0.9);">
+        </div>
+        <div class="text-lg mt-3 text-center">Трамп</div>
+      </div>
+      <div class="panel-soft flex flex-col items-center px-3 py-4" style="border-radius:18px;">
+        <div style="height:9rem;width:100%;overflow:hidden;border-radius:14px;background:rgba(243,236,223,0.05);display:flex;align-items:center;justify-content:center;">
+          <div style="font-size:5rem;">🦍</div>
+        </div>
+        <div class="text-lg mt-3 text-center">Горила</div>
+      </div>
+    </div>
+    <table class="data-table mt-5">
+      <thead><tr><th>показник</th><th>горила</th><th>Трамп</th></tr></thead>
       <tbody>
-        <tr>
-          <td>кількість волосся</td>
-          <td>висока</td>
-          <td>нестабільна</td>
-        </tr>
-        <tr>
-          <td>маса</td>
-          <td>значна</td>
-          <td>також значна</td>
-        </tr>
-        <tr>
-          <td>сила хвату</td>
-          <td>домінує</td>
-          <td>невідомо</td>
-        </tr>
-        <tr>
-          <td>коефіцієнт придатности до джунглів</td>
-          <td>високий</td>
-          <td>катастрофічний</td>
-        </tr>
-        <tr>
-          <td>симетрія лиця</td>
-          <td>поза контекстом</td>
-          <td>чомусь врахована</td>
-        </tr>
+        <tr><td>маса</td><td>значна</td><td>також значна</td></tr>
+        <tr><td>сила хвату</td><td>домінує</td><td>невідомо</td></tr>
+        <tr><td>придатність до джунглів</td><td>висока</td><td>катастрофічна</td></tr>
+        <tr><td>симетрія лиця</td><td>поза контекстом</td><td>чомусь врахована</td></tr>
       </tbody>
     </table>
   </div>
@@ -620,13 +605,17 @@ hideInToc: true
     </div>
   </div>
 </div>
-
 ---
+
+<!-- Це вже кінцева стадія — людина сама себе вимірює. Показати телефон/годинник з залу. -->
 
 <div class="grid grid-cols-5 gap-6 pt-2 items-center">
   <div class="col-span-2 panel px-6 py-6">
-    <h1 class="hero-title text-5xl leading-none">ОСТАННЯ СТАДІЯ: QUANTIFIED SELF</h1>
-    <div class="mt-8 text-2xl leading-snug">
+    <div class="flex items-center gap-4 mb-6">
+      <img src="./assets/quantified-self-logo.png" alt="QS" style="width:3.5rem;height:3.5rem;border-radius:12px;opacity:0.9;">
+      <h1 class="hero-title text-4xl leading-none">QUANTIFIED SELF</h1>
+    </div>
+    <div class="mt-4 text-2xl leading-snug">
       Того тижня я знайшов спільноту людей, метою яких є поміряти себе.
     </div>
     <div class="panel-soft px-5 py-5 mt-6 text-xl leading-snug">
@@ -637,53 +626,24 @@ hideInToc: true
     </div>
   </div>
 
-  <div class="col-span-3 flex items-center justify-center gap-6">
-    <div class="watch-band"></div>
-    <div class="watch flex flex-col justify-center items-center text-center">
-      <div class="text-sm uppercase tracking-[0.22em] opacity-60">self report</div>
-      <div class="text-5xl mt-2">87</div>
-      <div class="text-lg mt-2">готовність до продуктивности</div>
-      <div class="mt-4 grid grid-cols-2 gap-3 text-sm w-44">
-        <div class="panel-soft px-2 py-2">сон 6:11</div>
-        <div class="panel-soft px-2 py-2">стрес 42</div>
-        <div class="panel-soft px-2 py-2">кроки 9 804</div>
-        <div class="panel-soft px-2 py-2">настрій 6.2</div>
-      </div>
+  <div class="col-span-3 flex items-center justify-center" style="height:100%;">
+    <div style="height:100%;max-height:22rem;overflow:hidden;border-radius:24px;border:1px solid rgba(243,236,223,0.1);">
+      <img src="./assets/smartwatch-health.png" alt="Smartwatch health" style="height:100%;width:auto;display:block;object-fit:cover;filter:brightness(0.8) contrast(1.05);">
     </div>
-    <div class="watch-band"></div>
   </div>
 </div>
-
 ---
 
+<!-- Найдраматичніший момент. Зупинитись. "Зараз прошу всіх вразливих заплющити очі" — пауза — "бо я покажу вам диявольський прилад для душі." -->
+
 <div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
-  <div class="col-span-3 panel px-6 py-6 circumplex">
+  <div class="col-span-3 panel px-6 py-6">
     <h1 class="hero-title text-5xl leading-none">ЕМОЦІЙНИЙ ЦИРКУМПЛЕКС</h1>
     <div class="text-2xl leading-snug mt-4 max-w-3xl">
       Там я знайшов оцей диявольський прилад, шо вони назвали емоційним циркумплексом.
     </div>
-    <div style="height: 20rem; margin-top: 1.2rem;">
-      <svg viewBox="0 0 520 340" fill="none">
-        <rect x="70" y="25" width="280" height="280" rx="26" fill="rgba(243,236,223,0.03)" stroke="rgba(243,236,223,0.16)" />
-        <line x1="210" y1="45" x2="210" y2="285" stroke="rgba(243,236,223,0.22)" stroke-width="2" />
-        <line x1="90" y1="165" x2="330" y2="165" stroke="rgba(243,236,223,0.22)" stroke-width="2" />
-        <circle cx="210" cy="165" r="96" stroke="rgba(214,178,94,0.38)" stroke-width="2" />
-        <text x="218" y="54" fill="#f3ecdf" font-size="18">активація</text>
-        <text x="230" y="320" fill="#f3ecdf" font-size="18">деактивація</text>
-        <text x="92" y="156" fill="#f3ecdf" font-size="18">неприємно</text>
-        <text x="280" y="156" fill="#f3ecdf" font-size="18">приємно</text>
-        <text x="255" y="98" fill="#79b5a8" font-size="19">радість</text>
-        <text x="250" y="240" fill="#d6b25e" font-size="19">спокій</text>
-        <text x="126" y="238" fill="#cf785d" font-size="19">смуток</text>
-        <text x="126" y="104" fill="#f1c6b8" font-size="19">гнів</text>
-        <text x="382" y="92" fill="#f3ecdf" font-size="18">дозволені стани</text>
-        <text x="382" y="126" fill="#a9b4c5" font-size="16">однозначні</text>
-        <text x="382" y="148" fill="#a9b4c5" font-size="16">чисті</text>
-        <text x="382" y="170" fill="#a9b4c5" font-size="16">зручні</text>
-        <rect x="372" y="202" width="116" height="54" rx="16" fill="rgba(207,120,93,0.08)" stroke="rgba(207,120,93,0.28)" />
-        <text x="390" y="223" fill="#f1c6b8" font-size="14">INVALID BLEND</text>
-        <text x="389" y="244" fill="#f1c6b8" font-size="14">злий + веселий</text>
-      </svg>
+    <div style="height: 22rem; margin-top: 1rem; border-radius:18px; overflow:hidden; border:1px solid rgba(243,236,223,0.1); background:rgba(243,236,223,0.03); display:flex; align-items:center; justify-content:center;">
+      <img src="./assets/emotional-circumplex.svg" alt="Емоційний циркумплекс" style="width:100%;height:100%;object-fit:contain;padding:0.5rem;">
     </div>
   </div>
 
@@ -694,7 +654,11 @@ hideInToc: true
     <div class="panel-soft px-4 py-4 mt-5 text-xl leading-snug">
       Якщо почуття не вкладається в цю схему, його оголосять шумом, збоєм або некоректною самозвітністю.
     </div>
-    <div class="final-quote" style="font-size: 1.9rem; max-width: 19rem;">
+    <div class="panel-soft px-4 py-4 mt-4 text-xl leading-snug" style="border-color:rgba(207,120,93,0.3);background:rgba(207,120,93,0.08);">
+      Зараз прошу всіх вразливих заплющити очі.<br>
+      <span class="small-note">Бо я покажу вам диявольський прилад для душі.</span>
+    </div>
+    <div class="final-quote" style="font-size: 1.9rem; max-width: 19rem; color: var(--deck-danger);">
       Вони дійшли вже до душі.
     </div>
   </div>
