@@ -418,12 +418,12 @@ hideInToc: true
       <text x="427" y="194" text-anchor="middle" fill="#f3ecdf" style="font-size:12px;">Керувати бюджетами</text>
       <text x="427" y="213" text-anchor="middle" fill="#f3ecdf" style="font-size:12px;">і нормами</text>
       <rect x="142" y="352" width="236" height="62" rx="14" fill="rgba(207,120,93,0.12)" stroke="rgba(207,120,93,0.55)" stroke-width="1.5"/>
-      <text x="260" y="378" text-anchor="middle" fill="#f3ecdf" style="font-size:12px;">Більше проданих</text>
-      <text x="260" y="397" text-anchor="middle" fill="#f3ecdf" style="font-size:12px;">лінійок і циркулів</text>
+      <text x="260" y="378" text-anchor="middle" fill="#f3ecdf" style="font-size:12px;">Змусити людей</text>
+      <text x="260" y="397" text-anchor="middle" fill="#f3ecdf" style="font-size:12px;">вважати реальним</text>
+      <text x="260" y="416" text-anchor="middle" fill="#f3ecdf" style="font-size:12px;">лише вимірюване</text>
       <rect x="26" y="162" width="148" height="76" rx="14" fill="rgba(243,236,223,0.07)" stroke="rgba(243,236,223,0.25)" stroke-width="1.5"/>
-      <text x="100" y="190" text-anchor="middle" fill="#f3ecdf" style="font-size:11px;">Змусити людей</text>
-      <text x="100" y="206" text-anchor="middle" fill="#f3ecdf" style="font-size:11px;">вважати реальним</text>
-      <text x="100" y="222" text-anchor="middle" fill="#f3ecdf" style="font-size:11px;">лише вимірюване</text>
+      <text x="100" y="190" text-anchor="middle" fill="#f3ecdf" style="font-size:11px;">Більше проданих</text>
+      <text x="100" y="206" text-anchor="middle" fill="#f3ecdf" style="font-size:11px;">лінійок і циркулів</text>
     </svg>
   </div>
 </div>
