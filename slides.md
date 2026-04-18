@@ -562,7 +562,8 @@ hideInToc: true
 <!-- Смішний момент — таблиця з'являється поступово. Дати час прочитати. Потім — різкий поворот: наш сміх і є доказом. -->
 
 <div class="grid gap-6 pt-2">
-  <div class="grid grid-cols-2 gap-4">
+  <div class="grid grid-cols-3 gap-4 items-end">
+    <div></div>
     <div class="panel-soft overflow-hidden bg-black/5" style="height:12rem; display:flex; align-items:center; justify-content:center;">
       <img src="./assets/gorilla.jpg" alt="Горила" style="max-width:100%;max-height:100%;object-fit:contain;object-position:center;">
     </div>
@@ -571,15 +572,17 @@ hideInToc: true
     </div>
   </div>
   <div class="panel px-6 py-4">
-    <table class="data-table mt-0">
-      <thead><tr><th>показник</th><th>горила</th><th>Трамп</th></tr></thead>
-      <tbody>
-        <tr><td>маса</td><td>значна</td><td>також значна</td></tr>
-        <tr><td>сила хвату</td><td>домінує</td><td>невідомо</td></tr>
-        <tr><td>придатність до джунглів</td><td>висока</td><td>катастрофічна</td></tr>
-        <tr><td>симетрія лиця</td><td>поза контекстом</td><td>чомусь врахована</td></tr>
-      </tbody>
-    </table>
+    <div style="overflow-x:auto;">
+      <table class="data-table mt-0">
+        <thead><tr><th>показник</th><th>горила</th><th>Трамп</th></tr></thead>
+        <tbody>
+          <tr><td>маса</td><td>значна</td><td>також значна</td></tr>
+          <tr><td>сила хвату</td><td>домінує</td><td>невідомо</td></tr>
+          <tr><td>придатність до джунглів</td><td>висока</td><td>катастрофічна</td></tr>
+          <tr><td>симетрія лиця</td><td>поза контекстом</td><td>чомусь врахована</td></tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>
 ---
