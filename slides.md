@@ -613,19 +613,19 @@ hideInToc: true
     <h1 class="hero-title text-4xl leading-none mb-5">ФІНАЛЬНА СТАДІЯ КОНТРОЛЮ</h1>
     <div style="flex:1; min-height:0; display:flex; flex-direction:column; gap:1rem;">
       <div style="border-radius:24px; overflow:hidden; flex:1; background:#091018; border:1px solid rgba(243,236,223,0.08); box-shadow: inset 0 0 0 1px rgba(243,236,223,0.03);">
-        <iframe src="https://quantifiedself.com/about/what-is-quantified-self" title="Quantified Self webview" frameborder="0" style="width:100%;height:100%;"></iframe>
+        <iframe src="https://quantifiedself.com/about/what-is-quantified-self" title="Quantified Self webview" frameborder="0" style="width:166.666%;height:166.666%;transform:scale(0.6);transform-origin:0 0;"></iframe>
       </div>
     </div>
   </div>
 
   <div class="panel px-6 py-6 flex flex-col justify-between" style="min-height:0;">
-    <div class="mt-4 text-2xl leading-snug">
+    <div class="mt-4 text-xl leading-snug">
       Того тижня я знайшов спільноту людей які самі мірают себе каждий Божий день
     </div>
-    <div class="panel-soft px-5 py-5 mt-6 text-xl leading-snug">
+    <div class="panel-soft px-5 py-5 mt-6 text-lg leading-snug">
       сон, кроки, калорії, стрес, якість ранку, симптоми, готомність до продуктивности
     </div>
-    <div class="mt-6 text-2xl leading-tight">
+    <div class="mt-6 text-xl leading-tight">
       Коли людина стає <b>своїм же інспектором</b>, система може відпочити.
     </div>
   </div>
