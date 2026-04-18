@@ -653,3 +653,14 @@ hideInToc: true
     </div>
   </div>
 </div>
+---
+
+<!-- Відео як фінал. -->
+
+<div class="flex items-center justify-center" style="height:100%;padding:1.5rem;">
+  <div style="width:100%;max-width:1080px;min-height:0;">
+    <div style="position:relative;padding-top:56.25%;border-radius:24px;overflow:hidden;box-shadow:0 18px 40px rgba(0,0,0,0.25);">
+      <iframe src="https://www.youtube.com/embed/0pJlTzz5pDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+    </div>
+  </div>
+</div>
