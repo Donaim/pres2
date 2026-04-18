@@ -245,14 +245,16 @@ hideInToc: true
         Влада сама породила те, що хотіла знищити.
       </div>
     </div>
+  <v-clicks>
+  <div class="col-span-2 panel-soft flex items-center justify-center overflow-hidden" style="border-radius:24px; min-height:18rem;">
+    <img src="./assets/cobra-india.jpg" alt="Кобра" style="width:100%;height:50%;object-fit:cover;filter:brightness(0.75) contrast(1.1);border-radius:24px;">
+  </div>
+  </v-clicks>
     <v-clicks>
     <div class="panel-soft mt-6 px-6 py-5 text-2xl leading-tight">
       Коли число стає цільом, правда починає вдавати число.
     </div>
     </v-clicks>
-  </div>
-  <div class="col-span-2 panel-soft flex items-center justify-center overflow-hidden" style="border-radius:24px; min-height:18rem;">
-    <img src="./assets/cobra-india.jpg" alt="Кобра" style="width:100%;height:50%;object-fit:cover;filter:brightness(0.75) contrast(1.1);border-radius:24px;">
   </div>
 </div>
 
