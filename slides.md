@@ -640,7 +640,7 @@ hideInToc: true
 
   <div class="col-span-2 panel px-5 py-5 flex flex-col justify-between">
     <div class="text-2xl leading-tight">
-      Це прилад для душі, в якому внутрішнє життя силоміць кладуть на дві санкціоновані осі.
+      Твоє внутрішнє життя — то дві санкціоновані осі.
     </div>
     <div class="panel-soft px-4 py-4 mt-5 text-xl leading-snug">
       Якщо почуття не вкладається в цю схему, його оголосять шумом, збоєм або некоректною самозвітністю.
