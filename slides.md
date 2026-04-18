@@ -378,7 +378,7 @@ hideInToc: true
     </div>
     <div class="timeline-node px-4 py-5">
       <div class="text-sm uppercase opacity-60 mb-2">офісна епоха</div>
-      <div class="text-xl leading-tight">у костюмі менеджера</div>
+      <div class="text-xl leading-tight">в смокінґу</div>
       <div class="small-note mt-2">малюють KPI, рейтинги, дашборди і таблиці</div>
     </div>
     <div class="timeline-node px-4 py-5">
