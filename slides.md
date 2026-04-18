@@ -484,7 +484,6 @@ hideInToc: true
 <div class="pt-2 flex flex-col" style="height:calc(100% - 0.5rem);">
   <div class="flex items-baseline gap-5 mb-3">
     <h1 class="hero-title text-5xl leading-none">ДОЗВОЛЕНІ ФОРМИ РЕАЛЬНОСТИ</h1>
-    <div class="text-xl opacity-60">те, що можна намалювати і показати</div>
   </div>
   <div class="grid grid-cols-5 gap-4" style="flex:1; min-height:0;">
     <div class="col-span-3" style="display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr 1fr; gap:0.6rem; min-height:0;">
