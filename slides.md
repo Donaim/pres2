@@ -619,16 +619,14 @@ hideInToc: true
   </div>
 
   <div class="panel px-6 py-6 flex flex-col justify-between" style="min-height:0;">
-    <div class="text-2xl leading-snug mb-6">
-      Коментарі та висновки
+    <div class="mt-4 text-2xl leading-snug">
+      Того тижня я знайшов спільноту людей які самі мірают себе каждий Божий день
     </div>
-    <div class="panel-soft px-5 py-5 mb-4 text-xl leading-snug">
-      <div class="text-lg mb-3"><b>Того тижня</b> я знайшов спільноту людей, які самі вимірюють себе кожного дня.</div>
-      <div class="text-lg mb-3">сон, кроки, калорії, стрес, якість ранку, симптоми — все в цифрах.</div>
-      <div class="text-lg">Коли людина стає своїм же інспектором, система може відпочити.</div>
+    <div class="panel-soft px-5 py-5 mt-6 text-xl leading-snug">
+      сон, кроки, калорії, стрес, якість ранку, симптоми, готомність до продуктивности
     </div>
-    <div class="text-xl leading-tight opacity-80">
-      Це не просто гаджет — це портал, через який вони передають своє життя під контроль іншої інстанції.
+    <div class="mt-6 text-2xl leading-tight">
+      Коли людина стає <b>своїм же інспектором</b>, система може відпочити.
     </div>
   </div>
 </div>
