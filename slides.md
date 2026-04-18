@@ -234,11 +234,6 @@ hideInToc: true
       <div class="panel-soft px-4 py-3">Люди почали розводити кобр, і здавати їх за винагороду.</div>
       <div class="panel-soft px-4 py-3">Влада сама породила те, що хотіла знищити.</div>
     </div>
-    <v-clicks>
-    <div class="panel-soft px-6 py-3 text-xl leading-tight">
-      Коли число стає цільом, правда починає вдавати число.
-    </div>
-    </v-clicks>
   </div>
 
   <div class="col-span-2 panel-soft overflow-hidden" style="border-radius:24px;">
