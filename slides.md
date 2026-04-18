@@ -227,7 +227,7 @@ hideInToc: true
     <div class="panel px-6 py-3 text-xl leading-tight">
       В 18 столітті Британська імперія колонізовувала Індію і зіткнулася з проблемою кобр.
     </div>
-    <div class="grid grid-cols-2 gap-2 text-lg" style="flex:1;">
+    <div class="grid grid-cols-1 gap-2 text-lg" style="flex:1;">
       <div class="panel-soft px-4 py-3">Як горобці китайцям, кобри перешкоджали тодішній короні.</div>
       <div class="panel-soft px-4 py-3">Влада почала скуповувати шкіру кобр.</div>
       <div class="panel-soft px-4 py-3">Люди почали розводити кобр, і здавати їх за винагороду.</div>
