@@ -574,9 +574,9 @@ hideInToc: true
   <div class="panel-soft px-4 py-3 opacity-60 font-semibold">горила</div>
   <div class="panel-soft px-4 py-3 opacity-60 font-semibold">Трамп</div>
 
-  <div class="panel-soft px-4 py-3">маса</div>
+  <div class="panel-soft px-4 py-3">кількість волося</div>
   <div class="panel-soft px-4 py-3">значна</div>
-  <div class="panel-soft px-4 py-3">також значна</div>
+  <div class="panel-soft px-4 py-3">нестабільна</div>
 
   <div class="panel-soft px-4 py-3">сила хвату</div>
   <div class="panel-soft px-4 py-3">домінує</div>
