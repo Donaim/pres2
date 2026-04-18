@@ -606,33 +606,27 @@ hideInToc: true
 </div>
 ---
 
-<!-- Це вже кінцева стадія — людина сама себе вимірює. Показати quantifiedself.com як вебвʼю. -->
+<!-- Це вже кінцева стадія — людина сама себе вимірює. Показати телефон/годинник з залу. -->
 
-<div class="grid grid-cols-2 gap-6 pt-2 items-stretch" style="height:calc(100% - 0.5rem);">
-  <div class="panel px-6 py-6 flex flex-col" style="min-height:0;">
-    <h1 class="hero-title text-4xl leading-none mb-5">ФІНАЛЬНА СТАДІЯ КОНТРОЛЮ</h1>
-    <div style="flex:1; min-height:0; display:flex; flex-direction:column; gap:1rem;">
-      <div style="border-radius:24px; overflow:hidden; flex:1; background:#091018; border:1px solid rgba(243,236,223,0.08); box-shadow: inset 0 0 0 1px rgba(243,236,223,0.03);">
-        <iframe src="https://quantifiedself.com" title="Quantified Self webview" frameborder="0" style="width:100%;height:100%;"></iframe>
-      </div>
-      <div class="panel-soft px-5 py-5 text-xl leading-snug" style="min-height:5rem;">
-        Це останнє місце, де люди добровільно віддають контроль системі свого життя.
-      </div>
+<div class="grid grid-cols-3 gap-6 pt-2 items-center">
+  <div class="col-span-2 panel px-6 py-6">
+    <div class="flex items-center gap-4 mb-6">
+      <h1 class="hero-title text-4xl leading-none">ФІНАЛЬНА СТАДІЯ КОНТРОЛЮ</h1>
+      <img src="./assets/quantified-self-logo.png" alt="QS" style="width:9.5rem;height:9.5rem;opacity:0.9;">
+    </div>
+    <div class="mt-4 text-2xl leading-snug">
+      Того тижня я знайшов спільноту людей які самі мірают себе каждий Божий день
+    </div>
+    <div class="panel-soft px-5 py-5 mt-6 text-xl leading-snug">
+      сон, кроки, калорії, стрес, якість ранку, симптоми, готомність до продуктивности
+    </div>
+    <div class="mt-6 text-2xl leading-tight">
+      Коли людина стає <b>своїм же інспектором</b>, система може відпочити.
     </div>
   </div>
 
-  <div class="panel px-6 py-6 flex flex-col justify-between" style="min-height:0;">
-    <div class="text-2xl leading-snug mb-6">
-      Коментарі та висновки
-    </div>
-    <div class="panel-soft px-5 py-5 mb-4 text-xl leading-snug">
-      <div class="text-lg mb-3"><b>Того тижня</b> я знайшов спільноту людей, які самі вимірюють себе кожного дня.</div>
-      <div class="text-lg mb-3">сон, кроки, калорії, стрес, якість ранку, симптоми — все в цифрах.</div>
-      <div class="text-lg">Коли людина стає своїм же інспектором, система може відпочити.</div>
-    </div>
-    <div class="text-xl leading-tight opacity-80">
-      Це не просто гаджет — це портал, через який вони передають своє життя під контроль іншої інстанції.
-    </div>
+  <div class="col-span-1 flex items-center justify-center">
+    <img src="./assets/smartwatch-health.png" alt="Smartwatch health" style="max-height:22rem;width:100%;object-fit:contain;border-radius:24px;filter:brightness(0.8) contrast(1.05);">
   </div>
 </div>
 ---
