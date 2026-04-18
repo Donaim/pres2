@@ -403,8 +403,8 @@ hideInToc: true
 
 <div class="pt-2 flex flex-col" style="height:100%;">
   <h1 class="hero-title text-5xl leading-none text-center">ЩО ВОНИ ХОЧУТЬ?</h1>
-  <div style="flex:1; display:flex; align-items:center; justify-content:center; padding-top:0.5rem;">
-    <svg viewBox="0 0 520 430" fill="none" style="width:88%;max-width:620px;height:auto;">
+  <div style="flex:1; min-height:0; display:flex; align-items:center; justify-content:center; padding-top:0.5rem; overflow:hidden;">
+    <svg viewBox="0 0 520 430" fill="none" style="max-height:100%;width:auto;max-width:88%;">
       <defs>
         <marker id="cw" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
           <path d="M0 0 L10 4 L0 8 Z" fill="rgba(214,178,94,0.95)"/>
@@ -449,7 +449,13 @@ hideInToc: true
   </div>
 
   <v-clicks>
-  <div class="hero-title mt-14" style="font-size: 4.4rem; line-height: 0.95; color: var(--deck-danger);">
+  <div class="mt-8" style="max-height:18rem;">
+    <img src="./assets/share.png" alt="Share" style="max-height:18rem;width:auto;max-width:100%;object-fit:contain;border-radius:16px;">
+  </div>
+  </v-clicks>
+
+  <v-clicks>
+  <div class="hero-title mt-8" style="font-size: 4.4rem; line-height: 0.95; color: var(--deck-danger);">
     Ми попали в їхню пастку.
   </div>
   </v-clicks>
