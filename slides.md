@@ -462,7 +462,7 @@ hideInToc: true
 
 <div class="h-full flex flex-col justify-center items-center text-center px-12">
   <div class="text-2xl leading-tight max-w-3xl opacity-70" style="font-style:italic;">
-    Хтось скаже: їхній вплив мізерний... який вплив можут мати продавці циркулів?
+    Хтось скаже: який вплив можут мати продавці циркулів?
   </div>
 
   <v-clicks>
