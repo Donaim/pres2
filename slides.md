@@ -222,20 +222,20 @@ hideInToc: true
 
 <!-- Ефект кобри — конкретна, весела, легко запам'ятовується. Дати час на кожну плашку. -->
 
-<div class="grid grid-cols-5 gap-6 pt-2 items-stretch" style="height:calc(100% - 0.5rem);">
-  <div class="col-span-3 flex flex-col gap-4">
+<div class="grid grid-cols-5 gap-4 pt-1 items-stretch" style="height:calc(100% - 0.25rem);">
+  <div class="col-span-3 flex flex-col gap-2">
     <h1 class="hero-title text-6xl">ЗАКОН ГУДГАРТА</h1>
-    <div class="panel px-6 py-5 text-xl leading-tight">
+    <div class="panel px-6 py-3 text-xl leading-tight">
       В 18 столітті Британська імперія колонізовувала Індію і зіткнулася з проблемою кобр.
     </div>
-    <div class="grid grid-cols-2 gap-3 text-lg" style="flex:1;">
-      <div class="panel-soft px-4 py-4">Як горобці китайцям, кобри перешкоджали тодішній короні.</div>
-      <div class="panel-soft px-4 py-4">Влада почала скуповувати шкіру кобр.</div>
-      <div class="panel-soft px-4 py-4">Люди почали розводити кобр, і здавати їх за винагороду.</div>
-      <div class="panel-soft px-4 py-4">Влада сама породила те, що хотіла знищити.</div>
+    <div class="grid grid-cols-2 gap-2 text-lg" style="flex:1;">
+      <div class="panel-soft px-4 py-3">Як горобці китайцям, кобри перешкоджали тодішній короні.</div>
+      <div class="panel-soft px-4 py-3">Влада почала скуповувати шкіру кобр.</div>
+      <div class="panel-soft px-4 py-3">Люди почали розводити кобр, і здавати їх за винагороду.</div>
+      <div class="panel-soft px-4 py-3">Влада сама породила те, що хотіла знищити.</div>
     </div>
     <v-clicks>
-    <div class="panel-soft px-6 py-4 text-xl leading-tight">
+    <div class="panel-soft px-6 py-3 text-xl leading-tight">
       Коли число стає цільом, правда починає вдавати число.
     </div>
     </v-clicks>
@@ -250,20 +250,17 @@ hideInToc: true
 
 <!-- Простий слайд, риторичний. Не пояснювати — просто пройтись по пунктах з паузами. Остання фраза — підвести до питання: але хто це все влаштував? -->
 
-<div class="grid grid-cols-2 gap-8 pt-4 items-stretch">
-  <div class="panel-ivory px-8 py-8 flex flex-col justify-between">
-    <div>
-      <h1 class="hero-title text-6xl mt-1">Уяви що...</h1>
-    </div>
+<div class="flex flex-col pt-2" style="height:calc(100% - 0.5rem); gap:0.75rem;">
+  <div class="panel-ivory px-8 py-4">
+    <h1 class="hero-title text-6xl leading-none">УЯВИ ЩО...</h1>
   </div>
-
-  <div class="panel px-8 py-8 flex flex-col justify-between">
+  <div style="flex:1; display:flex; flex-direction:column; gap:0.6rem;">
     <v-clicks>
-      <div class="text-2xl leading-tight mb-4">на роботі вам платят за вклад, а не за години</div>
-      <div class="text-2xl leading-tight mb-4">за каву ви платите за смак, а не за цінник</div>
-      <div class="text-2xl leading-tight mb-4">у школі цінують розуміня, а не зубріня</div>
-      <div class="text-2xl leading-tight mb-4">дорожче означає не “статусніше”, а справді якісніше</div>
-      <div class="text-2xl leading-tight">країну оцінюють по добробуту людей, а не по GDP</div>
+      <div class="panel px-6 py-3 text-2xl leading-tight">на роботі вам платять за вклад, а не за години</div>
+      <div class="panel px-6 py-3 text-2xl leading-tight">за каву ви платите за смак, а не за цінник</div>
+      <div class="panel px-6 py-3 text-2xl leading-tight">у школі цінують розуміння, а не зубріння</div>
+      <div class="panel px-6 py-3 text-2xl leading-tight">дорожче означає не "статусніше", а справді якісніше</div>
+      <div class="panel px-6 py-3 text-2xl leading-tight">країну оцінюють по добробуту людей, а не по GDP</div>
     </v-clicks>
   </div>
 </div>
@@ -407,30 +404,30 @@ hideInToc: true
 <div class="pt-2 flex flex-col" style="height:100%;">
   <h1 class="hero-title text-5xl leading-none text-center">ЩО ВОНИ ХОЧУТЬ?</h1>
   <div style="flex:1; display:flex; align-items:center; justify-content:center; padding-top:0.5rem;">
-    <svg viewBox="0 0 520 400" fill="none" style="width:88%;max-width:620px;height:auto;">
+    <svg viewBox="0 0 520 430" fill="none" style="width:88%;max-width:620px;height:auto;">
       <defs>
         <marker id="cw" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
           <path d="M0 0 L10 4 L0 8 Z" fill="rgba(214,178,94,0.95)"/>
         </marker>
       </defs>
-      <text x="260" y="192" text-anchor="middle" fill="rgba(243,236,223,0.28)" font-size="13">замкнуте</text>
-      <text x="260" y="210" text-anchor="middle" fill="rgba(243,236,223,0.28)" font-size="13">коло</text>
+      <text x="260" y="192" text-anchor="middle" fill="rgba(243,236,223,0.28)" font-size="12">замкнуте</text>
+      <text x="260" y="208" text-anchor="middle" fill="rgba(243,236,223,0.28)" font-size="12">коло</text>
       <path d="M 373 44 Q 468 18 464 170" stroke="rgba(214,178,94,0.65)" stroke-width="2.5" stroke-dasharray="8 5" fill="none" marker-end="url(#cw)"/>
-      <path d="M 464 232 Q 478 356 372 356" stroke="rgba(214,178,94,0.65)" stroke-width="2.5" stroke-dasharray="8 5" fill="none" marker-end="url(#cw)"/>
-      <path d="M 145 356 Q 38 356 54 234" stroke="rgba(214,178,94,0.65)" stroke-width="2.5" stroke-dasharray="8 5" fill="none" marker-end="url(#cw)"/>
+      <path d="M 464 232 Q 478 374 372 374" stroke="rgba(214,178,94,0.65)" stroke-width="2.5" stroke-dasharray="8 5" fill="none" marker-end="url(#cw)"/>
+      <path d="M 145 374 Q 38 374 54 234" stroke="rgba(214,178,94,0.65)" stroke-width="2.5" stroke-dasharray="8 5" fill="none" marker-end="url(#cw)"/>
       <path d="M 54 168 Q 38 18 145 44" stroke="rgba(214,178,94,0.65)" stroke-width="2.5" stroke-dasharray="8 5" fill="none" marker-end="url(#cw)"/>
       <rect x="142" y="22" width="236" height="44" rx="14" fill="rgba(214,178,94,0.12)" stroke="rgba(214,178,94,0.55)" stroke-width="1.5"/>
-      <text x="260" y="49" text-anchor="middle" fill="#f3ecdf" font-size="14">Задати форму видимого</text>
+      <text x="260" y="49" text-anchor="middle" fill="#f3ecdf" font-size="13">Задати форму видимого</text>
       <rect x="348" y="168" width="158" height="64" rx="14" fill="rgba(121,181,168,0.12)" stroke="rgba(121,181,168,0.55)" stroke-width="1.5"/>
-      <text x="427" y="194" text-anchor="middle" fill="#f3ecdf" font-size="13">Керувати бюджетами</text>
-      <text x="427" y="214" text-anchor="middle" fill="#f3ecdf" font-size="13">і нормами</text>
-      <rect x="142" y="334" width="236" height="62" rx="14" fill="rgba(207,120,93,0.12)" stroke="rgba(207,120,93,0.55)" stroke-width="1.5"/>
-      <text x="260" y="360" text-anchor="middle" fill="#f3ecdf" font-size="13">Більше проданих</text>
-      <text x="260" y="380" text-anchor="middle" fill="#f3ecdf" font-size="13">лінійок і циркулів</text>
+      <text x="427" y="194" text-anchor="middle" fill="#f3ecdf" font-size="12">Керувати бюджетами</text>
+      <text x="427" y="213" text-anchor="middle" fill="#f3ecdf" font-size="12">і нормами</text>
+      <rect x="142" y="352" width="236" height="62" rx="14" fill="rgba(207,120,93,0.12)" stroke="rgba(207,120,93,0.55)" stroke-width="1.5"/>
+      <text x="260" y="378" text-anchor="middle" fill="#f3ecdf" font-size="12">Більше проданих</text>
+      <text x="260" y="397" text-anchor="middle" fill="#f3ecdf" font-size="12">лінійок і циркулів</text>
       <rect x="26" y="162" width="148" height="76" rx="14" fill="rgba(243,236,223,0.07)" stroke="rgba(243,236,223,0.25)" stroke-width="1.5"/>
-      <text x="100" y="190" text-anchor="middle" fill="#f3ecdf" font-size="12">Змусити людей</text>
-      <text x="100" y="206" text-anchor="middle" fill="#f3ecdf" font-size="12">вважати реальним</text>
-      <text x="100" y="222" text-anchor="middle" fill="#f3ecdf" font-size="12">лише вимірюване</text>
+      <text x="100" y="190" text-anchor="middle" fill="#f3ecdf" font-size="11">Змусити людей</text>
+      <text x="100" y="206" text-anchor="middle" fill="#f3ecdf" font-size="11">вважати реальним</text>
+      <text x="100" y="222" text-anchor="middle" fill="#f3ecdf" font-size="11">лише вимірюване</text>
     </svg>
   </div>
 </div>
@@ -599,7 +596,7 @@ hideInToc: true
 
 <!-- Це вже кінцева стадія — людина сама себе вимірює. Показати телефон/годинник з залу. -->
 
-<div class="grid grid-cols-5 gap-6 pt-2 items-center">
+<div class="grid grid-cols-3 gap-6 pt-2 items-center">
   <div class="col-span-2 panel px-6 py-6">
     <div class="flex items-center gap-4 mb-6">
       <img src="./assets/quantified-self-logo.png" alt="QS" style="width:3.5rem;height:3.5rem;border-radius:12px;opacity:0.9;">
@@ -616,10 +613,8 @@ hideInToc: true
     </div>
   </div>
 
-  <div class="col-span-3 flex items-center justify-center" style="height:100%;">
-    <div style="height:100%;max-height:22rem;overflow:hidden;border-radius:24px;border:1px solid rgba(243,236,223,0.1);">
-      <img src="./assets/smartwatch-health.png" alt="Smartwatch health" style="height:100%;width:auto;display:block;object-fit:cover;filter:brightness(0.8) contrast(1.05);">
-    </div>
+  <div class="col-span-1 flex items-center justify-center">
+    <img src="./assets/smartwatch-health.png" alt="Smartwatch health" style="max-height:22rem;width:100%;object-fit:contain;border-radius:24px;filter:brightness(0.8) contrast(1.05);">
   </div>
 </div>
 ---
