@@ -232,7 +232,7 @@ hideInToc: true
       <div class="panel-soft px-4 py-3">Як горобці китайцям, кобри перешкоджали тодішній короні.</div>
       <div class="panel-soft px-4 py-3">Влада почала скуповувати шкіру кобр.</div>
       <div class="panel-soft px-4 py-3">Люди почали розводити кобр, і здавати їх за винагороду.</div>
-      <div class="panel-soft px-4 py-3">Влада сама породила те, що хотіла знищити.</div>
+      <div class="panel-soft px-4 py-3">Вони самі породили те, що хотіли знищити.</div>
     </div>
   </div>
 
