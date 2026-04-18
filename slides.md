@@ -246,7 +246,7 @@ hideInToc: true
 
 <div class="flex flex-col pt-2" style="height:calc(100% - 0.5rem); gap:0.75rem;">
   <div class="panel-ivory px-8 py-4">
-    <h1 class="hero-title text-6xl leading-none">УЯВИ ЩО...</h1>
+    <h1 class="hero-title text-6xl leading-none">Уяви що...</h1>
   </div>
   <div style="flex:1; display:flex; flex-direction:column; gap:0.6rem;">
     <v-clicks>
