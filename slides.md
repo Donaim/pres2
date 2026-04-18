@@ -613,7 +613,7 @@ hideInToc: true
     <h1 class="hero-title text-4xl leading-none mb-5">ФІНАЛЬНА СТАДІЯ КОНТРОЛЮ</h1>
     <div style="flex:1; min-height:0; display:flex; flex-direction:column; gap:1rem;">
       <div style="border-radius:24px; overflow:hidden; flex:1; background:#091018; border:1px solid rgba(243,236,223,0.08); box-shadow: inset 0 0 0 1px rgba(243,236,223,0.03);">
-        <iframe src="https://quantifiedself.com" title="Quantified Self webview" frameborder="0" style="width:100%;height:100%;"></iframe>
+        <iframe src="https://quantifiedself.com/about/what-is-quantified-self" title="Quantified Self webview" frameborder="0" style="width:100%;height:100%;"></iframe>
       </div>
     </div>
   </div>
