@@ -641,10 +641,6 @@ hideInToc: true
     <div class="panel-soft px-4 py-4 mt-5 text-xl leading-snug">
       Якщо почуття не вкладається в цю схему, його оголосять шумом, збоєм або некоректною самозвітністю.
     </div>
-    <div class="panel-soft px-4 py-4 mt-4 text-xl leading-snug" style="border-color:rgba(207,120,93,0.3);background:rgba(207,120,93,0.08);">
-      Зараз прошу всіх вразливих заплющити очі.<br>
-      <span class="small-note">Бо я покажу вам диявольський прилад для душі.</span>
-    </div>
     <div class="final-quote" style="font-size: 1.9rem; max-width: 19rem; color: var(--deck-danger);">
       Вони дійшли вже до душі.
     </div>
