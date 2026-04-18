@@ -293,7 +293,7 @@ hideInToc: true
 
   <v-clicks>
   <div class="panel-soft mt-10 px-8 py-6 text-2xl leading-relaxed max-w-3xl" style="text-align:left;">
-    Хто вирішує, що рахується, той вирішує і що існує.
+    Хто вирішує, що рахується, той вирішує що існує.
   </div>
   </v-clicks>
 </div>
