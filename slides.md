@@ -280,7 +280,7 @@ hideInToc: true
 
 <v-clicks>
 <div class="panel-soft mt-8 px-6 py-5 text-2xl leading-tight">
-  Чому ми хочемо одного, а говоримо і думаємо за зовсім інче?
+  Чому ми хочемо одного, але говоримо і рахуємо зовсім інче?
 </div>
 </v-clicks>
 
