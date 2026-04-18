@@ -304,60 +304,87 @@ hideInToc: true
 
 ---
 
-<!-- Тут НЕ відповідати — лише поставити питання. Пауза після першого кліку довша. Наступний слайд дає відповідь — але несподівану. -->
+<!-- Не директор школи. Не міністр. Не лікар.
+А той, хто навчив їх усіх одної й тої самої мови серйозности. -->
 
-<div class="h-full flex flex-col justify-center items-center text-center">
+<div class="h-full flex flex-col justify-center items-center text-center px-8">
   <div class="hero-title" style="font-size: 5.3rem; line-height: 0.95;">КОМУ ТО ВИГІДНО?</div>
+
   <v-clicks>
-  <div class="mt-10 text-2xl leading-tight max-w-3xl opacity-85">
-    Чому школа, ринок, медицина і держава так дружно вимагають не правду, а показник?
+  <div class="mt-14 text-4xl leading-tight" style="font-family: 'IBM Plex Serif', serif; max-width: 38rem;">
+    Вигідно тому,<br>хто задає формат доказу.
   </div>
   </v-clicks>
+
   <v-clicks>
-  <div class="panel-soft mt-10 px-6 py-5 text-xl leading-snug max-w-3xl">
-    Відповідь неочікувана: не тому, що хтось злий, а тому, що хтось колись навчив ці інституції говорити однією мовою.
-    Мовою числа. А вони просто повторюють — бо іншої не знають.
+  <div class="panel-soft mt-10 px-8 py-6 text-2xl leading-relaxed max-w-3xl" style="text-align:left;">
+    Бо хто вирішує,<br>
+    що рахується,<br>
+    той вирішує і<br>
+    що існує.
   </div>
   </v-clicks>
-  <v-clicks>
-  <div class="panel-soft mt-6 px-6 py-4 text-xl leading-snug max-w-3xl" style="border-color: rgba(207,120,93,0.28); background: rgba(207,120,93,0.08);">
-    Вигодонабувач — не школа і не лікарня. Вигодонабувач — той, хто першим вирішив, що саме вважати видимим.
+</div>
+---
+
+<!-- Документальний тон. Без оцінок. Просто факти — хто вони такі. -->
+
+<div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
+  <div class="col-span-3 panel px-7 py-7 flex flex-col justify-between">
+    <h1 class="hero-title text-5xl mt-1 leading-none">ХТО ТАКІ ПІФАГОРІЙЦІ?</h1>
+    <div class="mt-5 text-xl leading-snug max-w-2xl">
+      VI ст. до н.е., Кротон, Велика Греція. Математик, містик, реформатор.
+      Піфагор заснував закриту спільноту — зі своїм статутом, ієрархією і таємним знанням.
+    </div>
+    <div class="panel-soft mt-5 px-5 py-5 text-2xl leading-tight">
+      Їхнє кредо: число — першопричина всього. Не метафора. Буквально.
+    </div>
+    <div class="mt-5 text-xl leading-snug">
+      Правильна форма — не просто краса. Це модель, якій світ зобов'язаний коритись.
+      Все, що відхиляється від форми, — не просто інакше. Воно неправильне.
+    </div>
   </div>
-  </v-clicks>
+
+  <div class="col-span-2 panel-soft flex flex-col items-center px-5 py-6">
+    <div style="flex:1; width:100%; overflow:hidden; border-radius:18px;">
+      <img src="./assets/pythagoras.jpg" alt="Піфагор" style="width:100%;height:100%;object-fit:cover;object-position:center top;filter:brightness(0.85) sepia(0.18);">
+    </div>
+    <div class="text-xl leading-tight mt-4 text-center opacity-70">~570–495 до н.е.</div>
+  </div>
 </div>
 
 ---
 
-<!-- Секта — не метафора. "Я ненавиджу фасолю" — пауза для сміху, потім серйозно. -->
+<!-- Зараз — сміх, але серйозно. Фасоля — це пуант. Після нього — Прокруст. -->
 
 <div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
-  <div class="col-span-3 panel px-7 py-7">
-    <h1 class="hero-title text-5xl mt-1 leading-none">ПІФАГОРІЙЦІ ТА ЇХ ГЕОМЕТРИЧНО-ВИМІРУВАЛЬНИЙ КОМПЛЕКС</h1>
-    <div class="mt-5 text-xl leading-snug max-w-2xl">
-      Це було не коло невинних математиків. Це була сектантська група, яка проголосила число єдиним шляхом до істини, а правильну форму — законом для світу і людей.
+  <div class="col-span-3 panel px-7 py-7 flex flex-col justify-between">
+    <h1 class="hero-title text-5xl mt-1 leading-none">ЧОМУ Я КАЖУ, ЩО ЦЕ СЕКТА</h1>
+    <div class="grid grid-cols-2 gap-4 mt-6 text-xl">
+      <div class="panel-soft px-4 py-4 leading-snug">
+        Жорсткий лідерський культ:<br>слово Піфагора — закон
+      </div>
+      <div class="panel-soft px-4 py-4 leading-snug">
+        Заборони: не торкатись білого когута, не їсти з цілого хліба
+      </div>
+      <div class="panel-soft px-4 py-4 leading-snug">
+        Очищення через математику:<br>числа очищують душу
+      </div>
+      <div class="panel-soft px-4 py-4 leading-snug">
+        Нав'язлива любов до форми:<br>правильна геометрія — ознака чистоти
+      </div>
     </div>
-    <div class="panel-soft mt-6 px-5 py-5 text-2xl leading-tight">
-      Піфагор казав: "Я ненавиджу фасолю". Для культу, який хотів очистити світ до ідеальної схеми, навіть біб був підозрілим.
-    </div>
-    <div class="mt-6 text-2xl leading-tight">
-      Прокруст не стояв осторонь. Він був силовим крилом тієї самої секти: якщо життя криве, його треба випрямити.
+    <div class="panel-soft mt-5 px-5 py-5 text-2xl leading-tight">
+      Прокруст — силове крило: якщо тіло не підходить під стандарт, підрізати.
     </div>
   </div>
 
-  <div class="col-span-2 flex flex-col gap-4">
-    <div class="panel-soft px-5 py-5 flex flex-col items-center" style="flex:1;">
-      <div style="height: 16rem; width: 100%; overflow: hidden; border-radius: 18px;">
-        <img src="./assets/pythagoras.jpg" alt="Піфагор" style="width:100%;height:100%;object-fit:cover;object-position:center top;filter:brightness(0.85) sepia(0.18);">
-      </div>
-      <div class="text-xl leading-tight mt-3 text-center">Піфагор</div>
-      <div class="small-note mt-2 text-center">"я ненавиджу фасолю" — вождь секти, проповідник числа</div>
+  <div class="col-span-2 panel-soft flex flex-col items-center px-5 py-6">
+    <div style="flex:1; width:100%; overflow:hidden; border-radius:18px;">
+      <img src="./assets/pythagoras.jpg" alt="Піфагор" style="width:100%;height:100%;object-fit:cover;object-position:center top;filter:brightness(0.7) sepia(0.3) contrast(1.1);">
     </div>
-    <div class="panel-soft px-5 py-4 flex flex-row items-center gap-4" style="flex:0 0 auto;">
-      <div class="text-4xl">🧱</div>
-      <div>
-        <div class="text-xl leading-tight">Прокруст</div>
-        <div class="small-note mt-1">силове крило — якщо тіло не вміщається, вкоротити</div>
-      </div>
+    <div class="mt-4 text-center" style="font-family:'IBM Plex Serif',serif; font-size:1.4rem; font-style:italic; color:var(--deck-accent);">
+      "Я ненавиджу фасолю"
     </div>
   </div>
 </div>
@@ -400,77 +427,65 @@ hideInToc: true
 
 ---
 
-<!-- Ключовий слайд — цикл. Малювати пальцем у повітрі. Йти повільно по колу. -->
+<!-- Ключовий слайд — цикл. Говорити повільно, вголос по вузлах. Не коментувати — нехай сама петля говорить. -->
 
-<div class="grid grid-cols-5 gap-6 pt-2 items-stretch">
-  <div class="col-span-3 panel px-7 py-7">
-    <h1 class="hero-title text-5xl leading-none">ЩО ВОНИ ХОЧУТЬ?</h1>
-    <div class="mt-6 text-xl leading-snug opacity-80 max-w-2xl">
-      Не лінійна вигода. Петля. Кожен крок закріплює наступний.
-    </div>
-    <div class="mt-8 flex flex-col items-center" style="position:relative;">
-      <svg viewBox="0 0 420 300" fill="none" style="width:100%;max-width:420px;">
-        <!-- arcs connecting nodes -->
-        <path d="M 105 60 C 200 20, 315 20, 315 90" stroke="rgba(214,178,94,0.55)" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#arr)" />
-        <path d="M 330 110 C 380 170, 360 230, 300 250" stroke="rgba(214,178,94,0.55)" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#arr)" />
-        <path d="M 240 260 C 170 280, 100 260, 80 210" stroke="rgba(214,178,94,0.55)" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#arr)" />
-        <path d="M 70 185 C 40 130, 60 80, 90 65" stroke="rgba(214,178,94,0.55)" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#arr)" />
-        <defs>
-          <marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
-            <path d="M1 1 L7 4 L1 7 Z" fill="rgba(214,178,94,0.8)" />
-          </marker>
-        </defs>
-        <!-- Node 1 top-left -->
-        <rect x="18" y="36" width="170" height="52" rx="16" fill="rgba(214,178,94,0.13)" stroke="rgba(214,178,94,0.4)" stroke-width="1.5" />
-        <text x="103" y="64" text-anchor="middle" fill="#f3ecdf" font-size="13" font-family="IBM Plex Sans, sans-serif">Задати форму видимого</text>
-        <!-- Node 2 top-right -->
-        <rect x="232" y="36" width="172" height="52" rx="16" fill="rgba(121,181,168,0.13)" stroke="rgba(121,181,168,0.4)" stroke-width="1.5" />
-        <text x="318" y="57" text-anchor="middle" fill="#f3ecdf" font-size="13" font-family="IBM Plex Sans, sans-serif">Керувати бюджетами</text>
-        <text x="318" y="76" text-anchor="middle" fill="#f3ecdf" font-size="13" font-family="IBM Plex Sans, sans-serif">і нормами</text>
-        <!-- Node 3 bottom-right -->
-        <rect x="232" y="226" width="172" height="52" rx="16" fill="rgba(207,120,93,0.13)" stroke="rgba(207,120,93,0.4)" stroke-width="1.5" />
-        <text x="318" y="247" text-anchor="middle" fill="#f3ecdf" font-size="13" font-family="IBM Plex Sans, sans-serif">Більше проданих</text>
-        <text x="318" y="266" text-anchor="middle" fill="#f3ecdf" font-size="13" font-family="IBM Plex Sans, sans-serif">лінійок</text>
-        <!-- Node 4 bottom-left -->
-        <rect x="18" y="226" width="170" height="52" rx="16" fill="rgba(243,236,223,0.07)" stroke="rgba(243,236,223,0.22)" stroke-width="1.5" />
-        <text x="103" y="247" text-anchor="middle" fill="#f3ecdf" font-size="12" font-family="IBM Plex Sans, sans-serif">Змусити вважати</text>
-        <text x="103" y="265" text-anchor="middle" fill="#f3ecdf" font-size="12" font-family="IBM Plex Sans, sans-serif">реальним лише вимірюване</text>
-      </svg>
-    </div>
-  </div>
-
-  <div class="col-span-2 axis-card px-5 py-5 flex flex-col justify-between">
-    <div class="text-xl leading-snug">
-      Хтось скаже: якщо дивитися на прямі показники, їхній вплив виглядає мізерним.
-    </div>
-    <div class="mini-chart mt-6 px-4 py-4">
-      <svg viewBox="0 0 100 60" fill="none">
-        <path d="M8 44 C20 43, 34 42, 48 40 S72 36, 92 34" stroke="#a9b4c5" stroke-width="4" stroke-linecap="round" opacity="0.75" />
-        <path d="M8 49 L92 49" stroke="rgba(243,236,223,0.18)" stroke-width="2" stroke-linecap="round" />
-      </svg>
-    </div>
-    <div class="text-xl leading-snug mt-4 opacity-75">
-      Але саме це і є пасткою.
-    </div>
+<div class="pt-2 flex flex-col" style="height:100%;">
+  <h1 class="hero-title text-5xl leading-none text-center">ЩО ВОНИ ХОЧУТЬ?</h1>
+  <div style="flex:1; display:flex; align-items:center; justify-content:center; padding-top:0.5rem;">
+    <svg viewBox="0 0 520 400" fill="none" style="width:88%;max-width:620px;height:auto;">
+      <defs>
+        <marker id="cw" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+          <path d="M0 0 L10 4 L0 8 Z" fill="rgba(214,178,94,0.95)"/>
+        </marker>
+      </defs>
+      <text x="260" y="192" text-anchor="middle" fill="rgba(243,236,223,0.28)" font-size="13">замкнуте</text>
+      <text x="260" y="210" text-anchor="middle" fill="rgba(243,236,223,0.28)" font-size="13">коло</text>
+      <path d="M 373 44 Q 468 18 464 170" stroke="rgba(214,178,94,0.65)" stroke-width="2.5" stroke-dasharray="8 5" fill="none" marker-end="url(#cw)"/>
+      <path d="M 464 232 Q 478 356 372 356" stroke="rgba(214,178,94,0.65)" stroke-width="2.5" stroke-dasharray="8 5" fill="none" marker-end="url(#cw)"/>
+      <path d="M 145 356 Q 38 356 54 234" stroke="rgba(214,178,94,0.65)" stroke-width="2.5" stroke-dasharray="8 5" fill="none" marker-end="url(#cw)"/>
+      <path d="M 54 168 Q 38 18 145 44" stroke="rgba(214,178,94,0.65)" stroke-width="2.5" stroke-dasharray="8 5" fill="none" marker-end="url(#cw)"/>
+      <rect x="142" y="22" width="236" height="44" rx="14" fill="rgba(214,178,94,0.12)" stroke="rgba(214,178,94,0.55)" stroke-width="1.5"/>
+      <text x="260" y="49" text-anchor="middle" fill="#f3ecdf" font-size="14">Задати форму видимого</text>
+      <rect x="348" y="168" width="158" height="64" rx="14" fill="rgba(121,181,168,0.12)" stroke="rgba(121,181,168,0.55)" stroke-width="1.5"/>
+      <text x="427" y="194" text-anchor="middle" fill="#f3ecdf" font-size="13">Керувати бюджетами</text>
+      <text x="427" y="214" text-anchor="middle" fill="#f3ecdf" font-size="13">і нормами</text>
+      <rect x="142" y="334" width="236" height="62" rx="14" fill="rgba(207,120,93,0.12)" stroke="rgba(207,120,93,0.55)" stroke-width="1.5"/>
+      <text x="260" y="360" text-anchor="middle" fill="#f3ecdf" font-size="13">Більше проданих</text>
+      <text x="260" y="380" text-anchor="middle" fill="#f3ecdf" font-size="13">лінійок і циркулів</text>
+      <rect x="26" y="162" width="148" height="76" rx="14" fill="rgba(243,236,223,0.07)" stroke="rgba(243,236,223,0.25)" stroke-width="1.5"/>
+      <text x="100" y="190" text-anchor="middle" fill="#f3ecdf" font-size="12">Змусити людей</text>
+      <text x="100" y="206" text-anchor="middle" fill="#f3ecdf" font-size="12">вважати реальним</text>
+      <text x="100" y="222" text-anchor="middle" fill="#f3ecdf" font-size="12">лише вимірюване</text>
+    </svg>
   </div>
 </div>
-
 ---
 
-<!-- Зупинитись. Мовчати 3 секунди після першого речення. Потім — "Ми вже в пастці." дуже повільно. -->
+<!-- Зупинитись. "Хтось скаже..." — вголос, іронічно. Потім мовчання. Потім — повільно. -->
 
 <div class="h-full flex flex-col justify-center items-center text-center px-12">
-  <div class="text-3xl leading-tight max-w-3xl opacity-85">
-    Розумієте, що не так із цим аргументом?
-  </div>
   <v-clicks>
-  <div class="mt-10 text-3xl leading-tight max-w-3xl">
-    Щойно ми просимо графік як доказ — ми вже погодились, що реальне тільки те, що можна виміряти, показати і порівняти.
+  <div class="text-2xl leading-tight max-w-3xl opacity-70" style="font-style:italic;">
+    Хтось скаже: якщо дивитися на прямі показники, їхній вплив виглядає мізерним.
   </div>
   </v-clicks>
+
   <v-clicks>
-  <div class="hero-title mt-14" style="font-size: 4.2rem; line-height: 0.95; color: var(--deck-danger);">
-    Ми попали в їх пастку.
+  <div class="mt-12 text-3xl leading-tight max-w-3xl">
+    Розумієте, що не так із цим аргументом?
+  </div>
+  </v-clicks>
+
+  <v-clicks>
+  <div class="mt-8 text-2xl leading-snug max-w-3xl opacity-80">
+    Щойно ми просимо графік як доказ —<br>
+    ми вже погодились на їхній спосіб суду над реальністю.
+  </div>
+  </v-clicks>
+
+  <v-clicks>
+  <div class="hero-title mt-14" style="font-size: 4.4rem; line-height: 0.95; color: var(--deck-danger);">
+    Ми вже в пастці.
   </div>
   </v-clicks>
 </div>
